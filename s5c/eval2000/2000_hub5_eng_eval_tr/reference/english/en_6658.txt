@@ -1,0 +1,284 @@
+#Language: eng
+#File id: 6658
+#Starting at 120 Ending at 420
+# 120 130 #BEGIN
+# 410 420 #END
+
+
+
+102.24 104.07 B: so I got another new school [sound of something falling]  
+
+104.44 104.85 A: what?  
+
+105.64 107.15 B: I got another new school {breath}   
+
+107.07 108.00 A: yeah, what does that mean?  
+
+108.72 112.95 B: {lipsmack} well &Mary and I, ((well)) w- we, it was, &Mary was going to go   
+
+113.48 115.35 B: and we went to set it up for her   
+
+116.01 120.63 B: and <contraction e_form="[it=>it]['s=>is]">it's a school <contraction e_form="[that=>that]['s=>is]">that's just, <contraction e_form="[they=>they]['re=>are]">they're just trying to start, here in ((&Kesey))   
+
+121.03 121.76 A: in ((&Kesey))  
+
+121.79 121.96 B: yes  
+
+123.19 129.02 B: yeah, and the guy said %ah, %um you know they <contraction e_form="[do=>do][n't=>not]">don't <contraction e_form="[they=>they]['re=>are]">they're getting all volunteers and all this and   
+
+129.13 130.84 B: he asked what &Mary could teach  
+
+131.50 137.77 B: and then he said can she teach &English, and we said no, and then we {breath} went on and on the way home, I said to &Martin  
+
+138.28 139.91 B: I can teach that {breath}   
+
+139.30 139.91 A: {laugh}  
+
+140.39 142.16 B: {breath} so the next day I went back   
+
+142.40 142.74 A: yeah  
+
+143.45 146.46 B: and I said, do you want a <Swahili muzungu> teacher? and oh, he was   
+
+147.06 148.78 A: is this a grade school or a high school?  
+
+147.22 147.88 B: so  
+
+149.78 152.03 B: well <contraction e_form="[it=>it]['s=>is]">it's starting %ah secondary school   
+
+152.36 152.80 A: uh-huh  
+
+152.94 158.58 B: but <contraction e_form="[it=>it]['s=>is]">it's %uh they <contraction e_form="[do=>do][n't=>not]">don't have a school so they have two classrooms from the nursery school that <contraction e_form="[we=>we]['re=>are]">we're in   
+
+158.72 159.07 A: uh-huh  
+
+159.00 161.18 B: {laugh} and they have nothing   
+
+162.01 163.11 B: [channel noise] except kids   
+
+162.43 164.61 A: is it a diocesan school or what?  
+
+165.26 168.03 B: %ah yeah, the the <Swahili ((&Kesey))> parrish is trying to start it   
+
+168.12 169.60 A: oh <Swahili ((&Akisi))> parish   
+
+169.32 169.72 B: so  
+
+170.38 175.57 B: they ha- we have a I wrote this in my letter, we have a chalk board, we have chalk, and we have a teacher's book {laugh}  
+
+175.24 176.34 A: {laugh}  
+
+176.44 176.58 B: {laugh}  
+
+176.92 177.95 A: {breath} and and   
+
+177.38 181.23 B: {breath} and <contraction e_form="[it=>it]['s=>is]">it's i- and <contraction e_form="[it=>it]['s=>is]">it's in a in a a nursery school   
+
+181.96 185.45 B: so %ah {laugh} i- <contraction e_form="[it=>it]['s=>is]">it's set up that way   
+
+183.81 183.97 A: he- 
+
+185.77 186.12 A: uh-huh  
+
+186.51 189.64 B: and %ah, when we were working on our day books in the other room   
+
+190.36 192.53 B: %ah, we were at these little nursery tables   
+
+192.62 193.96 A: {laugh}  
+
+193.79 198.42 B: and Father came in and he saw us, well the next day he brought us a table and some chairs {laugh}  
+
+198.00 199.59 A: well <contraction e_form="[that=>that]['s=>is]">that's nice {laugh}   
+
+199.49 202.43 B: {breath} so now <contraction e_form="[we=>we]['ve=>have]">we've got tables and chairs to sit at   
+
+200.48 200.77 A: so %ah  
+
+202.83 205.08 A: do do you have to register the children yet?  
+
+206.04 209.47 B: well form two, they did a h- a have a form one last year   
+
+210.01 211.48 A: they they already have form one?  
+
+210.22 211.53 B: they started it last year [echo]  
+
+212.36 213.95 B: yeah, so we have a form two   
+
+214.11 214.47 A: uh-huh  
+
+214.15 215.74 B: <contraction e_form="[that=>that]['s=>is]">that's what <contraction e_form="[I=>I]['m=>am]">I'm teaching &English   
+
+215.89 216.34 A: uh-huh  
+
+216.69 222.03 B: and %ah, n- right now were trying to register form ones <contraction e_form="[that=>that]['s=>is]">that's <contraction e_form="[that=>that]['s=>is]">that's going on now, throughout the whole country   
+
+222.25 222.65 A: uh-huh  
+
+224.05 224.40 A: so  
+
+224.32 225.58 B: so <contraction e_form="[it=>it]['s=>is]">it's {breath}  
+
+226.31 229.13 A: so <contraction e_form="[they=>they]['d=>would]">they'd ha- they have form one and form two  
+
+226.47 227.05 B: <contraction e_form="[it=>it]['s=>is]">it's %um  
+
+229.31 230.91 A: is this %uh girls and boys?  
+
+231.51 232.44 B: yeah, <contraction e_form="[it=>it]['s=>is]">it's mixed   
+
+232.70 233.01 A: uh-huh  
+
+232.79 234.58 B: <contraction e_form="[it=>it]['s=>is]">it's a day school, <contraction e_form="[it=>it]['s=>is]">it's a day school   
+
+234.72 235.57 A: oh <contraction e_form="[that=>that]['s=>is]">that's good   
+
+236.28 240.10 B: and <contraction e_form="[it=>it]['s=>is]">it's behind %ah the parrish, <contraction e_form="[it=>it]['s=>is]">it's behind the city morgue   
+
+240.47 241.05 A: {laugh}  
+
+241.06 246.44 B: and %ah, {sharp exhalation} in fact the name, <Swahili ((me am bira))> means %uh %ah, burial ground.  
+
+246.41 246.80 A: {laugh}   
+
+247.12 248.56 B: <contraction e_form="[that=>that]['s=>is]">that's the name of the place {exhalation}  
+
+248.83 249.76 A: {laugh}   
+
+250.35 251.19 A: <contraction e_form="[what=>what]['s=>is]">what's the name of the s- 
+
+250.49 251.60 B: ((and the road is through)) [echo] 
+
+251.85 252.97 A: <contraction e_form="[what=>what]['s=>is]">what's the name of the school?  
+
+252.37 255.05 B: %ah &Our &Lady of, I think <contraction e_form="[it=>it]['s=>is]">it's &Our &Lady &Of &Victory   
+
+253.63 253.80 A: %huh?  
+
+255.36 255.61 A: oh.  
+
+255.89 257.24 B: but they all go by <Swahili ((me am bira))>   
+
+258.25 264.23 B: and %ah, so we drive as far as the parish church then we park there because you <contraction e_form="[can't=>cannot]">can't drive in   
+
+265.30 266.99 B: then we walk to school {breath}   
+
+266.65 268.27 A: how far is that from where you are?  
+
+270.06 273.30 B: %ah it takes about fifteen minutes to drive to the parish  
+
+273.45 273.84 A: uh-huh  
+
+273.91 276.71 B: and then it takes me about fifteen minutes to walk to school   
+
+277.10 278.70 B: from the parish down to school  
+
+280.13 286.17 B: and I said to (( )) it probably takes about twenty minutes to walk back, because [[previous word spoken with a laugh]] <contraction e_form="[I=>I]['m=>am]">I'm a little bit more tired coming back   
+
+286.05 286.59 A: oh yeah   
+
+286.29 288.77 B: {breath} so I teach [echo] I teach a double period   
+
+289.10 289.53 A: uh-huh  
+
+289.58 291.30 B: on Monday Tuesday and Wednesday  
+
+291.54 291.89 A: uh-huh  
+
+293.19 298.00 B: and then on Thursdays and Fridays, I will have a a double period at the college  
+
+299.41 300.45 A: what do you teach there?  
+
+299.55 302.78 B: of C R E.  <contraction e_form="[I=>I]['ll=>will]">I'll have a period of C R E   
+
+304.03 305.64 A: %uh what is that, is that %uh {breath}  
+
+304.24 307.57 B: you know, %eh &Christian &Religious &Education   
+
+307.51 308.48 A: oh, uh-huh  
+
+308.68 314.14 B: but %ah, the form ones, have %uh the f- %ah first years at the college have been out practice teaching  
+
+314.61 317.52 B: so <contraction e_form="[I=>I]['ll=>will]">I'll have another ye-, week yet before I start there  
+
+317.84 320.05 A: I was wondering when you were talking about getting a job  
+
+320.65 324.10 A: at %ah, at the college when they started, you know   
+
+324.10 324.49 B: mhm  
+
+324.68 325.60 A: so <contraction e_form="[they=>they]['re=>are]">they're  
+
+324.99 326.29 B: well <contraction e_form="[they=>they]['re=>are]">they're started already  
+
+326.37 326.74 A: yeah   
+
+326.92 329.60 B: but <contraction e_form="[they=>they]['re=>are]">they're out for practice teaching, so I <contraction e_form="[have=>have][n't=>not]">haven't started   
+
+330.17 332.00 A: boy that, so the teaching starts when?    
+
+333.16 333.78 A: in February?  
+
+333.26 337.87 B: I and I think <contraction e_form="[they=>they]['re=>are]">they're out for t- %ah %ah either a week or two weeks yet   
+
+338.18 339.63 A: oh, well then so you got about   
+
+339.16 342.08 B: so <contraction e_form="[it=>it]['s=>has]">it's been good, because I could get started at the other place   
+
+342.29 346.61 A: yeah, so when do you start at at &Our &Lady Of &Victory? {laugh}  
+
+346.80 348.79 B: I <contraction e_form="[I=>I]['ve=>have]">I've been there for two w- a w- a week already   
+
+348.91 350.58 A: oh my gosh, so who 
+
+350.53 352.57 B: I went, ((the)) next day I started {laugh}    
+
+352.68 354.60 A: oh my gosh so <contraction e_form="[you=>you]['re=>are]">you're --  
+
+354.30 354.65 B: %mm  
+
+354.76 356.63 A: %um, <contraction e_form="[you=>you]['re=>are]">you're teaching form two %huh?  --
+
+357.31 357.54 B: yeah  
+
+357.90 360.64 A: and that that those are those are like the sophomores, right?   
+
+361.37 361.61 B: yeah  
+
+361.83 363.57 A: uh-huh how many do you have ?  
+
+364.47 366.45 B: well there are twenty in the class right now   
+
+366.71 367.11 A: mhm  
+
+368.32 370.30 B: so I <contraction e_form="[do=>do][n't=>not]">don't know what <contraction e_form="[it=>it]['s=>is]">it's going to, I mean <contraction e_form="[it=>it]['s=>is]">it's just   
+
+370.69 372.78 B: you know <contraction e_form="[they=>they]['ve=>have]">they've got a big timetable out on the board, but   
+
+372.95 376.12 B: I said well, what wha- I have to teach at this time, ((but <contraction e_form="[that=>that]['s=>is]">that's when I get))  
+
+376.13 381.52 B: he says oh <contraction e_form="[that=>that]['s=>is]">that's okay, the timetable is for the {breath} inspector, he said but we teach when can come {breath} 
+
+381.67 382.07 A: oh  
+
+382.95 387.88 B: {breath} because all the vol- teachers are almost all volunteers and they have different jobs than that   
+
+388.13 388.53 A: oh  
+
+388.50 388.79 B: because  
+
+389.85 394.69 B: because well nobody can ((<contraction e_form="[it=>it]['s=>is]">it's)) <contraction e_form="[it=>it]['s=>is]">it's nobody can afford anything there {breath laugh}  
+
+394.60 394.96 A: oh  
+
+395.07 395.20 B: [channel noise]  
+
+395.27 397.12 A: because <contraction e_form="[they=>they]['re=>are]">they're just starting, is that it?   
+
+397.70 401.00 B: {lipsmack} well <contraction e_form="[they=>they]['re=>are]">they're just starting, and it's a very very poor place   
+
+401.16 401.57 A: uh-huh  
+
+403.09 403.90 A: so [distortion]  
+
+403.33 407.56 B: the ((most)) the kids that are coming are kids that <contraction e_form="[can't=>cannot]">can't afford to go to any school  
+

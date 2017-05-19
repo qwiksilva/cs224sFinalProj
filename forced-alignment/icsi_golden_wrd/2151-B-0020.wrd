@@ -1,0 +1,14 @@
+signal 2151-B-0020
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.051422  121 h#
+    0.300770  121 they
+    0.648021  121 are
+    0.952439  121 but
+    1.457253  121 parents
+    1.550000  121 h#

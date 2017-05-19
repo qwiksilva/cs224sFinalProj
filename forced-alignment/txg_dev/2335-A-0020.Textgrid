@@ -1,0 +1,88 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.000000
+xmax = 1.530000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "Speaker - phone"
+		xmin = 0.000000
+		xmax = 1.530000
+		intervals: size = 11
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.652000
+				text = "sp"
+			intervals [3]:
+				xmin = 0.652000
+				xmax = 0.682000
+				text = "DH"
+			intervals [4]:
+				xmin = 0.682000
+				xmax = 0.772000
+				text = "AE1"
+			intervals [5]:
+				xmin = 0.772000
+				xmax = 0.832000
+				text = "T"
+			intervals [6]:
+				xmin = 0.832000
+				xmax = 0.892000
+				text = "S"
+			intervals [7]:
+				xmin = 0.892000
+				xmax = 0.962000
+				text = "T"
+			intervals [8]:
+				xmin = 0.962000
+				xmax = 1.012000
+				text = "R"
+			intervals [9]:
+				xmin = 1.012000
+				xmax = 1.292000
+				text = "UW1"
+			intervals [10]:
+				xmin = 1.292000
+				xmax = 1.512000
+				text = "sp"
+			intervals [11]:
+				xmin = 1.512000
+				xmax = 1.530000
+				text = "sp"
+	item [2]:
+		class = "IntervalTier"
+		name = "Speaker - word"
+		xmin = 0.000000
+		xmax = 1.530000
+		intervals: size = 6
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.652000
+				text = "sp"
+			intervals [3]:
+				xmin = 0.652000
+				xmax = 0.892000
+				text = "THAT'S"
+			intervals [4]:
+				xmin = 0.892000
+				xmax = 1.292000
+				text = "TRUE"
+			intervals [5]:
+				xmin = 1.292000
+				xmax = 1.512000
+				text = "sp"
+			intervals [6]:
+				xmin = 1.512000
+				xmax = 1.530000
+				text = "sp"

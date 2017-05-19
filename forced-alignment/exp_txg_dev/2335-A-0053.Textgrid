@@ -1,0 +1,144 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.000000
+xmax = 1.650000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "Speaker - phone"
+		xmin = 0.000000
+		xmax = 1.650000
+		intervals: size = 20
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.083000
+				text = "sp"
+			intervals [3]:
+				xmin = 0.083000
+				xmax = 0.183000
+				text = "N"
+			intervals [4]:
+				xmin = 0.183000
+				xmax = 0.343000
+				text = "OW1"
+			intervals [5]:
+				xmin = 0.343000
+				xmax = 0.473000
+				text = "AY1"
+			intervals [6]:
+				xmin = 0.473000
+				xmax = 0.502000
+				text = "D"
+			intervals [7]:
+				xmin = 0.502000
+				xmax = 0.563000
+				text = "OW1"
+			intervals [8]:
+				xmin = 0.563000
+				xmax = 0.592000
+				text = "N"
+			intervals [9]:
+				xmin = 0.592000
+				xmax = 0.632000
+				text = "TH"
+			intervals [10]:
+				xmin = 0.632000
+				xmax = 0.662000
+				text = "IH1"
+			intervals [11]:
+				xmin = 0.662000
+				xmax = 0.693000
+				text = "NG"
+			intervals [12]:
+				xmin = 0.693000
+				xmax = 0.732000
+				text = "K"
+			intervals [13]:
+				xmin = 0.732000
+				xmax = 0.842000
+				text = "S"
+			intervals [14]:
+				xmin = 0.842000
+				xmax = 0.882000
+				text = "OW1"
+			intervals [15]:
+				xmin = 0.882000
+				xmax = 1.032000
+				text = "IY1"
+			intervals [16]:
+				xmin = 1.032000
+				xmax = 1.073000
+				text = "DH"
+			intervals [17]:
+				xmin = 1.073000
+				xmax = 1.232000
+				text = "ER0"
+			intervals [18]:
+				xmin = 1.232000
+				xmax = 1.452000
+				text = "sp"
+			intervals [19]:
+				xmin = 1.452000
+				xmax = 1.633000
+				text = "AH1"
+			intervals [20]:
+				xmin = 1.633000
+				xmax = 1.650000
+				text = "sp"
+	item [2]:
+		class = "IntervalTier"
+		name = "Speaker - word"
+		xmin = 0.000000
+		xmax = 1.650000
+		intervals: size = 11
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.083000
+				text = "sp"
+			intervals [3]:
+				xmin = 0.083000
+				xmax = 0.343000
+				text = "NO"
+			intervals [4]:
+				xmin = 0.343000
+				xmax = 0.473000
+				text = "I"
+			intervals [5]:
+				xmin = 0.473000
+				xmax = 0.592000
+				text = "DON'T"
+			intervals [6]:
+				xmin = 0.592000
+				xmax = 0.732000
+				text = "THINK"
+			intervals [7]:
+				xmin = 0.732000
+				xmax = 0.882000
+				text = "SO"
+			intervals [8]:
+				xmin = 0.882000
+				xmax = 1.232000
+				text = "EITHER"
+			intervals [9]:
+				xmin = 1.232000
+				xmax = 1.452000
+				text = "sp"
+			intervals [10]:
+				xmin = 1.452000
+				xmax = 1.633000
+				text = "UH"
+			intervals [11]:
+				xmin = 1.633000
+				xmax = 1.650000
+				text = "sp"

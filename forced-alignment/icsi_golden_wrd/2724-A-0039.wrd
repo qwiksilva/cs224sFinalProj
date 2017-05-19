@@ -1,0 +1,17 @@
+signal 2724-A-0039
+type 0
+comment $Locker:  $
+color 121
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.222951  121 but_#
+    0.433545  121 y'know
+    0.731052  121 she
+    0.926603  121 wanted
+    0.960031  121 to
+    1.187339  121 stay
+    1.341106  121 with
+    1.630256  121 me
+    1.700000  121 h#

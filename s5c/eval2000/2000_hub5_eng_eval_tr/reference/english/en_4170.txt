@@ -1,0 +1,424 @@
+#Language: eng    
+#File id: 4170
+#Starting at 400 Ending at 1000
+# 400 410 #BEGIN
+# 990 1000 #END
+
+
+
+398.96 399.36 A: Wow.  
+
+399.23 400.25 B: Grand finale and all  
+
+400.39 401.84 B: and slept through it <contraction e_form="[did=>did][n't=>not]">didn't flinch  
+
+403.14 404.53 A: Were your parents down there on the fourth?  
+
+404.65 404.97 B: yeah.  
+
+405.21 405.62 A: ((wow))  
+
+405.78 406.06 B: yeah.  
+
+407.16 408.96 B: They were down here for close to two weeks.  
+
+408.95 410.26 A: Did they stay with you for the whole two weeks?  
+
+410.38 410.67 B: yeah.  
+
+411.13 412.88 A: oh I thought they were staying over some other relatives.  
+
+413.08 413.59 B: No.  
+
+413.74 415.86 A: ((yeah)) my mom got the story wrong. {breath}  
+
+413.81 414.09 B: [static]   
+
+415.70 417.54 B: nah at mo- nah they went away for like  
+
+417.84 418.76 B: two days  
+
+418.97 420.85 B: to &Tampa to my aunt and uncle's house.  
+
+420.91 421.24 A: uh-huh.  
+
+422.75 424.19 B: But other than that they were here.  
+
+424.36 426.11 A: They must have been pretty excited with the little guy.  
+
+426.45 426.76 B: yeah.  
+
+427.16 427.74 A: {laugh}  
+
+428.40 429.75 B: yeah they thought he was pretty cool.  
+
+429.65 432.62 A: Did you guys get a chance to go out and use them as babysitters? {laugh}  
+
+433.07 433.22 B: [static]  
+
+433.63 435.74 B: No not really because &Dina is breastfeeding.  
+
+433.74 433.93 A: [static]  
+
+434.68 434.89 A: %mm.  
+
+435.93 436.18 B: So  
+
+436.03 436.41 A: oh.  
+
+436.37 437.10 B: we <contraction e_form="[could=>could][n't=>not]">couldn't do that.  
+
+437.54 437.91 A: %hm.  
+
+438.29 438.62 B: <contraction e_form="[We=>We]['re=>are]">We're  
+
+438.96 440.82 B: at the mercy of his feeding schedule.  
+
+440.69 441.30 A: {laugh}  
+
+442.09 442.57 A: {breath}  
+
+443.95 446.29 B: So, not much we could do really right now  
+
+446.40 446.79 A: yeah.  
+
+446.69 447.11 B: till <contraction e_form="[he=>he]['s=>is]">he's  
+
+447.65 448.26 B: on a bottle.  
+
+450.29 451.81 A: So how long till he starts crawling?  
+
+452.83 453.57 B: Couple months.  
+
+453.74 454.25 A: oh wow 
+
+454.35 455.85 B: {breath} <contraction e_form="[He=>He]['ll=>will]">He'll be a month old on  
+
+456.81 457.31 B: Sunday.  
+
+458.11 458.55 A: hey.  
+
+458.80 459.20 B: yeah.  
+
+460.01 461.44 A: What was it June sixteenth right?  
+
+461.54 461.81 B: yeah.  
+
+462.14 462.44 B: No.  
+
+464.12 465.14 A: Man <contraction e_form="[he=>he]['s=>is]">he's progressing.  
+
+465.50 466.06 B: Yes he is.  
+
+465.86 466.82 A: Well <contraction e_form="[that=>that]['s=>is]">that's good to hear.  
+
+467.10 469.08 B: {breath} Tell me <contraction e_form="[what=>what]['s=>has]">what's been going on at &State &College.  
+
+469.33 470.60 A: oh (( ))  
+
+469.41 469.54 B: [squeak]  
+
+470.14 471.95 B: <contraction e_form="[I=>I]['m=>am]">I'm still jealous. I want to be at &Arts &Fest.  
+
+471.72 472.28 A: {laugh}  
+
+472.38 477.41 A: {breath} %um I <contraction e_form="[did=>did][n't=>not]">didn't know the year we were up here I <contraction e_form="[did=>did][n't=>not]">didn't know that they had bands playing constantly at the main  
+
+478.30 479.17 A: %uh old main  
+
+479.37 480.22 B: What kind of bands?  
+
+480.40 485.21 A: oh %uh different stuff all all different stuff. <contraction e_form="[It=>It]['s=>is]">It's just like all day <contraction e_form="[there=>there]['s=>is]">there's bands and stuff there. {breath}  
+
+483.68 483.94 B: yeah.  
+
+485.32 485.84 A: %um  
+
+486.55 487.82 A: {lipsmack} It seems like <contraction e_form="[there=>there]['s=>is]">there's more  
+
+488.04 489.33 A: more of those little %um  
+
+489.78 491.62 A: booths. Because now they stretch like  
+
+491.82 492.84 A: they go up &Allen  
+
+493.09 493.43 B: yeah.  
+
+493.60 496.87 A: and then they they curve around like a horseshoe and go back down by that post office.  
+
+496.80 497.18 B: yeah.  
+
+497.24 501.87 A: {breath} And then they a- they have stuff that goes all the way from the %um the the road that the panther is on  
+
+502.62 504.28 B: The r- the panther.  
+
+504.20 505.18 A: The lion, whatever.  
+
+505.00 506.91 B: What the hell are you talking about John.  
+
+505.47 505.87 A: [static]  
+
+506.23 506.42 A: [static]  
+
+506.78 509.43 A: The the road the lion is on. It goes from the bottom of that --  
+
+508.06 508.49 B: [static]  
+
+508.77 509.49 B: Panther [distorted].  
+
+509.99 512.94 A: -- all the way up and around %uh you know &Willard and then on to the mall.  
+
+510.55 511.20 B: My god.  
+
+513.43 513.77 B: yeah.  
+
+514.56 515.71 A: Has it b- always been that many?  
+
+516.22 516.84 B: I think  
+
+516.99 517.61 B: I think so.  
+
+517.72 519.85 A: I <contraction e_form="[do=>do][n't=>not]">don't remember it being all the way on &Pollack like that  
+
+520.16 520.63 A: before.  
+
+520.20 520.45 B: [static]  
+
+521.29 521.85 B: I <contraction e_form="[do=>do][n't=>not]">don't know.  
+
+522.18 522.83 A: But %um  
+
+523.29 524.78 B: yeah, yeah. It went all the way down --  
+
+524.91 525.72 A: aw I <contraction e_form="[do=>do][n't=>not]">don't remember it  
+
+525.51 526.16 B: -- &Pollack &Road.  
+
+526.05 530.03 A: I <contraction e_form="[do=>do][n't=>not]">don't remember looking at that many things when I when I was up there. {breath}  
+
+530.23 531.01 A: But %uh  
+
+530.40 531.25 B: yeah it was  
+
+531.41 531.80 B: big  
+
+531.95 532.71 B: couple of years ago.  
+
+531.96 536.08 A: yeah. So <contraction e_form="[it=>it]['s=>is]">it's kind of %uh <contraction e_form="[it=>it]['s=>is]">it's kind of nice. I mean <contraction e_form="[it=>it]['s=>is]">it's really crowded here in town now.  
+
+536.05 536.43 B: yeah.  
+
+536.28 538.25 A: Because everybody it seems like <contraction e_form="[everybody=>everybody]['s=>is]">everybody's out. But %um  
+
+538.10 539.25 B: oh man. Probably like  
+
+539.46 541.19 A: Nobody I really know is up, like  
+
+540.66 542.67 B: yeah but probably a lot of people I know are there.  
+
+542.88 543.58 A: oh sure.  
+
+543.89 544.45 A: {laugh}  
+
+544.14 546.10 B: Probably all my fraternity brothers are up there.  
+
+545.82 546.31 A: {breath}  
+
+546.72 547.29 A: (( ))  
+
+546.85 548.58 B: that like that I <contraction e_form="[have=>have][n't=>not]">haven't seen for two years.  
+
+548.63 550.95 A: (( )) you can go another decade without seeing them.  
+
+550.84 551.37 B: [static]  
+
+551.25 551.81 A: {laugh}  
+
+552.73 553.36 A: {breath}  
+
+553.25 553.66 B: %mm.  
+
+553.77 554.30 A: %um  
+
+555.38 555.62 B: {breath}  
+
+555.67 556.88 B: But hey when we %uh  
+
+556.96 557.67 B: when we come up  
+
+558.30 558.95 B: for  
+
+560.07 562.16 B: Thanksgiving, the week before Thanksgiving  
+
+562.27 562.63 A: uh-huh.  
+
+562.93 563.78 B: probably what <contraction e_form="[we=>we]['ll=>will]">we'll do  
+
+563.90 566.90 B: do you know what your plans are? Like well you I guess you <contraction e_form="[do=>do][n't=>not]">don't know really.  
+
+566.85 567.98 A: ((nah)) oh <contraction e_form="[I=>I]['m=>am]">I'm getting a car. [smack]  
+
+568.45 568.83 B: You are?  
+
+568.87 569.22 A: yeah.  
+
+569.53 569.89 B: What?  
+
+570.26 570.99 A: The &LeBaron.  
+
+571.44 572.58 B: oh yeah, I knew about that.  
+
+571.88 572.69 A: I think (( ))  
+
+573.04 574.55 A: oh you heard about that {laugh}  
+
+574.41 574.80 B: [static]  
+
+574.73 577.71 A: {breath} jeez, I <contraction e_form="[did=>did][n't=>not]">didn't even know that. P- you probably knew before I did.  
+
+577.82 578.78 B: oh yeah, long before.  
+
+578.99 579.15 A: [static]  
+
+579.03 579.98 B: I <contraction e_form="[was=>was][n't=>not]">wasn't allowed to tell you.  
+
+580.14 580.47 A: oh.  
+
+580.93 582.59 B: {laugh}  
+
+582.02 587.52 A: {breath} (( )) I wish they I wish somebody <contraction e_form="[would=>would]['ve=>have]">would've. Because my dad like told me like the weekend that I <contraction e_form="[could=>could]['ve=>have]">could've gone home with &Boger and gotten it.  
+
+588.33 589.92 A: Because <contraction e_form="[he=>he]['s=>is]">he's not going home like ((I <contraction e_form="[have=>have][n't=>not]">haven't)) [echo]  
+
+589.43 590.40 B: Why <contraction e_form="[did=>did][n't=>not]">didn't he tell you then?  
+
+590.60 592.06 A: %uh he told me last Saturday.  
+
+592.47 592.78 B: yeah.  
+
+592.91 594.73 A: And &Dave left, you know, Friday to go home.  
+
+594.82 595.27 B: oh.  
+
+595.14 599.34 A: So then I called &Dave up this weekend <contraction e_form="[I=>I]['m=>am]">I'm like &Dave when are you going home again. <contraction e_form="[He=>He]['s=>is]">He's like well <contraction e_form="[he=>he]['s=>is]">he's not going home this weekend for &Arts &Fest.  
+
+599.43 599.79 B: yeah.  
+
+599.68 601.18 A: And <contraction e_form="[he=>he]['s=>is]">he's not going home next weekend.  
+
+602.74 607.72 A: And %uh so <contraction e_form="[it=>it]['s=>is]">it's like you know I go- i- if I get a car it can be like by like the thirtieth of July [[says laughing]] or something.   
+
+607.61 609.40 B: Your dad should come up and pick you up.  
+
+609.92 612.48 B: and bring you home, and then you can drive the car back.  
+
+612.27 614.80 A: Well I <contraction e_form="[would=>would][n't=>not]">wouldn't want to put that much extra miles on my car. {laugh}  
+
+615.16 618.96 A: {laugh} Thing has got like a hundred and fifty or a hundred and sixty or something as it is.  
+
+615.92 616.29 B: <contraction e_form="[that=>that]['s=>is]">that's fine [[high pitched squeaky voice]]  
+
+618.81 619.36 B: A hundred and  
+
+619.62 620.69 B: sixty thousand miles.  
+
+620.70 621.13 A: yeah.  
+
+621.12 621.43 B: Really?  
+
+621.48 622.09 A: I think so.  
+
+622.49 622.85 B: Wow.  
+
+623.35 623.80 A: %um  
+
+624.96 625.63 A: but %uh  
+
+625.87 628.04 A: {breath} so <contraction e_form="[I=>I]['m=>am]">I'm g- <contraction e_form="[I=>I]['m=>am]">I'm going to <contraction e_form="[I=>I]['m=>am]">I'm going to ask and see if &Diane  
+
+628.21 629.16 A: %um wants to come  
+
+629.41 630.76 A: %uh home for the weekend.  
+
+630.77 631.11 B: yeah.  
+
+631.16 632.11 A: ((with)) maybe because %uh  
+
+632.88 635.46 A: our friend %uh well her her future roommate too, &Lynn  
+
+635.60 636.97 A: is g- lives like by me.  
+
+635.70 636.00 B: yeah.  
+
+637.33 639.60 A: I <contraction e_form="[I=>I]['ll=>will]">I'll just ask (( )) because also she &Diane  
+
+639.71 640.77 A: &Diane is in &Miami now.  
+
+641.08 641.48 B: mhm.  
+
+641.58 642.10 A: And she  
+
+641.70 642.15 B: &Miami.  
+
+642.33 644.74 A: yeah she grew up around &Miami then she moved to &Canada.  
+
+645.38 645.74 B: yeah.  
+
+645.86 646.47 A: And %uh  
+
+646.08 647.04 B: <contraction e_form="[That=>That]['s=>is]">That's quite a difference.  
+
+647.04 649.44 A: e- yeah. So now <contraction e_form="[she=>she]['s=>is]">she's like living in &State &College.  
+
+649.56 650.99 A: {breath} So <contraction e_form="[it=>it]['s=>is]">it's kind of like %um  
+
+651.19 652.64 A: I <contraction e_form="[do=>do][n't=>not]">don't know if <contraction e_form="[she=>she]['s=>has]">she's been to &Philadelphia.  
+
+653.09 653.38 B: yeah.  
+
+653.34 659.03 A: Or like actually been around there. So <contraction e_form="[I=>I]['m=>am]">I'm like if if she wants to go home I could say like well we could go hang out around &Philadelphia. We can hang out with &Lynn and  
+
+659.20 662.78 A: and her boyfriend and stuff like that. And then we can just come home after the next day and I can get my car. {laugh}  
+
+662.72 663.12 B: {laugh}  
+
+663.00 663.78 A: {laugh}  
+
+664.00 665.15 A: {breath} So [[says laughing]]  
+
+665.24 668.84 A: {breath} My other option is &Jason. His parents came up for this weekend.  
+
+669.46 669.81 B: yeah.  
+
+669.59 672.70 A: But <contraction e_form="[they=>they]['re=>are]">they're not going home until like Monday or Tuesday or something. And %uh  
+
+672.34 674.78 B: oh man your parents up for &Arts &Fest.  
+
+674.97 675.35 A: What?  
+
+675.54 677.84 B: y- his parents are up for &Arts &Fest?  
+
+677.62 679.31 A: His parents both met at &Penn &State.  
+
+679.29 680.24 B: oh man e-  
+
+680.13 682.58 A: And %uh they married and all that so <contraction e_form="[they=>they]['re=>are]">they're <contraction e_form="[they=>they]['re=>are]">they're and then  
+
+682.45 682.98 B: Well I imagi-  
+
+682.68 684.02 A: His brother went to &Penn &State.  
+
+684.14 684.44 B: yeah.  
+
+684.59 690.22 A: So <contraction e_form="[they=>they]['re=>are]">they're like they c- they they ca- %um when &Dave told me when he was little they came up to &Penn &State every home football game. 
+
+690.55 691.37 B: Everyone, really?  
+
+691.26 692.45 A: And stayed the whole weekend.  
+
+692.50 692.90 B: Wow.  
+
+693.51 697.85 A: And %uh his parents come up I think for every (( )) his dad still comes up just for the football games now.
+
+698.25 698.58 B: yeah.  
+

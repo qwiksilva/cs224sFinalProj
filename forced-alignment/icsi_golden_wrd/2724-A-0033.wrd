@@ -1,0 +1,12 @@
+signal 2724-A-0033
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.348661  121 h#
+    0.549319  121 forty
+    1.10526  121 miles
+    1.22448  121 h#

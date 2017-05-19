@@ -1,0 +1,17 @@
+signal 3942-A-0028
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.021126  121 h#
+    0.308990  121 because
+    0.350616  121 h#
+    0.497544  121 it
+    0.680905  121 was
+    0.712957  121 a
+    0.990675  121 funny
+    1.472983  121 question
+    1.607419  121 h#

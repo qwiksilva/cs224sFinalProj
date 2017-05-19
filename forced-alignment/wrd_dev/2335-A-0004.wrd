@@ -1,0 +1,30 @@
+signal 2335-A-0004
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.283265  121 h#
+    0.325457  121 I
+    0.44473  121 think
+    0.508463  121 it
+    0.634961  121 was
+    1.18995  121 imbalance
+    1.41919  121 of
+    1.6386  121 ah
+    2.23432  121 power
+    2.3108  121 in
+    2.54834  121 united
+    3.0204  121 states
+    3.33342  121 that's
+    3.77  121 h#
+    4.08559  121 causing
+    4.14274  121 the
+    4.41701  121 lower
+    4.56482  121 h#
+    4.94509  121 class
+    5.09969  121 to
+    5.65  121 rebel
+    5.89  121 h#

@@ -1,0 +1,275 @@
+#Language: eng
+#File id: 6183
+#Starting at 181 Ending at 481
+# 181 191 #BEGIN
+# 471 481 #END
+
+
+180.10 181.57 B: oh <contraction e_form="[there=>there]['s=>is]">there's a a real  
+
+180.68 181.25 A: and  
+
+181.64 184.37 B: will to live after all <contraction e_form="[he=>he]['s=>has]">he's been through before you know an-  
+
+182.40 183.68 A: %uh there is  
+
+184.28 185.34 A: I know  
+
+184.55 185.61 B: like sure  
+
+185.95 187.90 A: oh it was such a shock so  
+
+187.14 188.15 B: {lipsmack} aw  
+
+188.01 188.71 A: {inhale} ha-  
+
+188.17 199.37 B: well sometimes people <contraction e_form="[do=>do][n't=>not]">don't really have a warning for these things and I have on my refrigerator this scripture about teaching us to number our days <contraction e_form="[it=>it]['s=>is]">it's from Psalm ninety I <contraction e_form="[do=>do][n't=>not]">don't know if you could remember that but you know ninety I always thought gee if  
+
+191.19 191.85 A: no  
+
+197.09 200.33 A: no but <contraction e_form="[that=>that]['s=>is]">that's so important yeah  
+
+199.94 207.95 B: yeah if we could live to be ninety you know <contraction e_form="[that=>that]['s=>is]">that's old but my poor mom is only sixty five I thought wow you know <contraction e_form="[I=>I]['m=>am]">I'm going to inherit half of her genetic {laugh}  
+
+207.72 208.74 A: oh yes <contraction e_form="[you=>you]['re=>are]">you're  
+
+208.17 219.69 B: background so that made me %um effective the fifteenth <contraction e_form="[I=>I]['m=>am]">I'm no longer in the active reserves you know the the rumor in my unit was we were going to get called up on the eighteenth anyway and I thought oh I <contraction e_form="[can't=>cannot]">can't live with kind of stress you know  
+
+213.19 214.83 A: {inhale} oh  
+
+218.90 220.70 A: oh my goodness  
+
+220.11 224.21 B: I <contraction e_form="[do=>do][n't=>not]">don't believe in what <contraction e_form="[they=>they]['re=>are]">they're doing over there I think <contraction e_form="[it=>it]['s=>is]">it's wonderful that the people would like to try to  
+
+224.77 226.20 B: have peace with each other but  
+
+226.34 227.24 A: sure  
+
+226.88 228.65 B: you know my father-in-law has told me all these  
+
+228.67 235.56 B: stories about World War Two and he said even the Nazis <contraction e_form="[did=>did][n't=>not]">didn't like the &Serbians they <contraction e_form="[would=>would][n't=>not]">wouldn't get along and I thought oh gracious you know {laugh}  
+
+234.28 236.06 A: oh my yeah  
+
+235.57 241.29 B: why are w- with our country we have so many problems here with our schools and the way our older people are treated and {lipsmack} {inhale}  
+
+241.04 242.41 A: oh I know   
+
+241.81 245.56 B: I <contraction e_form="[do=>do][n't=>not]">don't think our country should spend what do they say now six billion over there on  
+
+245.73 246.73 A: really  
+
+245.77 246.34 B: {lipsmack} oh  
+
+247.17 248.34 A: oh my good- {sniff} now  
+
+247.34 253.44 B: {lipsmack} maybe <contraction e_form="[it=>it]['s=>is]">it's just two billion I get the billions confused with the number of land mines and how much money <contraction e_form="[we=>we]['re=>are]">we're going to spend {inhale}  
+
+251.65 254.12 A: oh my goodness {inhale} we-  
+
+253.48 257.62 B: but %um <contraction e_form="[I=>I]['ll=>will]">I'll still be on a like a call up list if they need a dietician but  
+
+256.29 259.12 A: {lipsmack} a call up oh my goodness &Janet  
+
+258.39 259.86 B: you know me boy <contraction e_form="[I=>I]['m=>am]">I'm not going to   
+
+260.11 262.27 B: you know shirk my responsibility but <contraction e_form="[I=>I]['m=>am]">I'm  
+
+260.58 261.08 A: with your  
+
+261.47 264.10 A: no no <contraction e_form="[you=>you]['re=>are]">you're so conscientious  
+
+262.47 264.10 B: certainly not going to go willingly I  
+
+264.70 270.74 B: saw too many body bags coming back when I was in high school twenty years ago and you know it is a cycle the world is on a cycle so  
+
+264.85 265.42 A: yeah  
+
+270.25 274.43 A: it seems to be it seems to be cycling yeah ye- {inhale}  
+
+271.69 272.91 B: yeah {lipsmack}  
+
+273.92 277.81 B: well I <contraction e_form="[do=>do][n't=>not]">don't want to get off the topic but do tell your husband I said you know hi and gosh <contraction e_form="[I=>I]['m=>am]">I'm  
+
+275.12 275.91 A: oh no no   
+
+277.47 278.93 A: oh I sure will   
+
+279.08 282.75 B: yeah [baby crying] //yeah <contraction e_form="[that=>that]['s=>is]">that's okay you can have some more//  
+
+279.30 281.37 A: yeah he he <contraction e_form="[has=>has][n't=>not]">hasn't oh I hear her   
+
+281.74 284.09 A: oh she talks so well  
+
+284.14 285.11 B: yeah sh-  
+
+284.70 289.47 A: does she does she look at words and read things I guess children are more into T V than  
+
+285.83 287.26 B: [child's voice]  
+
+287.56 289.47 B: oh she loves  
+
+289.68 298.98 B: yeah loves &The &Cat &and &The &Hat n- on the &Lifetime channel [child screams] this morning there was a special with &Penelope &Leach [/child] about toddler play time [child voice] //water okay//  
+
+291.57 292.75 A: oh (( )) {laugh}  
+
+298.50 301.63 A: oh **wawa** oh my you go ahead if you have to   
+
+299.16 303.67 B: %um she said <contraction e_form="[do=>do][n't=>not]">don't let the play time <contraction e_form="[do=>do][n't=>not]">don't sit the children into your idea of  
+
+303.83 305.40 B: play they have more fun with just  
+
+305.49 308.91 B: you know the boxes and {laugh} so really <contraction e_form="[I=>I]['ve=>have]">I've  
+
+307.29 308.85 A: right right  
+
+308.96 311.16 B: <contraction e_form="[I=>I]['ve=>have]">I've been adju- adjusting pretty well to all of this  
+
+311.19 315.30 B: but I tell you I <contraction e_form="[do=>do][n't=>not]">don't know how people did it years and years ago when they had like seven or eight of them and  
+
+315.19 318.45 A: oh I had three at one time all at home you know  
+
+316.74 318.91 B: yeah {laugh}  
+
+318.50 322.99 A: clinging to my skirts but {inhale} I mean I enjoyed it looking back on it but it was  
+
+322.27 323.60 B: oh sure  
+
+323.48 327.13 A: very frustrating in a way if there was anything else you wanted to do like  
+
+327.19 331.03 A: even if you wanted to go into the library say and get a book it was  
+
+329.74 331.88 B: {laugh} {inhale}  
+
+331.07 334.72 A: ver- I had to dress three children get the car you know {laugh}  
+
+333.20 334.44 B: aw  
+
+334.82 335.86 A: {laugh} but now  
+
+334.92 342.59 B: well you know too my mom even has this friend that came to visit her that was part of a family of she said either twenty or twenty one I said mom you got to be kidding she said no  
+
+343.14 348.91 B: but honest to goodness they had that many children ((that)) you know those years and I said how would you keep your mind {laugh}  
+
+348.15 349.41 A: I know {laugh}  
+
+348.97 349.80 B: {inhale}  
+
+349.77 350.99 A: {breath} it was hard  
+
+350.00 358.24 B: but I remember when I first met you though and you were real positive about the whole thing and I thought she wants to be a dietician <contraction e_form="[she=>she]['s=>is]">she's crazy <contraction e_form="[there=>there]['s=>is]">there's so many other things she could do  
+
+356.76 359.67 A: {laugh} I know [[in the laugh]]  
+
+358.63 364.05 B: but <contraction e_form="[I=>I]['m=>am]">I'm really glad <contraction e_form="[you=>you]['re=>are]">you're in the administrative side now because <contraction e_form="[that=>that]['s=>is]">that's where the money is at and you learn a lot more you know  
+
+360.73 361.86 A: {inhale} well  
+
+362.18 363.42 A: I well  
+
+363.54 367.90 A: I <contraction e_form="[do=>do][n't=>not]">don't know about the money end of it that <contraction e_form="[is=>is][n't=>not]">isn't all that good but I know what (( ))  
+
+365.37 367.29 B: no no I mean as far as handling  
+
+367.63 370.53 B: handling the budgets and knowing how much each portion is  
+
+369.42 370.04 A: yeah  
+
+370.50 371.65 A: <contraction e_form="[it=>it]['s=>is]">it's <contraction e_form="[it=>it]['s=>is]">it's a little more  
+
+371.79 374.77 B: yeah <contraction e_form="[it=>it]['s=>is]">it's a lot more analytical yeah I think  
+
+371.94 373.75 A: secure probably  
+
+374.29 374.94 A: hopefully  
+
+375.45 377.53 B: dealing with the average person with their  
+
+378.11 387.51 B: to stress over what <contraction e_form="[they=>they]['re=>were]">they're getting on their trays I mean a lot of times you know even after I have a thing on ketogenic diet I mean to send to you too and that but even after these years <contraction e_form="[that=>that]['s=>is]">that's pretty much what we were still doing.  
+
+384.39 385.32 A: oh yes  
+
+388.34 396.37 B: and <contraction e_form="[that=>that]['s=>is]">that's why I decided to cash in my chips when I had &Colleen because I thought oh this is not going to change I can come back in ten years <contraction e_form="[it=>it]['ll=>will]">it'll be the same thing {laugh}  
+
+395.35 397.91 A: <contraction e_form="[I=>I]['m=>am]">I'm so {laugh} oh  
+
+396.44 399.22 B: {inhale} and <contraction e_form="[she=>she]['ll=>will]">she'll never be so cute again you know  
+
+399.07 401.03 A: oh I know I think you <contraction e_form="[you=>you]['ll=>will]">you'll  
+
+401.43 403.44 A: this will be the happiest time with  
+
+403.66 408.49 A: the children in my opinion you know and <contraction e_form="[you=>you]['ll=>will]">you'll look back and be very glad that you did do it  
+
+405.80 406.24 B: {lipsmack} {inhale}  
+
+406.89 414.36 B: well <contraction e_form="[it=>it]['s=>is]">it's truly the sandwich generation though because like each day she learns something new and now my mom is pretty much so limited and <contraction e_form="[it=>it]['s=>is]">it's so hard to see this but  
+
+409.48 409.71 A: (( ))  
+
+414.91 418.02 B: I can see the joy she brings her so that makes me feel happy but it  
+
+417.35 418.66 A: oh yes  
+
+418.10 419.97 B: <contraction e_form="[it=>it]['s=>is]">it's really hard to see one person that <contraction e_form="[you=>you]['ve=>have]">you've  
+
+420.01 424.09 B: love so much you know kind of check out then you know starting to learn how to love this other one that  
+
+420.98 422.10 A: I know  
+
+424.65 427.97 B: gosh I have such a responsibility now {laugh}  
+
+424.70 425.52 A: oh it sh-  
+
+426.81 432.26 A: oh I know <contraction e_form="[how=>how]['s=>is]">how's your husband adjusting to the family and I bet he does  
+
+428.08 428.56 B: oh {lipsmack}  
+
+429.68 432.23 B: oh he loved it <contraction e_form="[he=>he]['s=>is]">he's doing good you know his  
+
+432.33 435.00 B: you know how men are their lives <contraction e_form="[do=>do][n't=>not]">don't change all that much I mean he  
+
+434.82 435.26 A: true  
+
+435.12 437.35 B: still doing his volunteer firefighter thing and  
+
+437.78 444.63 B: <contraction e_form="[he=>he]['s=>is]">he's having a lot of %uh carbon monoxide alarms going off now so <contraction e_form="[he=>he]['s=>is]">he's making all kinds of extra runs and <contraction e_form="[he=>he]['s=>is]">he's all happy about that but  
+
+440.95 441.97 A: oh my  
+
+445.44 448.07 B: and of course he has all the relatives here in town so <contraction e_form="[there=>there]['s=>is]">there's  
+
+447.97 449.36 A: oh <contraction e_form="[that=>that]['s=>is]">that's right  
+
+448.43 450.11 B: all kinds of things going on but  
+
+450.98 453.61 B: %um {lipsmack} I think okay in that he %um is  
+
+453.95 454.39 B: you know  
+
+454.84 459.05 B: Catholic and a lot more scheduled than I am <contraction e_form="[I=>I]['m=>am]">I'm more interdenominational and {laugh}  
+
+458.30 461.61 A: oh <contraction e_form="[that=>that]['s=>is]">that's right I {laugh}  
+
+459.39 463.89 B: I <contraction e_form="[do=>do][n't=>not]">don't remember all these special days I mean he goes to church all the time now this <contraction e_form="[let=>let]['s=>us]">let's see what was it on  
+
+464.45 468.84 B: Friday it was something and I thought oh you got to be kidding me <contraction e_form="[it=>it]['s=>is]">it's starting already you know {inhale}  
+
+465.86 467.09 A: right  
+
+467.57 470.90 A: what what <contraction e_form="[is=>is][n't=>not]">isn't that terrible I I too am Catholic  
+
+469.02 470.20 B: {lipsmack} oh  
+
+471.02 475.93 A: but for god and it was December ((eighth)) is something special I forget oh <contraction e_form="[do=>do][n't=>not]">don't tell him  
+
+473.98 477.60 B: {laugh} you should meet my mother-in-law she never forgets 
+
+476.56 478.92 A: <contraction e_form="[do=>do][n't=>not]">don't tell him I forgot oh my goodness  
+
+478.14 486.14 B: I keep thinking too <contraction e_form="[he=>he]['s=>is]">he's the eldest son so someday <contraction e_form="[we=>we]['re=>are]">we're going to be responsible for all the grave blankets and I know this is long distance but sometimes you got to ask me to tell me  
+
+480.80 481.07 A: [click]  
+
+482.32 483.84 A: {laugh}  
+

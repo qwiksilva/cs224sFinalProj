@@ -1,0 +1,127 @@
+		March 2000 LVCSR Hub-5 Evaluation
+
+		SITE/SYSTEM NAME:    sri/sri2
+
+		TEST DESIGNATION:    Hub-5E
+
+
+1) MAIN TRANSCRIPTION SYSTEM DESCRIPTION
+
+SUMMARY: This version of the SRI DECIPHER(TM) Hub-5 system represents a
+baseline for the primary system (sri1), using only standard models and
+algorithms (with the exception of the novel N-best ROVER).  It omits
+novel knowledge sources, specifically the speaking-rate dependent
+acoustic model, the phone-duration model, and the "Anti-LM".
+
+A summary of the processing stages is given below:
+
+ 1. Determine gender of conversation side.
+ 2. Compute cepstra removing cepstral mean, normalizing variances, and
+    applying VTLN warping by conversation side.
+ 3. Unsupervised adaptation of within-word acoustic models to each speaker,
+    using a phone-loop pronunciation model.
+ 4. Generation of 2000-best hypotheses using a bigram LM and speaker-adapted
+    acoustic models from step 3.
+ 5. Rescoring of N-best hypotheses with a trigram LM.
+ 6. Adaptation of both within- and cross-word acoustic models to the 1-best
+    hypotheses obtained in step 5.
+ 7. Word lattice generation using the speaker-adapted within-word models and
+    the bigram LM.
+ 8. Expansion of bigram lattices to incorporate trigram LM probabilities.
+ 9a. 2000-best recognition constrained by trigram lattices, using
+    speaker-adapted, rate-independent cross-word triphone acoustic models.
+ 9b. 2000-best recognition from bigram LM, using speaker-adapted, rate-
+    independent within-word triphone models (Note: this step should normally
+    also use trigram lattices, but did not due to an oversight).
+10. Rescoring of the N-best lists with 
+     	a. class-based 4-gram LM (applied to the output of step 9a)
+	b. word-based 3-gram LM (applied to 9b)
+11. Merging of N-best lists and computation of word posterior probabilties
+    using modified ROVER algorithm.
+12. Time alignment of the resulting hypotheses.
+13. Estimation of word confidences using a neural network, based on word
+    posterior probabilities from step 11 and miscellaneous other features.
+14. Formatting of the output for submission.
+
+All steps are as described in the primary system description.
+
+2) ACOUSTIC TRAINING 
+
+See primary system description.  The only acoustic models used were the 
+rate-independent within-word and cross-word triphone models.
+
+3) GRAMMAR TRAINING
+
+See primary system description.  The only LMs used were the word-based
+bigram and trigram models, as well as the class-based 4-gram.
+
+4) RECOGNITION LEXICON DESCRIPTION
+
+Same as in the primary system.
+
+5) DIFFERENCES FOR EACH CONTRASTIVE TEST
+
+Relative to SRI's 1998 Hub-5 evaluation system, the current system has the
+following differing features:
+
+- added VTL normalization on training data
+- added cepstral variance normalization
+- added multi-word modeling and other refinements to the dictionary,
+  including estimation of pronunciation probabilities
+- added variance scaling in adaptation
+- larger number of transforms in transcription-mode adaptation
+- added trigram lattice decoding
+- added cross-word acoustic models
+- added class 4-gram LM rescoring
+- new N-best ROVER approach for system combination and word posterior 
+  probability generation.
+- new feature set for neural network confidence estimator
+
+The following are difference relative to the primary March 2000 system:
+
+- no rate-dependent acoustic models
+- no phone duration models
+- no "anti-LM" rescoring
+
+
+6) NEW CONDITIONS FOR THIS EVALUATION
+
+Not applicable.
+
+
+7) EXECUTION TIME
+
+The following are approximate multiples of real time on a 400MHz Pentium
+system with 512MB of RAM.  (Note: The actual runs for most processing stages
+were split among a large number of machines of different speeds, but we
+have averaged the relative runtimes while roughly adjusting for differing clock
+rates.)
+
+Step	What					xRT
+
+ 1	Gender detection			0.1
+ 2	Feature normalization			0.6
+ 3	Phone-loop adaptation			18.6
+ 4	N-best recognition			52.3
+ 5	N-best rescoring			0.3
+ 6	Transcription-mode adaptation
+	a. within-word models			6.8
+	b. cross-word models			33.9
+ 7	Lattice generation			57.9
+ 8	Lattice expansion			16
+ 9	a. N-best from trigram lattices		14.2
+	c. N-best from bigram			47.4
+10 	N-best recoring
+	a. word LM				0.3
+	b. class LM 				3.7
+11	N-best ROVER				0.3
+12	Time alignment				0.8
+13	Confidence estimation			< 0.1
+
+	Total					253
+
+
+8) REFERENCES
+
+See primary system description.
+

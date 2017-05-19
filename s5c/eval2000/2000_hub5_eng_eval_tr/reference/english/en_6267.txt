@@ -1,0 +1,344 @@
+#Language: eng
+#File id: 6267
+#Starting at 289 Ending at 589
+# 289 299 #BEGIN
+# 579 589 #END
+
+
+
+288.56 288.84 A: hello   
+
+289.34 289.60 B: yeah   
+
+289.80 290.04 A: yeah   
+
+289.98 291.37 B: well I I very much   
+
+291.53 295.77 B: doubt that you can really compare me to a p- a person that works at &McDonald's <contraction e_form="[who=>who]['s=>is]">who's flipping burgers [distorted]  
+
+294.90 297.09 A: No and <contraction e_form="[I=>I]['m=>am]">I'm saying <contraction e_form="[I=>I]['m=>am]">I'm using that as an example though   
+
+296.31 297.89 B: {laugh} okay   
+
+297.36 298.81 A: you understand <contraction e_form="[there=>there]['s=>is]">there's different fields   
+
+298.84 299.78 B: Yes I know that   
+
+299.36 300.68 A: in in &McDonald's right   
+
+300.19 301.28 B: {breath} uh-huh   
+
+301.02 303.73 A: and so when you go out and try to find another job right   
+
+304.24 304.81 A: %um   
+
+305.34 310.26 A: do you understand that it does (( )) [[mumbles]] <contraction e_form="[let=>let]['s=>us]">let's it I mean <contraction e_form="[let=>let]['s=>us]">let's say that <contraction e_form="[it=>it]['s=>is]">it's %uh you know say <contraction e_form="[it=>it]['s=>is]">it's &Macy's then okay   
+
+310.68 311.64 A: you know and then you have   
+
+311.90 315.53 A: you h- one cashiering job one job in the working inventory 
+
+315.90 316.33 A: you know like   
+
+316.70 321.48 A: the the name <contraction e_form="[does=>does][n't=>not]">doesn't really matter okay we- my point is (( )) the %uh experience   
+
+321.62 322.08 B: uh-huh   
+
+321.66 322.74 A: you know and [distorted]   
+
+322.81 324.24 B: Well <contraction e_form="[that=>that]['s=>is]">that's what I mean I mean   
+
+324.18 324.97 A: specialization   
+
+324.97 328.09 B: if if I have specialization in three areas   
+
+328.43 328.73 A: uh-huh   
+
+328.86 330.04 B: compared to one   
+
+330.58 331.01 A: uh-huh   
+
+331.16 331.93 B: you know I have   
+
+331.36 334.07 A: but would you call it specialized if you only been there one year though   
+
+335.26 338.40 B: but you see three years all three but all three of them   
+
+338.79 340.36 B: I have dealt with customer service   
+
+340.50 340.91 A: mhm   
+
+340.73 341.69 B: and the fact that   
+
+342.11 344.67 B: the fact that I been able to to %um   
+
+345.19 346.52 B: I been very productive   
+
+346.67 346.98 A: mhm   
+
+347.14 348.50 B: in those two areas so far   
+
+348.73 349.14 A: mhm   
+
+348.99 349.83 B: telemarketing   
+
+350.11 350.89 B: I was very good at   
+
+351.22 351.51 A: mhm   
+
+351.65 352.17 B: I was   
+
+353.38 354.83 B: always above a hundred percent   
+
+355.91 359.12 B: so and so forth clerical <contraction e_form="[I=>I]['m=>am]">I'm above my expectation too   
+
+359.14 359.76 A: [channel noise] oh I see   
+
+359.65 363.57 B: okay so the fact that I am able to change over from one area to another 
+
+363.89 365.87 B: learn to adapt and do so well   
+
+365.82 366.22 A: mhm   
+
+366.19 368.29 B: I think <contraction e_form="[that=>that]['s=>is]">that's a very good point in my area   
+
+367.84 368.10 A: oh   
+
+368.75 369.00 A: uh-huh   
+
+369.11 373.59 B: okay and if I transfer over to dispatch which is which is a very high stressed environment   
+
+373.77 374.07 A: mhm   
+
+373.91 375.27 B: if <contraction e_form="[I=>I]['m=>am]">I'm able to do that   
+
+375.74 377.82 B: and convert so easily and and be able to do    
+
+378.10 381.83 B: to do well as far as productivity and getting people to cooperate with me 
+
+381.86 382.13 A: mhm   
+
+382.45 382.91 B: I mean   
+
+383.19 384.91 B: <contraction e_form="[that=>that]['s=>is]">that's far more experienced than   
+
+385.25 386.48 B: anything else that I <contraction e_form="[could=>could]['ve=>have]">could've    
+
+386.71 389.56 B: I could imagine as far as telemarketing ever you know   
+
+389.44 389.73 A: %mm   
+
+389.91 392.87 B: I stayed two or three years in telemarketing you know compared to   
+
+393.43 395.86 B: being able to change from one place to another and   
+
+393.60 393.74 A: {clear throat}   
+
+394.34 394.47 A: %mm   
+
+395.60 395.89 A: yeah   
+
+396.34 398.45 B: adapt and everything I think <contraction e_form="[that=>that]['s=>is]">that's more important   
+
+398.89 403.82 A: well you know you understand then that if you take if you <contraction e_form="[do=>do][n't=>not]">don't take a telemarketing job then you   
+
+404.12 405.65 A: probably <contraction e_form="[wo=>will][n't=>not]">won't even come up here   
+
+407.37 407.85 B: yeah   
+
+408.11 408.53 A: yeah   
+
+408.39 409.04 B: probably   
+
+409.36 409.64 A: yeah   
+
+410.40 410.76 B: yeah   
+
+410.69 411.72 A: but <contraction e_form="[you=>you]['re=>are]">you're going to take it anyway   
+
+412.26 412.57 B: what   
+
+413.05 413.56 A: the   
+
+413.96 414.52 A: dispatch   
+
+414.72 416.85 B: uh-huh I I requested it in fact   
+
+417.01 417.35 A: uh-huh   
+
+417.58 419.68 B: <contraction e_form="[I=>I]['m=>am]">I'm kind of I I really <contraction e_form="[do=>do][n't=>not]">don't like   
+
+420.14 420.56 A: {cough}   
+
+420.40 421.88 B: my %uh clerical job   
+
+422.06 422.36 A: mhm   
+
+422.40 424.29 B: because %um of the people that <contraction e_form="[I=>I]['m=>am]">I'm around   
+
+424.59 424.83 A: mhm   
+
+425.10 429.15 B: %um too many people I mean really &Tim I mean the supervisors there   
+
+429.44 430.01 B: okay we have   
+
+430.53 432.95 B: we have one main supervisor and two   
+
+433.07 434.16 B: assistant supervisors   
+
+434.26 434.61 A: uh-huh   
+
+435.01 438.92 B: well when the main supervisor is <contraction e_form="[is=>is][n't=>not]">isn't there and the two assistant supervisors are there   
+
+439.13 439.43 A: uh-huh   
+
+439.45 442.44 B: doing whatever they {exhale} they fool around   
+
+443.36 444.48 B: they <contraction e_form="[do=>do][n't=>not]">don't do a good job   
+
+445.15 446.36 B: and <contraction e_form="[I=>I]['ve=>have]">I've already <contraction e_form="[I=>I]['ve=>have]">I've already   
+
+446.70 448.97 B: went to the head person about this   
+
+448.98 449.26 A: mhm   
+
+449.88 453.12 B: and everything and they got talked to and they were good for a while and then bam   
+
+453.40 456.30 B: <contraction e_form="[it=>it]['s=>is]">it's again you know same thing you see so much favoritism going on   
+
+457.28 458.51 B: but finally because you know what   
+
+458.89 461.07 B: every single day I always work late   
+
+461.29 462.65 B: later than <contraction e_form="[I=>I]['m=>am]">I'm supposed to   
+
+462.82 463.15 A: mhm   
+
+463.20 465.96 B: okay like nine o'clock when <contraction e_form="[I=>I]['m=>am]">I'm ready to go whatever   
+
+466.00 466.34 A: mhm   
+
+466.19 469.95 B: I always sta- I always end up spe- spending maybe ten fifteen minutes   
+
+470.18 470.76 B: after   
+
+471.13 471.72 B: nine o'clock   
+
+471.81 472.86 A: Do you get overtime for that?   
+
+472.65 473.93 B: yes I do get overtime   
+
+474.10 475.92 B: but if I stayed six minutes   
+
+476.07 476.36 A: {cough}   
+
+476.90 477.71 B: %ah overtime   
+
+477.85 478.17 A: mhm   
+
+478.13 479.98 B: I do not get paid for that six minutes   
+
+480.31 480.59 A: mhm   
+
+480.82 487.09 B: and during the six and and there have been plenty of times where <contraction e_form="[I=>I]['ve=>have]">I've sat there and <contraction e_form="[I=>I]['ve=>have]">I've had to you know hurry and rush and wo- and blah blah blah   
+
+487.72 493.59 B: things like that just because you know they <contraction e_form="[do=>do][n't=>not]">don't want to pay me overtime or whatever but nine o'- if nine o'clock strikes I should be able to get out   
+
+494.23 496.84 B: just like everybody else because <contraction e_form="[I=>I]['m=>am]">I'm not getting paid for those extra minutes   
+
+496.87 497.20 A: mhm   
+
+497.31 497.92 B: that <contraction e_form="[I=>I]['m=>am]">I'm there   
+
+498.23 499.38 A: I thought you you said you were   
+
+499.89 501.73 B: only only seven minutes and after   
+
+502.04 502.54 A: oh okay   
+
+502.99 505.68 B: yeah and the thing is is I <contraction e_form="[do=>do][n't=>not]">don't goof around or anything   
+
+506.06 508.85 B: you know <contraction e_form="[it=>it]['s=>is]">it's not like I I nine o'clock strikes and   
+
+509.29 511.18 B: bam you know I- <contraction e_form="[I=>I]['m=>am]">I'm sitting there   
+
+511.43 513.77 B: spending five minutes getting ready nothing like that   
+
+514.04 514.59 B: you know I-    
+
+514.85 517.97 B: those minutes are after nine o'clock I spend working   
+
+518.41 518.70 A: mhm   
+
+518.79 520.74 B: you know and <contraction e_form="[that=>that]['s=>is]">that's what gets me really mad and <contraction e_form="[I=>I]['ve=>have]">I've   
+
+521.27 522.63 B: done this for a very long time   
+
+523.08 526.59 B: while everybody else in clerical <contraction e_form="[do=>do][n't=>not]">don't <contraction e_form="[do=>do][n't=>not]">don't do that because everybody just leaves   
+
+526.59 526.92 A: mhm   
+
+526.91 528.73 B: you know and they <contraction e_form="[do=>do][n't=>not]">don't get talked to nothing   
+
+528.95 529.23 A: yeah   
+
+529.19 530.85 B: you know <contraction e_form="[I=>I]['m=>am]">I'm always stuck getting there late   
+
+531.51 534.32 B: and then not just that but %um also the assistants I mean   
+
+534.86 537.44 B: finally on S- %uh just last Saturday   
+
+537.45 537.72 A: %mm   
+
+538.35 539.25 B: I mean I was just   
+
+539.58 542.75 B: so mad because they scheduled me by myself   
+
+543.41 545.31 B: until from eight thirty to five thirty   
+
+546.27 549.03 B: %um everybody left at five o'clock so I had half an hour by myself   
+
+549.20 549.53 A: mhm   
+
+549.78 551.96 B: we were doing fine the whole entire day but finally   
+
+552.46 554.65 B: when when those two other clerical people left   
+
+555.18 559.47 B: I was by myself for that half hour okay fifteen minutes before five thirty   
+
+556.89 557.24 A: mhm   
+
+559.81 561.43 B: I was hit with a whole bunch of sales   
+
+561.56 561.95 A: mhm   
+
+561.77 562.84 B: the phones are ringing   
+
+563.01 564.91 B: people are coming up to me asking me questions   
+
+565.18 565.55 A: mhm   
+
+565.40 567.42 B: the s- assistant supervisors did nothing   
+
+567.73 568.01 A: mhm   
+
+567.86 569.61 B: I ended up staying there until six o'clock   
+
+570.09 575.39 B: when after five thirty they started bitching about how late it was and that it was getting close to six o'clock but they <contraction e_form="[did=>did][n't=>not]">didn't help me   
+
+575.67 576.03 A: %mm   
+
+576.07 577.27 B: I mean that is their job   
+
+577.71 578.00 A: %mm   
+
+577.95 582.19 B: you know I mean if you know if they see me falling behind or whatever they <contraction e_form="[do=>do][n't=>not]">don't <contraction e_form="[it=>it]['s=>is]">it's not their job to s-   
+
+582.32 587.05 B: you know be behind me and rag about how late it is and blah blah blah because <contraction e_form="[I=>I]['m=>am]">I'm sitting there working   
+
+587.22 587.53 A: mhm   
+
+587.58 590.36 B: <contraction e_form="[I=>I]['m=>am]">I'm not I <contraction e_form="[was=>was][n't=>not]">wasn't taking my o- my sweet time <contraction e_form="[I=>I]['m=>am]">I'm very  
+
+591.24 596.12 B: <contraction e_form="[I=>I]['m=>am]">I'm very fast you know and it just got me so mad you know that that {breath}  
+

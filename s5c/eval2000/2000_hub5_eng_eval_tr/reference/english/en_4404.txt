@@ -1,0 +1,221 @@
+#Language: eng
+#File id: 4404
+#Starting at 500 Ending at 800
+# 500 510 #BEGIN
+# 790 800 #END
+
+
+500.56 504.55 A: %ah &Clint &Dewitt is engaged    
+
+503.82 505.41 B: oh [[drawn out]]   
+
+505.81 507.89 A: wedding date is still up in the air    
+
+508.19 508.87 B: okay    
+
+508.47 512.19 A: but most likely next summer after &Clint graduates    
+
+512.11 512.91 B: uh-huh   
+
+513.27 518.72 A: they closed on their house a couple of weeks ago so things are coming together for them.    
+
+518.87 520.06 B: mhm, &Clint and    
+
+519.38 521.12 A: they plan what?   
+
+521.20 522.65 B: &Clint and his girlfriend?   
+
+522.71 525.80 A: mhm her name is &Kris, with a K   
+
+526.06 526.71 B: okay   
+
+526.99 531.31 A: they plan to get married in &Topeka, since most of their friends are there    
+
+531.82 532.62 B: school friends   
+
+533.26 534.00 A: I suppose   
+
+534.26 534.61 B: yeah   
+
+535.80 537.14 A: but <contraction e_form="[is=>is][n't=>not]">isn't that interesting?   
+
+537.42 537.81 B: yeah   
+
+539.80 544.11 A: and she says <contraction e_form="[she=>she]['s=>has]">she's started walking every morning before she goes to work    
+
+544.97 546.91 A: {breath} and <contraction e_form="[has=>has][n't=>not]">hasn't lost an ounce    
+
+547.83 548.94 B: and lost an ounce?   
+
+549.02 549.85 A: <contraction e_form="[has=>has][n't=>not]">hasn't   
+
+550.10 553.26 B: oh, I was going to say, how could you tell if <contraction e_form="[you=>you]['ve=>have]">you've lost an ounce    
+
+552.55 553.93 A: no, it <contraction e_form="[has=>has][n't=>not]">hasn't    
+
+553.81 554.18 B: {laugh}    
+
+553.98 555.82 A: made an ounce of difference    
+
+555.51 556.22 B: I see   
+
+556.91 563.15 A: and %ah, so she says as soon as <contraction e_form="[she=>she]['s=>is]">she's all through at &Pizza &Hut, <contraction e_form="[she=>she]['s=>is]">she's going to start jazzercise again      
+
+563.22 564.73 B: {breath} good, I    
+
+564.30 565.94 A: just depending classes   
+
+565.69 567.29 B: uh-huh {breath}    
+
+567.83 573.07 B: you know today the doctor told &Rochelle had to go to the doctor today and the doctor told her that she was overweight    
+
+573.41 574.00 A: oh no   
+
+574.87 582.20 B: and we have had some problems with &Rochelle in the past and I always try to be really gentle in what I say to her about her weight    
+
+582.55 583.31 A: uh-huh   
+
+583.21 584.64 B: because <contraction e_form="[she=>she]['s=>has]">she's had some    
+
+586.09 587.93 B: inappropriate eating behavior   
+
+588.33 589.22 A: {laugh}    
+
+589.10 592.28 B: %um like the making herself throw up stuff    
+
+592.63 593.60 A: oh no    
+
+593.33 595.05 B: and the %um   
+
+595.12 597.66 A: bulimia, and anorexia nervos-   
+
+597.00 598.98 B: yeah, yeah, <contraction e_form="[she=>she]['s=>has]">she's    
+
+599.65 606.05 B: had some strange stuff. Also {breath} she went through a period where she was saying she was throwing up all the time and she <contraction e_form="[was=>was][n't=>not]">wasn't.    
+
+607.11 607.49 A: %hm   
+
+607.76 610.39 B: or at least if she was, <contraction e_form="[there=>there]['s=>was]">there's was no evidence of it    
+
+610.60 611.85 A: a bid for attention?   
+
+612.28 615.63 B: yeah yeah that was, it was very strange    
+
+616.58 621.35 B: that was back a number of years ago. anyway, I try to be real gentle in what I say because    
+
+621.99 624.29 B: &Jody is real nasty {exhalation}    
+
+624.70 625.78 B: he just is rude    
+
+626.33 626.69 A: (( ))    
+
+626.49 628.16 B: and <contraction e_form="[he=>he]['s=>is]">he's %um {breath}    
+
+629.07 632.35 B: all brothers I guess are rude, but <contraction e_form="[he=>he]['s=>is]">he's more rude I think then    
+
+633.02 636.37 B: than it seems necessary to me {breath}   
+
+637.73 640.97 B: he rides her hard all the time about everything    
+
+641.18 643.16 A: I I think this is normal    
+
+643.49 645.47 B: yeah, and I thought the doctor was    
+
+647.23 652.34 B: maybe a little more abrupt than he needed to be, it <contraction e_form="[was=>was][n't=>not]">wasn't our regular doctor    
+
+655.00 655.61 B: {breath}    
+
+655.82 656.46 A: {breath}    
+
+656.37 662.46 B: so <contraction e_form="[I=>I]['m=>am]">I'm working with her attitude on it, and <contraction e_form="[she=>she]['s=>has]">she's gone through some real depression    
+
+663.27 665.80 B: about weight, because    
+
+666.49 669.65 B: she tends to have friends who are built like &Jackie and &Jenny    
+
+670.07 670.76 A: %uh oh   
+
+671.18 671.88 B: and y-    
+
+671.76 672.17 A: yeah   
+
+672.04 673.55 B: you know one of the things ma    
+
+674.20 677.69 B: she <contraction e_form="[wo=>will][n't=>not]">won't go to the mall, what teenage girls like to do is go to the mall with their friends    
+
+678.69 684.05 B: because they want to go in to these teeny tiny shops the three five and seven or five   
+
+682.13 684.70 A: and try things on   
+
+684.90 688.52 B: yes, and then they want her to try things on, and things <contraction e_form="[do=>do][n't=>not]">don't fit    
+
+688.95 689.30 A: yeah   
+
+689.22 692.23 B: and she feels like <contraction e_form="[they=>they]['re=>were]">they're deliberately humiliating her    
+
+693.30 701.60 B: because she feels so humiliated and surely they must of known this would be humiliating well {breath} <contraction e_form="[I=>I]['m=>am]">I'm sure they are completely clueless    
+
+702.09 704.11 B: (( )) understand how terrible it feels ju- --   
+
+702.23 702.55 A: yeah   
+
+704.42 705.84 B: but I also (( ))    
+
+706.46 706.77 A: yeah   
+
+706.58 708.76 B: and she wears about a size fourteen    
+
+710.24 710.92 B: and she is just    
+
+712.62 717.67 B: having such a rough time with that. {laugh} &Jenny told her she needed new friends {laugh}   
+
+717.39 718.43 A: {laugh}    
+
+718.59 718.86 B: {breath}    
+
+718.63 719.67 A: fat ones {laugh}    
+
+719.66 721.36 B: well, normal size   
+
+721.27 721.59 A: {breath}    
+
+721.86 725.87 B: <contraction e_form="[I=>I]['m=>am]">I'm {breath} she has friends that look like eight year olds    
+
+726.94 727.48 A: yeah   
+
+727.59 731.71 B: when I see her with her friends, they <contraction e_form="[do=>do][n't=>not]">don't look like <contraction e_form="[they=>they]['re=>are]">they're all the same age    
+
+733.77 738.21 B: and she just, needs some more, normal {laugh} sized friends    
+
+739.41 744.66 A: I get to thinking, my very best friends were always short. 
+
+747.72 753.55 A: and I <contraction e_form="[do=>do][n't=>not]">don't know if <contraction e_form="[it=>it]['s=>is]">it's because I was short myself, taller people intimidated me    
+
+756.01 761.45 B: I <contraction e_form="[do=>do][n't=>not]">don't know, well you know, my very best friend {laugh}   
+
+762.38 762.70 A: yeah   
+
+762.55 768.17 B: lin- &Linda I think got to be five ten, or five ten and a half something like that   
+
+766.03 767.38 A: {laugh} something like that    
+
+768.41 769.47 A: yeah {laugh}   
+
+768.95 771.86 B: and in high school, her nickname was &Legs   
+
+771.67 774.77 A: {laugh}    
+
+774.90 777.18 B: however, as an adult, I find myself    
+
+779.34 785.97 B: in some ways feeling %um, a sort of bond when <contraction e_form="[I=>I]['m=>am]">I'm around short women    
+
+786.19 786.71 A: mhm   
+
+787.99 794.60 B: in oh yeah, this feels real comfortable here are other people who understand what <contraction e_form="[it=>it]['s=>is]">it's like when your feet <contraction e_form="[do=>do][n't=>not]">don't reach the floor {laugh}.    
+
+794.76 795.13 A: yeah 
+
+795.33 797.11 B: Why you want to carry along a briefcase  
+
+797.63 800.01 B: when <contraction e_form="[you=>you]['re=>are]">you're going to be sitting in a conference room for a long time  
+

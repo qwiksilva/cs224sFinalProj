@@ -1,0 +1,18 @@
+signal 3994-B-0070
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.173036  121 now
+    0.344962  121 what
+    0.450429  121 h#
+    0.659919  121 kind
+    0.891976  121 music
+    1.019804  121 do
+    1.084658  121 you
+    1.333172  121 listen
+    1.507990  121 to
+    1.526772  121 h#

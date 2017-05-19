@@ -1,0 +1,124 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.000000
+xmax = 1.290000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "Speaker - phone"
+		xmin = 0.000000
+		xmax = 1.290000
+		intervals: size = 17
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.083000
+				text = "AE1"
+			intervals [3]:
+				xmin = 0.083000
+				xmax = 0.153000
+				text = "M"
+			intervals [4]:
+				xmin = 0.153000
+				xmax = 0.223000
+				text = "EY1"
+			intervals [5]:
+				xmin = 0.223000
+				xmax = 0.293000
+				text = "K"
+			intervals [6]:
+				xmin = 0.293000
+				xmax = 0.323000
+				text = "S"
+			intervals [7]:
+				xmin = 0.323000
+				xmax = 0.353000
+				text = "S"
+			intervals [8]:
+				xmin = 0.353000
+				xmax = 0.383000
+				text = "EH1"
+			intervals [9]:
+				xmin = 0.383000
+				xmax = 0.413000
+				text = "N"
+			intervals [10]:
+				xmin = 0.413000
+				xmax = 0.443000
+				text = "S"
+			intervals [11]:
+				xmin = 0.443000
+				xmax = 0.473000
+				text = "K"
+			intervals [12]:
+				xmin = 0.473000
+				xmax = 0.502000
+				text = "AH0"
+			intervals [13]:
+				xmin = 0.502000
+				xmax = 0.532000
+				text = "Z"
+			intervals [14]:
+				xmin = 0.532000
+				xmax = 1.032000
+				text = "sp"
+			intervals [15]:
+				xmin = 1.032000
+				xmax = 1.252000
+				text = "IY1"
+			intervals [16]:
+				xmin = 1.252000
+				xmax = 1.272000
+				text = "sp"
+			intervals [17]:
+				xmin = 1.272000
+				xmax = 1.290000
+				text = "sp"
+	item [2]:
+		class = "IntervalTier"
+		name = "Speaker - word"
+		xmin = 0.000000
+		xmax = 1.290000
+		intervals: size = 9
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.083000
+				text = "THAT"
+			intervals [3]:
+				xmin = 0.083000
+				xmax = 0.323000
+				text = "MAKES"
+			intervals [4]:
+				xmin = 0.323000
+				xmax = 0.443000
+				text = "SENSE"
+			intervals [5]:
+				xmin = 0.443000
+				xmax = 0.532000
+				text = "CAUSE"
+			intervals [6]:
+				xmin = 0.532000
+				xmax = 1.032000
+				text = "sp"
+			intervals [7]:
+				xmin = 1.032000
+				xmax = 1.252000
+				text = "YOU"
+			intervals [8]:
+				xmin = 1.252000
+				xmax = 1.272000
+				text = "sp"
+			intervals [9]:
+				xmin = 1.272000
+				xmax = 1.290000
+				text = "sp"

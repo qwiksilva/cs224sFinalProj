@@ -1,0 +1,96 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.000000
+xmax = 1.510000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "Speaker - phone"
+		xmin = 0.000000
+		xmax = 1.510000
+		intervals: size = 12
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.362000
+				text = "sp"
+			intervals [3]:
+				xmin = 0.362000
+				xmax = 0.463000
+				text = "W"
+			intervals [4]:
+				xmin = 0.463000
+				xmax = 0.512000
+				text = "UH1"
+			intervals [5]:
+				xmin = 0.512000
+				xmax = 0.563000
+				text = "D"
+			intervals [6]:
+				xmin = 0.563000
+				xmax = 0.672000
+				text = "Y"
+			intervals [7]:
+				xmin = 0.672000
+				xmax = 0.732000
+				text = "UW1"
+			intervals [8]:
+				xmin = 0.732000
+				xmax = 0.792000
+				text = "R"
+			intervals [9]:
+				xmin = 0.792000
+				xmax = 1.103000
+				text = "AY1"
+			intervals [10]:
+				xmin = 1.103000
+				xmax = 1.282000
+				text = "D"
+			intervals [11]:
+				xmin = 1.282000
+				xmax = 1.432000
+				text = "sp"
+			intervals [12]:
+				xmin = 1.432000
+				xmax = 1.510000
+				text = "sp"
+	item [2]:
+		class = "IntervalTier"
+		name = "Speaker - word"
+		xmin = 0.000000
+		xmax = 1.510000
+		intervals: size = 7
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.362000
+				text = "sp"
+			intervals [3]:
+				xmin = 0.362000
+				xmax = 0.563000
+				text = "WOULD"
+			intervals [4]:
+				xmin = 0.563000
+				xmax = 0.732000
+				text = "YOU"
+			intervals [5]:
+				xmin = 0.732000
+				xmax = 1.282000
+				text = "RIDE"
+			intervals [6]:
+				xmin = 1.282000
+				xmax = 1.432000
+				text = "sp"
+			intervals [7]:
+				xmin = 1.432000
+				xmax = 1.510000
+				text = "sp"

@@ -1,0 +1,17 @@
+signal 3942-A-0045
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.348610  121 h#
+    0.457543  121 you
+    0.712635  121 know
+    1.142615  121 going
+    1.557172  121 to
+    1.753745  121 h#
+    1.926162  121 the
+    2.493883  121 public
+    2.564306  121 h#

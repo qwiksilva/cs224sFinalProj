@@ -1,0 +1,138 @@
+%!PS-Adobe-2.0
+%%Version: 3.15
+%%DocumentFonts: (atend)
+%%Pages: (atend)
+%%EndComments
+% @(#)postprint.ps	1.7	10/15/90
+%ident	"@(#)lp:filter/postscript/postscript/postprint.ps	1.1"
+%
+% Version 3.15 prologue for ASCII files.
+%
+
+/#copies 1 store
+/aspectratio 1 def
+/font /Courier def
+/formsperpage 1 def
+/landscape false def
+/magnification 1 def
+/margin 10 def
+/orientation 0 def
+/pointsize 10 def
+/encoding {ISOLatin1Encoding} def
+/xoffset .50 def
+/yoffset -0.25 def
+
+/roundpage true def
+/useclippath true def
+/pagebbox [0 0 612 792] def
+
+/inch {72 mul} bind def
+/min {2 copy gt {exch} if pop} bind def
+
+/setup {
+	counttomark 2 idiv {def} repeat pop
+
+	landscape {/orientation 90 orientation add def} if
+	systemdict /encodefont known
+	{font findfont pointsize scalefont encoding encodefont setfont}
+	{font findfont pointsize scalefont setfont}
+	ifelse
+	/charwidth (M) stringwidth pop def
+	/linespace pointsize pointsize .10 mul add neg def
+
+	pagedimensions
+	xcenter ycenter translate
+	orientation neg rotate
+	width 2 div neg height 2 div translate
+	xoffset inch yoffset inch translate
+	margin 2 div dup neg translate
+	magnification dup aspectratio mul scale
+	height width div 1 min dup scale
+	0 linespace translate
+} def
+
+/pagedimensions {
+	useclippath userdict /gotpagebbox known not and {
+		/pagebbox [clippath pathbbox newpath] def
+		roundpage currentdict /roundpagebbox known and {roundpagebbox} if
+	} if
+	pagebbox aload pop
+	4 -1 roll exch 4 1 roll 4 copy
+	landscape {4 2 roll} if
+	sub /width exch def
+	sub /height exch def
+	add 2 div /xcenter exch def
+	add 2 div /ycenter exch def
+	userdict /gotpagebbox true put
+} def
+
+/pagesetup {/page exch def 0 0 moveto 0} bind def
+
+/L {
+	counttomark 2 idiv {charwidth mul currentpoint exch pop moveto show} repeat
+	linespace add dup 0 exch moveto
+} bind def
+
+/l {show linespace add dup 0 exch moveto} bind def
+
+/done {/lastpage where {pop lastpage} if} def
+%%EndProlog
+%%BeginSetup
+mark
+/landscape true def
+/pointsize 8.3146 def
+setup
+%%EndSetup
+%%Page: 1 1
+save
+mark
+1 pagesetup
+(,-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.)l
+(|)0(By System Test Subset Scoring Summary)70(|)176 L
+(|)0(For the Hub 5 Eval 1999 CallHome + Swb : SRI Contrastive Systems Test)54(|)176 L
+(|)0(|)176 L
+(|)0(Overall)27(->)83(The Complete Test Set)131(|)176 L
+(|)0(Callhome)27(->)83(Callhome conversations)130(|)176 L
+(|)0(Switchboard)25(->)83(Switchboard conversations)129(|)176 L
+(|)0(Female)28(->)83(Female Caller)135(|)176 L
+(|)0(Male)29(->)83(Male Caller)136(|)176 L
+(|)0(Callhome Female)23(->)83(Callhome Female Caller)130(|)176 L
+(|)0(Callhome Male)24(->)83(Callhome Male Caller)131(|)176 L
+(|)0(Switchboard Female)22(->)83(Switchboard Female Caller)129(|)176 L
+(|)0(Switchboard Male)23(->)83(Switchboard Male Caller)130(|)176 L
+(|)0(|)176 L
+(|)0(|)176 L
+(|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|)l
+(|)0(|)11(||)30(Corpus)46(||)66(Sex)83(||)101(Corpus/Sex)134(|)176 L
+(|----------+------------------++----------------+-----------------++----------------+----------------++-----------------+---------------+--------------------+------------------|)l
+(|  SYSTEM  |     Overall)0(||    Callhome    |   Switchboard   ||     Female     |)30(Male)91(|| Callhome Female | Callhome Male | Switchboard Female | Switchboard Male |)101 L
+(|)0(|     #Wrd %WE     ||    #Wrd %WE    |     #Wrd %WE    ||    #Wrd %WE    |    #Wrd %WE    ||     #Wrd %WE    |    #Wrd %WE   |)11(#Wrd %WE)143(|     #Wrd %WE     |)157 L
+(|===============================================================================================================================================================================|)l
+(|)0(|)11(Set/Subset #Words and System Set/Subset Average Word Error Rate)62(|)176 L
+(|----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------|)l
+(| sri1.ctm | [42993]     30.2 || [21594]   35.0 | [21399]    25.4 || [27933]   30.6 | [15060]   29.5 ||  [17258]   34.3 | [4336]   37.5 |   [10675]     24.5 |  [10724]    26.2 |)l
+(| sri2.ctm | [42993]     31.0 || [21594]   36.0 | [21399]    26.0 || [27933]   31.6 | [15060]   30.0 ||  [17258]   35.3 | [4336]   38.7 |   [10675]     25.5 |  [10724]    26.5 |)l
+(|===============================================================================================================================================================================|)l
+(|)0(|)11(Set/Subset Mean #Words/Speaker and Set/Subset Mean Word Error Rate/Speaker)56(|)176 L
+(|----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------|)l
+(| sri1.ctm |   [524]     32.7 ||   [514]   39.0 |   [534]    26.0 ||   [547]   33.4 |   [485]   31.5 ||    [539]   38.3 |  [433]   41.6 |     [561]     25.3 |    [510]    26.7 |)l
+(| sri2.ctm |   [524]     33.6 ||   [514]   40.2 |   [534]    26.6 ||   [547]   34.4 |   [485]   32.2 ||    [539]   39.3 |  [433]   43.4 |     [561]     26.2 |    [510]    26.9 |)l
+(|----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------|)l
+(|)0(|)11(Associated Standard Deviations)78(|)176 L
+(|----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------|)l
+(| sri1.ctm |   [211]     13.6 ||   [261]   15.3 |   [143]     7.0 ||   [223]   15.1 |   [187]   10.8 ||    [252]   16.7 |  [289]    9.8 |     [169])0(6.6 |    [114]     7.5 |)153 L
+(| sri2.ctm |   [211]     14.0 ||   [261]   15.7 |   [143]     7.0 ||   [223]   15.3 |   [187]   11.7 ||    [252]   16.8 |  [289]   11.4 |     [169])0(6.7 |    [114]     7.3 |)153 L
+(|===============================================================================================================================================================================|)l
+(|)0(|)11(Set/Subset Median #Words/Speaker and Set/Subset Median Word Error Rate/Speaker)54(|)176 L
+(|----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------|)l
+(| sri1.ctm |   [525]     30.0 ||   [507]   36.2 |   [536]    25.0 ||   [539]   30.1 |   [470]   29.1 ||    [536]   34.7 |  [413]   39.1 |     [543]     23.2 |    [489]    26.2 |)l
+(| sri2.ctm |   [525]     31.9 ||   [507]   37.7 |   [536]    25.6 ||   [539]   31.9 |   [470]   31.1 ||    [536]   35.7 |  [413]   39.1 |     [543]     24.5 |    [489]    25.8 |)l
+(`-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')l
+cleartomark
+showpage
+restore
+%%EndPage: 1 1
+%%Trailer
+done
+%%DocumentFonts: Courier
+%%Pages: 1

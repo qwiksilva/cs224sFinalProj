@@ -1,0 +1,384 @@
+
+
+
+                  CU-HTK1 MARCH 2000 HUB 5E SYSTEM
+
+1) PRIMARY TEST SYSTEM DESCRIPTION:
+-----------------------------------
+
+The CU-HTK1 system for the March 2000 Hub-5E evaluation is a
+continuous mixture density, tied state cross-word context-dependent
+HMM system based on the HTK HMM Toolkit. The system includes triphone
+and quinphone HMMs trained using both maximum likelihood estimation
+(MLE) and maximum mutual information estimation (MMIE).  The overall
+system operates in multiple passes and performs vocal-tract length
+normalisation (VTLN) in training and test. Lattices are generated
+using MMIE triphone models. The final passes of the system use
+quinphone MLE and MMIE HMMs and iterative test-set maximum likelihood
+linear regression (MLLR) adaptation to rescore the word lattices. The
+language model for these final passes is a merged word-based 4-gram
+model interpolated with a class-based trigram language model. The
+final output is given by combining the lattice output of the MLE and
+MMIE triphone and quinphone HMMs based on the posterior probability
+estimates of lattice links.
+
+Particular features of the system are as follows:
+* Acoustic features are 13 cepstral coefficients (including C0)
+  and their first and second derivatives (total 39 dimensions).
+  The cepstra are derived from a modified PLP analysis, denoted MF-PLP
+  that uses the mel-scale filterbank from standard MFCC analysis [20].
+  The mel-scale filterbank covers 125Hz to 3.8kHz.
+* Analysis for each segment used only a single channel and the time-marks
+  identified in the PEM file.
+* Cepstral features are normalised for each conversation side by side-based 
+  cepstral mean subtraction and side-based cepstral variance normalisation.
+* VTLN warping factors are found by alignment of audio with a word level 
+  transcription using a set of HMMs for different warping factors and the 
+  maximum likelihood warping factor selected. The warping factors evaluated 
+  were selected using the Brent search method. The VTLN implementation used 
+  scales the analysis filterbank centre-frequencies. 
+* Tied-state cross-word context dependent phone models with tied states chosen
+  by a decision-tree based state-clustering  algorithm [21]. The decision tree
+  uses rules that are based on left and right contexts and a tree is grown for
+  each state of each base phone.  Distributions to model states of unseen 
+  contexts are chosen using the appropriate decision tree.
+* Two types of HMM sets (triphone and quinphone) were trained using VTLN 
+  warped data. Gender independent models were initially trained using 
+  conventional MLE via the Baum-Welch algorithm. In each case the Gaussian  
+  mixtures were estimated using an iterative mixture-splitting procedure [21]. 
+  After these initial MLE models were created two variants of each were formed:
+  one using MLE training and the other using MMIE.
+* The triphone set is word-position independent. The triphone HMM set 
+  contained 6165 speech states, and each was modelled with a 16 component 
+  Gaussian mixture distribution. 
+* The final passes of the system used the quinphone models which are built
+  with decision trees that use the two preceding and two following 
+  phones as context as well as the position of word boundaries. The quinphone
+  HMM set contains 9640 speech states, each state characterised by 
+  a 16 component mixture Gaussian. 
+* The MLE gender independent triphone HMMs were first trained using a 68 hour 
+  subset of the full training data (h5train00sub) up to 12 Gaussian
+  components per state. This model set was then trained on the 
+  full 265 hour data set (h5train00) up to 16 mixture components. The MLE
+  quinphone models were trained from scratch on h5train00.
+* The gender independent MMIE models were estimated in a lattice-based
+  framework [18]. The implementation varies in a number of ways
+  compared to that described in [18]. Word lattices were created for every 
+  training segment in h5train00 using a fast decoder and a bigram language 
+  model. These lattices were then aligned to find phone boundaries with the 
+  appropriate (triphone or quinphone) model set for both the recogniser 
+  produced word lattices and for the true transcriptions to form phone-marked 
+  word lattices. These include unigram language model probabilities as 
+  suggested in [17]. Using these phone-boundary marked lattices, the numerator
+  and denominator of the Extended Baum-Welch (EBW) algorithm [4][14] were 
+  computed to give the parameter updates. A key difference to previous 
+  practice was that the acoustic model log likelihoods were scaled down by 
+  the usual language model scale factor during training and the language model
+  log probabilities left unscaled. The implementation employs a true 
+  forward-backward pass on the lattices constrained by the lattice 
+  phone-boundaries and an alignment margin. The "D" constant in EBW formula
+  is set on a per-Gaussian basis.
+* The quinphone and triphone MLE models were further trained using the soft-
+  tying technique [10]. The core state clustered mixture distributions are 
+  enlarged to include the mixture components from 2 other similar states 
+  from the same phone. Therefore each speech state had 48 mixture weights, 
+  but the overall number of Gaussians within the system remained unchanged. 
+  The state-state similarity measure used a Gaussian overlap distance 
+  computation [16] based on a single Gaussian per state.
+* Gender dependent versions of the soft-tied triphones and quinphones were
+  created, by a single iteration of MLE training updating just the mean  and
+  mixture weight parameters.
+* Test-set unsupervised adaptation on each conversation side used iterative 
+  maximum likelihood linear regression (MLLR) technique described in [8][9] 
+  extended to include variance compensation [2]. The mean vectors of all 
+  mixture components are adapted by a set of block-diagonal transform
+  matrices. The transform matrices for the variances are diagonal. The 
+  regression classes are defined using a regression-class tree [9]. 
+* The use of a full-variance transform [3] after MLLR adaptation. The data
+  and the MLLR-adapted model means are altered to efficiently implement a 
+  single block-diagonal variance transformation for each conversation side.
+* Use of bigram and trigram merged backoff word language models in
+  the triphone acoustic decoding passes. The individual word models to be 
+  merged were estimated from i) the transcriptions in the h5train00LM data set,
+  ii) the transcriptions from the LM training transcriptions we used for
+  the 1998 Hub5 evaluation (h5train98LM) and iii) transcriptions of broadcast 
+  news (BN) data. LM merging essentially performs interpolation but forms a 
+  single resultant language model. Later stages of decoding used a merged 
+  4-gram word model interpolated with a class-based language model (400 
+  classes) trained on the  h5train98LM transcriptions.
+* 54k word recognition vocabulary containing only English words and estimated 
+  from h5train00LM, h5train98LM and including the most frequent 50k words from
+  the BN transcriptions. 
+* Multiple pronunciations used during training and decoding. Pronunciation 
+  probabilities are used in the triphone and quinphone lattice rescoring 
+  passes of the system of the style described in [6]. 
+* At various stages in the system, the generated lattices were used to
+  find the hypothesis with the lowest expected word error rate. This
+  decoding step is based on word-level posterior probabilities estimated
+  using the forward-backward algorithm from the likelihoods (acoustic,
+  LM, pronunciations) stored in the lattice and a clustering procedure that
+  combines mutually supporting hypotheses [11]. In addition to the 1-best 
+  sequence this yields a compact linear graph ('confusion network') that 
+  contains the best alternative hypotheses with their associated posteriors. 
+  These posteriors are mapped using a decision tree to yield the final 
+  confidence scores [1].
+* Recognition operates in a number of stages. The decoders used were 
+  time-synchronous and could run in a single pass, generate or rescore 
+  lattices. The latter passes use the dynamic network decoder [15]. 
+  A. Pass 1 uses non-VTLN gender independent models with the merged trigram 
+     language model run at fairly tight beamwidths. The recognised 
+     transcription is then used to select the most likely warping factor for 
+     all subsequent passes. This used exactly the same set-up (acoustic and 
+     language models) as for the September 1998 Hub5 evaluation. The 
+     word-level output of this stage is used to choose the more likely gender 
+     for each side: the gender-dependent side likelihood is obtained using 
+     gender dependent versions of the Pass 1 HMMs with a forced Viterbi 
+     alignment.
+  B. Pass 2 uses gender independent VTLN MMIE triphone HMMs models and the 
+     merged trigram language model, with output lattices rescored with a 
+     4-gram. The transcriptions generated are used to estimate global MLLR 
+     (i.e. a single transformation for all speech Gaussians and another for 
+     silence) transforms for each conversation side.
+  C. Pass 3 performs lattice generation using global-transform adapted MMIE 
+     triphone models. The merged bigram is used with more conservative 
+     beamwidths than for Stages A and B.
+  D. Application of interpolated merged 4-gram and class trigram. The bigram 
+     lattices from stage C. were expanded using the merged trigram and then 
+     expanded using an interpolation of the merged 4-gram and the class-
+     trigram model. At each stage of expansion the lattices were pruned until 
+     of appropriate size for subsequent processing. The most likely path
+     through these lattices was generated using an A* search and used as 
+     adaptation supervision for stages E.i and F.i. The expanded 
+     4-gram/category trigram lattices are used for all subsequent lattice 
+     rescoring passes. There are two subsequent paths in the following 
+     stages - one of which is a path using MMIE-trained models and the other 
+     is a path using MLE-trained models.
+  E.i The gender independent MMIE triphones were used with pronunciation 
+     probabilities, a global MLLR transform and a full-variance transform are
+     used to rescore the lattices from D.. The lowest expected word error rate
+     sequence was used to provide adaptation supervision for stage F.i.
+  E.ii The gender-dependent soft-tied MLE trained triphones were used with
+     pronunciation probabilities, a global MLLR transform and a full-variance
+     transform to rescore the lattices from D. The lowest expected word error
+     rate sequence was used as adaptation supervision for stage F.ii.
+  F.i The gender independent MMIE quinphones were used with pronunciation 
+     probabilities, a MLLR transform and a full-variance transform to 
+     rescore the lattices from D. and the lowest expected word error rate 
+     sequence computed. Two iterative passes of adaption and decoding [19] 
+     were performed, the first using a single MLLR speech transform and the 
+     second using 2 MLLR speech transforms.
+  F.ii The gender-dependent soft-tied MLE trained quinphones were used with
+     pronunciation probabilities, a global MLLR transform and a full-variance
+     transform to rescore the lattice from D, and the lowest expected word 
+     error rate sequence computed.
+  G. The confusion networks produced in the four stages, E.i, E.ii, F.i and 
+     F.ii, were combined using a dynamic programming procedure that 
+     employed the full set of alternative hypotheses and their posteriors to 
+     find the optimal alignment of the different stages' outputs. Given this 
+     alignment the final overall system hypothesis is chosen based on the 
+     posterior distribution represented by the corresponding confusion network
+     segments. For this final hypothesis the corresponding confidence score is
+     generated.
+
+
+2) ACOUSTIC TRAINING:
+---------------------
+* Initial triphone training used a 68 hour subset, h5train00sub, of the 
+  available Hub5 training corpus. The subset was chosen to contain sides for 
+  all the Switchboard I training speakers we had available (we excluded the 
+  sides from various test-sets) and a subset of the Call Home English (CHE) 
+  sides. This set contained data from 862 Switchboard I sides and 92 CHE sides.
+* The full acoustic training set contained data from 4482 Switchboard I sides 
+  and 235 CHE sides. This represented 265 hours of data and 267,611 segments.
+* The segmentations and transcriptions for Switchboard were taken from the 
+  January 2000 release from Mississippi State University. Considerable effort 
+  was applied to make these transcriptions and segmentations suitable for 
+  acoustic training.
+* For the CHE data segments were defined using the word-alignments supplied 
+  by the LDC. Segments were defined at speaker turn boundaries. 
+* All segment transcriptions were "checked" using a forced alignment procedure 
+  and those that failed to align or gave particularly poor likelihood 
+  scores were not included in the training pool.
+
+
+3) GRAMMAR TRAINING:
+--------------------
+* Word-based language models trained for the 54k word recognition
+  vocabulary based on Hub5 data. One set of models were trained using the 
+  Mississippi State transcriptions as a basis (h5train00LM) and including 
+  the full-forms of false-starts, and the other used the Hub5 LM training
+  in the HTK September 1998 system (h5train98LM). The average segment
+  lengths for these two sets of transcriptions is significantly different.
+* For both of these data pools, backoff word-based bigram, trigram and 4-gram 
+  language models were trained. The models based on h5train00LM contained
+  455k bigrams, 279k trigrams and 238k 4-grams and those based on h5train98LM 
+  contained 426k bigrams, 293k trigrams and 281k 4-grams.
+* Similarly bigram, trigram and 4-gram LMs were trained using the 54k word-
+  list using the Broadcast News data ranging in epoch from January 1992 to 
+  December 1997. The resulting BN model had 4.7 million bigrams, 5.8 million 
+  trigrams and 6.2 million 4-grams.
+* Single merged word based models were created which resulted in effectively
+  interpolating the above three models and forming a single resultant language
+  model file.
+* The class language model used 400 automatically generated word
+  classes based on word bigram statistics [7][12][13]. Both the categories and 
+  the trigram category model were built using  only the Hub5 training data 
+  transcriptions. Bigrams and trigrams are only added to the class model 
+  if they improve the training set leave-one-out perplexity. The final class
+  model contained 104k bigrams and 263k trigrams.
+* The final interpolated 4-gram had weight of 0.31 BN word model, 0.33 
+  h5train98LM word model, 0.19 h5train00LM model, and 0.17 class trigram model.
+  These weights were chosen by minimising perplexity over a number of 
+  development sets.
+
+
+4) RECOGNITION LEXICON DESCRIPTION:
+-----------------------------------
+* The 54,535 entry wordlist was generated from the Switchboard and Call Home
+  training data transcriptions in h5train98LM and h5train00LM, and the most
+  50k frequent words in the BN corpus. We only included words for which we
+  had pronunciations available in one of our lexicons. Some spelling 
+  corrections were made. The 54k word-list had an OOV rate of 0.43% on (a 
+  processed version of) the 1997 Hub 5 evaluation data and 0.30% on the 1998 
+  evaluation set.
+* Pronunciation information for training and testing came from the 
+  LIMSI 1993 WSJ Lexicon. This was augmented with pronunciations generated 
+  by a text-to-speech system mapped to use the LIMSI phone set. Some of the 
+  pronunciations from the TTS system were hand-corrected.
+
+
+5) DIFFERENCES FOR EACH CONTRAST CONDITION:
+-------------------------------------------
+The following contrasts were submitted:
+
+cu-htk2 : 2-way system combination (rather than 4-way) using the MMIE triphone
+          and quinphone output (confusion networks from stages E.i and F.i 
+          combined)
+cu-htk3 : 2-way system combination (rather than 4-way) using the MLE triphone
+          and quinphone output (confusion networks from stages E.ii and F.ii 
+          combined)
+cu-htk4 : MMIE quinphone output - stage F.i alone.
+
+
+6) NEW CONDITIONS FOR THIS EVALUATION:
+--------------------------------------
+Relative to the system developed for the September 1998 evaluation [5],
+new techniques used include: very large scale MMIE training;
+pronunciation probabilities; soft tying; full variance transform;
+minimum expected word error rate analysis via confusion networks;
+4-way confusion network combination; confidence scores from posterior
+probabilities with tree mapping.
+
+7) EXECUTION TIMES:
+------------------
+The approximate speed of execution is given as a multiple of real-time
+(xRT) using a single Intel Pentium III 550MHz processor on a dual
+processor Intel Lancewood server board with the second processor in
+use concurrently. Not all jobs were run on this type of machine and so
+a rough conversion factor has been used for some processing so
+that times are reported in a consistent fashion.  The machines used
+contained enough RAM so that swapping was not an issue. Memory refers
+to the average maximum memory used per side.
+
+Recognition Stages referred to above:
+                                    Speed (xRT)    Memory (MB)
+Stage A                                  18           300
+Stage B                                  19           160
+Stage C                                  39           270
+Stage D                                  10           110
+Stage E.i                                27           159
+Stage E.ii                               33           169
+Stage F.i (two data passes)              64           380
+Stage F.ii                               35           395
+
+Other Components:
+Data Coding                              0.2            
+MLLR/Full Variance Adaptation (total)    7              
+VTLN Selection                           2.5
+Gender Detection                         0.1
+                                         --- 
+                                 Total: ~255
+
+
+8) REFERENCES:
+-------------
+[1] G. Evermann & P.C. Woodland (2000). "Large Vocabulary Decoding and 
+    Confidence Estimation using Word Posterior Probabilities." To appear Proc.
+    ICASSP'2000, Istanbul.
+
+[2] M.J.F. Gales & P.C. Woodland (1996). "Mean and Variance Adaptation 
+    Within the MLLR Framework."  Computer Speech & Language,  Vol. 10, 
+    pp. 249-264.
+
+[3] M.J.F. Gales (1998). "Maximum Likelihood Linear Transformations for 
+    HMM-based Speech Recognition". Computer Speech & Language, Vol. 12, 
+    pp. 75-98.
+
+[4] P.S. Gopalakrishnan, D. Kanevsky, A. Nadas & D. Nahamoo (1991). "An
+    Inequality for Rational Functions with Applications to some Statistical
+    Estimation Problems". IEEE Trans. Information Theory, Vol. 37, pp. 107-113.
+
+[5] T. Hain, P.C. Woodland, T.R. Niesler & E.W.D. Whittaker (1999). "The
+    1998 HTK System for Transcription of Conversational Telephone Speech".
+    Proc. ICASSP'99, pp. 57-60, Phoenix.
+
+[6] T. Hain & P.C. Woodland (1999). "Recent Experiments with the CU-HTK Hub5
+    System". Presented at Hub5 Workshop, June 1999.
+
+[7] R. Kneser & H. Ney (1993). "Improved Clustering Techniques for 
+    Class-Based Statistical Language Modelling". Proc. Eurospeech'93,
+    pp. 973-976, Berlin.
+
+[8] C.J. Leggetter & P.C. Woodland (1995). "Maximum Likelihood Linear 
+    Regression for Speaker Adaptation of Continuous Density HMMs."
+    Computer Speech & Language, Vol. 9, No. 2, pp. 171-186.
+
+[9] C.J. Leggetter & P.C. Woodland (1995). "Flexible Speaker Adaptation Using 
+    Maximum Likelihood Linear Regression." Proc. ARPA 1995 Spoken Language 
+    Technology Workshop, pp. 110-115, Morgan Kaufmann.
+
+[10] X. Luo & F. Jelinek (1999). "Probabilistic Classification of HMM States 
+     for Large Vocabulary Continuous Speech Recognition", Proc. ICASSP'99,  
+     pp. 2044-2047, Phoenix.
+
+[11] L. Mangu, E. Brill & A. Stolcke (1999). "Finding Consensus Among Words:
+     Lattice-Based Word Error Minimization" Proc. Eurospeech'99,
+     pp. 495-498, Budapest.
+
+[12] S. Martin, J. Liermann & H. Ney (1995). "Algorithms for Bigram and Trigram
+     Clustering." Proc. Eurospeec'95, pp. 1253-1256, Madrid.
+
+[13] T.R. Niesler, E.W.D. Whittaker & P.C. Woodland (1998). Comparison of 
+     Part-Of-Speech and Automatically Derived Category-Based Language Models 
+     for Speech Recognition". Proc. ICASSP'98, pp. 177-180, Seattle.
+
+[14] Y. Normandin (1991). "An Improved MMIE Training Algorithm for Speaker 
+     Independent, Small Vocabulary, Continuous Speech Recognition." Proc. 
+     ICASSP'91, pp. 537-540, Toronto.
+
+[15] J.J. Odell, V. Valtchev, P.C. Woodland & S.J. Young (1994). "A One Pass 
+     Decoder Design For Large Vocabulary Recognition." Proc. 1994 ARPA Human 
+     Language Technology Workshop, pp. 405-410, Morgan Kaufmann.
+
+[16] D. Povey & P.C. Woodland (1999). "Frame Discrimination Training of HMMs
+     for Large Vocabulary Speech Recognition", Proc. ICASSP'99, pp. 333-336,
+     Phoenix.
+
+[17] R. Schlueter, B. Mueller, F. Wessel & H. Ney (1999). "Interdependence of 
+     Language Models and Discriminative Training." Proc IEEE ASRU Workshop, 
+     pp. 119-122, Keystone, Colorado.
+
+[18] V. Valtchev, J.J. Odell, P.C. Woodland & S.J. Young (1997). "MMIE 
+     Training of Large Vocabulary Speech Recognition Systems". Speech 
+     Communication, Vol. 22, pp 303-314.
+
+[19] P.C. Woodland, D. Pye & M.J.F. Gales (1996). "Iterative Unsupervised 
+     Adaptation Using Maximum Likelihood Linear Regression", Proc. ICSLP'96,
+     pp. 1133-1136, Philadelphia.
+
+[20] P.C. Woodland, M.J.F. Gales, D. Pye & S.J. Young (1997). "Broadcast
+     News Transcription Using HTK", Proc. ICASSP'97, pp. 719-722, Munich.
+
+[21] S.J. Young, J.J. Odell & P.C. Woodland (1994). "Tree-Based State Tying for
+     High Accuracy Acoustic Modelling." Proc. 1994 ARPA Human Language 
+     Technology Workshop,  pp. 307-312, Morgan Kaufmann.

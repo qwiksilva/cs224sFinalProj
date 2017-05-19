@@ -1,0 +1,15 @@
+signal 3994-B-0032
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.176000  121 h#
+    1.023244  121 concertos
+    1.299494  121 and
+    1.455554  121 other
+    1.852355  121 stuff
+    1.966794  121 but
+    2.096062  121 h#

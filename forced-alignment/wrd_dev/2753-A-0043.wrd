@@ -1,0 +1,17 @@
+signal 2753-A-0043
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.299242  121 h#
+    0.755399  121 home
+    0.77167  121 h#
+    1.2146  121 for
+    1.8609  121 dinner
+    2.16247  121 and
+    2.41034  121 the
+    2.61375  121 uh
+    2.86399  121 h#

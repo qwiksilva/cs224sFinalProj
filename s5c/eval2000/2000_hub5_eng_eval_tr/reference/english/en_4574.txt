@@ -1,0 +1,212 @@
+#Language: eng
+#File id: 4574
+#
+# 255 #BEGIN
+# 594 #END
+
+
+
+255.92 257.43 A: do you have your door in by now?  
+
+257.86 265.10 B: oh, god yes.  <contraction e_form="[I=>I]['ve=>have]">I've got my door in my front yard and {breath} &Watson comes in and out and runs up and down the stairs and races outside again and   
+
+264.71 265.51 A: how cool  
+
+265.90 274.03 B: today he had a visiting dog, that %ah, came over to put %ah, nice pretty dog a, a, one of those &Blue &Tick, you know    
+
+274.91 276.91 B: {sniff} liver spotted type dog  
+
+276.98 277.41 A: %hm  
+
+277.41 283.21 B: big dog, ran, kind of got left home and was wandering the streets and so we took him in and called his owner and  
+
+283.21 286.59 B: {breath} watched and played with him for a long time and had a really good time so 
+
+287.06 287.21 A: %hm  
+
+287.58 288.35 B: {lipsmack} and I almost felt --  
+
+288.04 288.66 A: oh, <contraction e_form="[that=>that]['s=>is]">that's neat.  
+
+288.46 293.45 B: -- {breath} I felt bad when I sent him back home because they said well he could, st-, <contraction e_form="[he=>he]['s=>is]">he's tied up all the time. and I thought,   
+
+293.53 296.25 B: oh, that poor dog, I wish I <contraction e_form="[had=>had][n't=>not]">hadn't called you   
+
+296.75 301.56 A: well take a picture of your new door too from the outside and the inside, <contraction e_form="[I=>I]['d=>would]">I'd like to see that   
+
+302.18 304.15 B: well, <contraction e_form="[it=>it]['s=>is]">it's a beautiful door, {breath}, it   
+
+304.08 304.79 A: <contraction e_form="[I=>I]['m=>am]">I'm sure [distorted]  
+
+304.21 304.73 B: so 
+
+305.25 307.05 A: does it have a stoop then outside?  
+
+307.62 308.79 B: no it has a stone.  
+
+309.40 310.16 A: just a stone.  
+
+310.28 310.99 B: yeah, I went and  
+
+310.81 312.34 A: see in, in, these --  
+
+312.14 312.39 B: I we-  
+
+312.44 314.49 A: -- parts, you have to have a three foot stoop.  
+
+314.89 318.82 B: well, not for this you <contraction e_form="[do=>do][n't=>not]">don't. because <contraction e_form="[it=>it]['s=>is]">it's <contraction e_form="[it=>it]['s=>is]">it's you <contraction e_form="[do=>do][n't=>not]">don't have to have anything. you could   
+
+318.78 319.00 A: %mm  
+
+318.91 322.92 B: just step outside. {breath} but <contraction e_form="[it=>it]['s=>is]">it's, I went and got a, %um 
+
+323.22 326.69 B: {lipsmack} I picked, I went to a stone quarry and picked out a stone   
+
+326.80 327.21 A: mhm  
+
+327.23 329.94 B: and had this great big stone delivered. and then they also delivered   
+
+329.97 333.58 B: two stones that they put down in the river so I can go down and stand {breath}  
+
+333.95 337.35 B: y- <contraction e_form="[it=>it]['s=>is]">it's really nice having a little, a couple little because it used to be <contraction e_form="[I=>I]['d=>would]">I'd go down and <contraction e_form="[I=>I]['d=>would]">I'd  
+
+337.61 338.52 B: be in muck, and then --  
+
+338.42 338.83 A: in muck  
+
+338.59 339.21 B: -- dead. now I --  
+
+339.01 339.68 A: right, %huh.  
+
+339.23 341.38 B: -- go and I stand on my beautiful stones   
+
+341.19 343.19 A: {laugh} how neat  
+
+343.95 345.34 A: It sounds really nice   
+
+345.44 346.22 B: yeah <contraction e_form="[it=>it]['s=>is]">it's nice   
+
+346.14 346.64 A: yeah  
+
+346.90 347.84 B: so what have you been doing?  
+
+348.39 354.60 A: well, <contraction e_form="[I=>I]['ve=>have]">I've just been working, but <contraction e_form="[I=>I]['m=>am]">I'm planning my next vacation which is, <contraction e_form="[I=>I]['m=>am]">I'm going in September to &Japan.  
+
+354.86 355.59 B: wow  
+
+355.56 356.61 A: {lipsmack} how about that?  
+
+355.82 356.97 B: oh, a rich girl  
+
+357.39 360.17 A: well, no actually, <contraction e_form="[I=>I]['m=>am]">I'm going into debt to do it, but  
+
+360.89 366.06 A: I decided, you know, <contraction e_form="[I=>I]['ve=>have]">I've been telling my students, because &Rachel lived here two years ago, and  
+
+366.06 368.59 A: <contraction e_form="[she=>she]['s=>was]">she's the one that really said come and stay with me   
+
+369.04 372.33 A: and then this other girl that I had as as a student ten years ago,   
+
+372.72 378.61 A: still keeps in touch, and she called me and said when are you coming, and I thought if I <contraction e_form="[do=>do][n't=>not]">don't go <contraction e_form="[they=>they]['re=>are]">they're going to stop asking me.  
+
+379.07 385.17 A: and that way, you know and this way at least it, you know, I can go and have a place to stay part of the time anyway.     
+
+385.61 388.56 A: but <contraction e_form="[I=>I]['m=>am]">I'm going on a courier flight too, you know, where,   
+
+388.30 388.70 B: oh.  
+
+389.06 392.99 A: %um, you carry somebody else's luggage, or something else for somebody  
+
+392.03 393.80 B: {laugh} drugs  
+
+393.73 394.42 A: well maybe  
+
+393.96 398.96 B: <contraction e_form="[do=>do][n't=>not]">don't carry anything illegal, and if <contraction e_form="[you=>you]['re=>are]">you're going to, <contraction e_form="[do=>do][n't=>not]">don't discuss it now on the taped conversation.  
+
+398.46 405.41 A: {laugh} really. well, <contraction e_form="[it=>it]['s=>is]">it's really like being a spy, you should see these instructions I have, you know it say's like you have to get to the airport and --  
+
+405.72 411.03 A: look for a guy in a blue jacket with a certain kind of s-, insignia on it and he will give you   
+
+411.30 417.90 A: papers and take you to the luggage place and check you in and then the luggage will go and then you have one carry on piece,  
+
+418.24 419.55 A: that you get to take, and then 
+
+420.41 423.21 A: and then when you get to &Japan, you have to   
+
+423.66 428.50 A: deliver the papers to a guy <contraction e_form="[that=>that]['s=>is]">that's in a certain location in the immigration area, and then   
+
+428.78 430.22 A: he will take the luggage   
+
+429.30 431.02 B: what kind of things are you carrying?  
+
+431.64 438.05 A: I think <contraction e_form="[you=>you]['re=>are]">you're carrying, probably <contraction e_form="[I=>I]['m=>am]">I'm carrying, boxes of stuff, or I might be carrying suitcases, I <contraction e_form="[do=>do][n't=>not]">don't know  
+
+437.56 439.35 B: well I mean well what kind of things will be in them?  
+
+440.08 444.50 A: well I <contraction e_form="[do=>do][n't=>not]">don't know, maybe documents or industrial stuff, I have no idea.  
+
+445.07 451.39 A: but <contraction e_form="[it=>it]['s=>is]">it's all, <contraction e_form="[it=>it]['s=>is]">it's, I mean, <contraction e_form="[it=>it]['s=>is]">it's all legal, they guarantee <contraction e_form="[it=>it]['s=>is]">it's legal, and <contraction e_form="[there=>there]['s=>is]">there's a guy there that gives you the papers and takes the papers, so <contraction e_form="[it=>it]['s=>is]">it's not like   
+
+451.62 454.21 A: {breath} you go through and the customs people say   
+
+454.80 457.70 A: well, and the, and the papers say <contraction e_form="[what=>what]['s=>is]">what's in the stuff, you know   
+
+458.03 463.50 A: but <contraction e_form="[there=>there]['s=>is]">there's a guy there that, to explain it so, supposedly <contraction e_form="[it=>it]['s=>has]">it's got to be legal stuff.    
+
+463.79 467.85 A: and then when you come back you call, you call a man named &Mister &Noriko, and you  
+
+467.88 470.97 A: tell him that <contraction e_form="[you=>you]['re=>are]">you're back in town, and <contraction e_form="[he=>he]['ll=>will]">he'll tell you where to meet him and then,   
+
+471.27 478.22 A: you go to the airport and you meet a guy who may or may not give you things to bring back, because <contraction e_form="[that=>that]['s=>is]">that's %um   
+
+479.02 484.16 A: <contraction e_form="[that=>that]['s=>is]">that's not sure, but he gives you back your tickets. see when you get to &Japan, they take your return ticket     
+
+484.67 491.78 A: and you <contraction e_form="[can't=>cannot]">can't have it back until you come back {laugh} and so %um, then you get back, then <contraction e_form="[there=>there]['s=>is]">there's a guy at this end that meets you,  
+
+490.50 491.23 B: {cough}   
+
+492.08 493.22 A: and then as soon as he [background sound]  
+
+492.58 494.42 B: {cough} this is very bizarre   
+
+494.08 501.55 A: takes you, I know {laugh}, but &Buffy, <contraction e_form="[it=>it]['s=>is]">it's, <contraction e_form="[it=>it]['s=>is]">it's like a third of the cost of the round trip ticket to &Japan, in fact,  
+
+501.93 506.64 A: it it was four hundred dollars round trip, right, to &Japan, so and <contraction e_form="[it=>it]['s=>is]">it's like  
+
+506.27 507.47 B: four hundred dollars?  
+
+507.38 507.81 A: yeah  
+
+507.93 510.15 B: jesus, it must be about seventeen hundred from here  
+
+510.35 513.78 A: <contraction e_form="[it=>it]['s=>is]">it's <contraction e_form="[it=>it]['s=>is]">it's twelve hundred from here. but <contraction e_form="[it=>it]['s=>is]">it's, <contraction e_form="[I=>I]['m=>am]">I'm paying four  
+
+513.63 515.14 B: oh. I was going to say  
+
+514.55 516.37 A: <contraction e_form="[I=>I]['m=>am]">I'm paying four hundred. yeah   
+
+516.47 517.36 B: oh, <contraction e_form="[that=>that]['s=>is]">that's very cheap  
+
+517.45 520.32 A: yeah, but %um, but the it <contraction e_form="[it=>it]['s=>is]">it's   
+
+519.77 521.36 B: and then if you have a place to stay,   
+
+521.50 522.45 A: right, and <contraction e_form="[it=>it]['s=>is]">it's [distortion]  
+
+521.93 525.84 B: now of course I understand it costs about eight hundred dollars a day to just walk around, but  
+
+525.45 531.10 A: well, [distortion] and <contraction e_form="[I=>I]['m=>am]">I'm going to get a train pass like you know they have in &Europe, but they have one in &Japan because  
+
+531.44 534.67 A: flying is real expensive, and I want to go all these places, and  
+
+534.74 539.52 A: though everybody says well you should fly there because you <contraction e_form="[do=>do][n't=>not]">don't have very much time, but one flight in ja-  
+
+538.75 541.51 B: so <contraction e_form="[you=>you]['re=>are]">you're going to get on one of those trains where they shove you in [channel noise]  
+
+540.96 542.36 A: right, a bullet train   
+
+541.78 544.92 B: they push you in behind and, behind and pack you in   
+
+545.38 552.50 A: one, one, flight in &Japan, like I wanted to go &Hokkaido, <contraction e_form="[that=>that]['s=>is]">that's where &Sapporo is, you know in the very north, north part   
+
+553.04 558.08 A: and a round trip flight from &Tokyo costs more than my round trip flight to &Japan  
+

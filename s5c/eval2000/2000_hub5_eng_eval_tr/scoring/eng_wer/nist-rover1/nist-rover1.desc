@@ -1,0 +1,39 @@
+       NIST ROVER/1999 PRIMARY SYSTEM
+       HUB-4 CORE TEST
+ 
+
+1) PRIMARY TEST SYSTEM DESCRIPTION:
+
+The ROVER [fiscus] system was applied to the five systems submitted
+for the 2000 English Hub-5 evaluation.  The systems used were:
+
+	att1-debugged
+	bbn1-debugged
+	cu-htk1
+	msstate1
+	sri1
+
+The ASR system outputs of the five systems were pre-processed using
+the Global Mapping file from the evaluation in order to normalize the
+transcripts.  Voting was done without regard to confidence scores since
+only three of the five participants supplied confidence scores.
+
+2) ACOUSTIC TRAINING:
+	N/A
+ 
+3) GRAMMAR TRAINING:
+	N/A
+
+4) RECOGNITION LEXICON DESCRIPTION:
+	N/A
+
+5) DIFFERENCES FOR EACH CONTRASTIVE TEST:
+	N/A
+ 
+6) NEW CONDITIONS FOR THIS EVALUATION:
+
+7) REFERENCES:
+[fiscus] J. G. Fiscus, A post--processing system to yield reduced word 
+error rates: recognizer output voting error reduction (rover). Technical
+report, National Institute of Standards and Technology, 1997.
+

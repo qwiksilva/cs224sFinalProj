@@ -1,0 +1,14 @@
+signal 2151-A-0029
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.108250  121 h#
+    0.210000  121 THAT
+    0.350000  121 THEY
+    0.526336  121 SHOULD
+    0.720000  121 DO
+    1.110000  121 SOMETIME

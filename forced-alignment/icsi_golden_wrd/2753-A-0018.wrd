@@ -1,0 +1,22 @@
+signal 2753-A-0018
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.324072  121 h#
+    0.770000  121 there
+    0.887513  121 h#
+    1.281066  121 is
+    1.563293  121 not
+    2.144956  121 exactly
+    2.204489  121 a
+    2.423204  121 lot
+    2.753036  121 of
+    2.992265  121 h#
+    3.309543  121 physical
+    4.204959  121 responsibility
+    4.557742  121 there
+    4.663694  121 h#

@@ -1,0 +1,12 @@
+signal 2335-A-0020
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.691703  121 h#
+    0.846292  121 that's
+    1.263826  121 true
+    1.515213  121 h#

@@ -1,0 +1,108 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.000000
+xmax = 1.110000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "Speaker - phone"
+		xmin = 0.000000
+		xmax = 1.110000
+		intervals: size = 13
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.233000
+				text = "OW1"
+			intervals [3]:
+				xmin = 0.233000
+				xmax = 0.333000
+				text = "Y"
+			intervals [4]:
+				xmin = 0.333000
+				xmax = 0.372000
+				text = "EH1"
+			intervals [5]:
+				xmin = 0.372000
+				xmax = 0.413000
+				text = "S"
+			intervals [6]:
+				xmin = 0.413000
+				xmax = 0.512000
+				text = "sp"
+			intervals [7]:
+				xmin = 0.512000
+				xmax = 0.742000
+				text = "OW1"
+			intervals [8]:
+				xmin = 0.742000
+				xmax = 0.852000
+				text = "sp"
+			intervals [9]:
+				xmin = 0.852000
+				xmax = 0.912000
+				text = "Y"
+			intervals [10]:
+				xmin = 0.912000
+				xmax = 0.992000
+				text = "EH1"
+			intervals [11]:
+				xmin = 0.992000
+				xmax = 1.022000
+				text = "S"
+			intervals [12]:
+				xmin = 1.022000
+				xmax = 1.103000
+				text = "sp"
+			intervals [13]:
+				xmin = 1.103000
+				xmax = 1.110000
+				text = "sp"
+	item [2]:
+		class = "IntervalTier"
+		name = "Speaker - word"
+		xmin = 0.000000
+		xmax = 1.110000
+		intervals: size = 9
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.233000
+				text = "OH"
+			intervals [3]:
+				xmin = 0.233000
+				xmax = 0.413000
+				text = "YES"
+			intervals [4]:
+				xmin = 0.413000
+				xmax = 0.512000
+				text = "sp"
+			intervals [5]:
+				xmin = 0.512000
+				xmax = 0.742000
+				text = "OH"
+			intervals [6]:
+				xmin = 0.742000
+				xmax = 0.852000
+				text = "sp"
+			intervals [7]:
+				xmin = 0.852000
+				xmax = 1.022000
+				text = "YES"
+			intervals [8]:
+				xmin = 1.022000
+				xmax = 1.103000
+				text = "sp"
+			intervals [9]:
+				xmin = 1.103000
+				xmax = 1.110000
+				text = "sp"

@@ -1,0 +1,16 @@
+signal 2753-B-0007
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.342488  121 h#
+    0.490000  121 i
+    0.814517  121 think
+    0.946437  121 that
+    1.131732  121 for
+    1.429661  121 so
+    2.087187  121 long
+    2.425050  121 h#

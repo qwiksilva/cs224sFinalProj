@@ -1,0 +1,13 @@
+signal 2335-A-0036
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.13  121 h#
+    0.436987  121 adult
+    0.821335  121 crime
+    0.961532  121 and
+    1.0035  121 h#

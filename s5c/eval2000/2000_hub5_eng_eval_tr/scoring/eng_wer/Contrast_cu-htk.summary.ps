@@ -1,0 +1,146 @@
+%!PS-Adobe-2.0
+%%Version: 3.15
+%%DocumentFonts: (atend)
+%%Pages: (atend)
+%%EndComments
+% @(#)postprint.ps	1.7	10/15/90
+%ident	"@(#)lp:filter/postscript/postscript/postprint.ps	1.1"
+%
+% Version 3.15 prologue for ASCII files.
+%
+
+/#copies 1 store
+/aspectratio 1 def
+/font /Courier def
+/formsperpage 1 def
+/landscape false def
+/magnification 1 def
+/margin 10 def
+/orientation 0 def
+/pointsize 10 def
+/encoding {ISOLatin1Encoding} def
+/xoffset .50 def
+/yoffset -0.25 def
+
+/roundpage true def
+/useclippath true def
+/pagebbox [0 0 612 792] def
+
+/inch {72 mul} bind def
+/min {2 copy gt {exch} if pop} bind def
+
+/setup {
+	counttomark 2 idiv {def} repeat pop
+
+	landscape {/orientation 90 orientation add def} if
+	systemdict /encodefont known
+	{font findfont pointsize scalefont encoding encodefont setfont}
+	{font findfont pointsize scalefont setfont}
+	ifelse
+	/charwidth (M) stringwidth pop def
+	/linespace pointsize pointsize .10 mul add neg def
+
+	pagedimensions
+	xcenter ycenter translate
+	orientation neg rotate
+	width 2 div neg height 2 div translate
+	xoffset inch yoffset inch translate
+	margin 2 div dup neg translate
+	magnification dup aspectratio mul scale
+	height width div 1 min dup scale
+	0 linespace translate
+} def
+
+/pagedimensions {
+	useclippath userdict /gotpagebbox known not and {
+		/pagebbox [clippath pathbbox newpath] def
+		roundpage currentdict /roundpagebbox known and {roundpagebbox} if
+	} if
+	pagebbox aload pop
+	4 -1 roll exch 4 1 roll 4 copy
+	landscape {4 2 roll} if
+	sub /width exch def
+	sub /height exch def
+	add 2 div /xcenter exch def
+	add 2 div /ycenter exch def
+	userdict /gotpagebbox true put
+} def
+
+/pagesetup {/page exch def 0 0 moveto 0} bind def
+
+/L {
+	counttomark 2 idiv {charwidth mul currentpoint exch pop moveto show} repeat
+	linespace add dup 0 exch moveto
+} bind def
+
+/l {show linespace add dup 0 exch moveto} bind def
+
+/done {/lastpage where {pop lastpage} if} def
+%%EndProlog
+%%BeginSetup
+mark
+/landscape true def
+/pointsize 7.7486 def
+setup
+%%EndSetup
+%%Page: 1 1
+save
+mark
+1 pagesetup
+(,--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.)l
+(|)0(By System Test Subset Scoring Summary)76(|)189 L
+(|)0(For the Hub 5 Eval 1999 CallHome + Swb : CU-HTK Contrastive Systems Test)59(|)189 L
+(|)0(|)189 L
+(|)0(Overall)29(->)90(The Complete Test Set)142(|)189 L
+(|)0(Callhome)29(->)90(Callhome conversations)141(|)189 L
+(|)0(Switchboard)27(->)90(Switchboard conversations)140(|)189 L
+(|)0(Female)30(->)90(Female Caller)146(|)189 L
+(|)0(Male)31(->)90(Male Caller)147(|)189 L
+(|)0(Callhome Female)25(->)90(Callhome Female Caller)141(|)189 L
+(|)0(Callhome Male)26(->)90(Callhome Male Caller)142(|)189 L
+(|)0(Switchboard Female)24(->)90(Switchboard Female Caller)140(|)189 L
+(|)0(Switchboard Male)25(->)90(Switchboard Male Caller)141(|)189 L
+(|)0(|)189 L
+(|)0(|)189 L
+(|----------------------------------------------------------------------------------------------------------------++--------------------------------------------------------------------------|)l
+(|)0(|)14(||)33(Corpus)50(||)71(Sex)91(||)113(Corpus/Sex)147(|)189 L
+(|-------------+------------------++------------------+-----------------++-----------------------+----------------++------------------+---------------+--------------------+------------------|)l
+(|   SYSTEM    |     Overall)0(||     Callhome     |   Switchboard   ||)33(Female)81(|)96(Male)103(|| Callhome Female  | Callhome Male | Switchboard Female | Switchboard Male |)113 L
+(|)0(|     #Wrd %WE     ||     #Wrd %WE     |     #Wrd %WE    ||)14(#Wrd %WE)81(|    #Wrd %WE    ||     #Wrd %WE     |    #Wrd %WE   |)96(#Wrd %WE)156(|     #Wrd %WE     |)170 L
+(|============================================================================================================================================================================================|)l
+(|)0(|)14(Set/Subset #Words and System Set/Subset Average Word Error Rate)70(|)189 L
+(|-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|)l
+(| cu-htk1.ctm | [42993]     25.4 || [21594]     31.4 | [21399]    19.3 || [27933])0(26.7 | [15060]   22.8 || [17258]     31.2 | [4336]   32.0 |   [10675]     19.4 |  [10724]    19.1 |)91 L
+(| cu-htk2.ctm | [42993]     25.6 || [21594]     31.7 | [21399]    19.5 || [27933])0(27.0 | [15060]   23.1 || [17258]     31.5 | [4336]   32.2 |   [10675]     19.7 |  [10724]    19.4 |)91 L
+(| cu-htk3.ctm | [42993]     26.5 || [21594]     32.4 | [21399]    20.6 || [27933])0(27.8 | [15060]   24.1 || [17258]     32.2 | [4336]   33.2 |   [10675]     20.7 |  [10724]    20.4 |)91 L
+(| cu-htk4.ctm | [42993]     26.5 || [21594]     32.6 | [21399]    20.3 || [27933])0(27.8 | [15060]   24.0 || [17258]     32.5 | [4336]   33.0 |   [10675]     20.3 |  [10724]    20.4 |)91 L
+(|============================================================================================================================================================================================|)l
+(|)0(|)14(Set/Subset Mean #Words/Speaker and Set/Subset Mean Word Error Rate/Speaker)64(|)189 L
+(|-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|)l
+(| cu-htk1.ctm |   [524]     27.3 ||   [514]     34.6 |   [534]    19.7 ||   [547])0(29.3 |   [485]   24.0 ||   [539]     35.0 |  [433]   33.4 |     [561]     19.9 |    [510]    19.5 |)91 L
+(| cu-htk2.ctm |   [524]     27.6 ||   [514]     34.9 |   [534]    19.9 ||   [547])0(29.7 |   [485]   24.1 ||   [539]     35.3 |  [433]   33.4 |     [561]     20.2 |    [510]    19.7 |)91 L
+(| cu-htk3.ctm |   [524]     28.2 ||   [514]     35.3 |   [534]    20.8 ||   [547])0(30.4 |   [485]   24.7 ||   [539]     35.9 |  [433]   33.4 |     [561]     21.1 |    [510]    20.6 |)91 L
+(| cu-htk4.ctm |   [524]     28.3 ||   [514]     35.6 |   [534]    20.7 ||   [547])0(30.4 |   [485]   25.0 ||   [539]     36.1 |  [433]   34.2 |     [561]     20.8 |    [510]    20.6 |)91 L
+(|-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|)l
+(|)0(|)14(Associated Standard Deviations)86(|)189 L
+(|-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|)l
+(| cu-htk1.ctm |   [211]     13.2 ||   [261]     14.3 |   [143]     5.4 ||   [223])0(14.8 |   [187]    9.3 ||   [252]     15.9 |  [289]    8.1 |     [169])91(4.9 |    [114]     5.9 |)166 L
+(| cu-htk2.ctm |   [211]     13.4 ||   [261]     14.6 |   [143]     5.4 ||   [223])0(15.0 |   [187]    9.3 ||   [252]     16.2 |  [289]    8.2 |     [169])91(4.8 |    [114]     6.0 |)166 L
+(| cu-htk3.ctm |   [211]     13.3 ||   [261]     14.7 |   [143]     5.7 ||   [223])0(15.0 |   [187]    9.3 ||   [252]     16.2 |  [289]    8.7 |     [169])91(5.2 |    [114]     6.3 |)166 L
+(| cu-htk4.ctm |   [211]     13.2 ||   [261]     14.3 |   [143]     5.3 ||   [223])0(14.9 |   [187]    9.1 ||   [252]     15.9 |  [289]    8.2 |     [169])91(4.9 |    [114]     5.7 |)166 L
+(|============================================================================================================================================================================================|)l
+(|)0(|)14(Set/Subset Median #Words/Speaker and Set/Subset Median Word Error Rate/Speaker)62(|)189 L
+(|-------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|)l
+(| cu-htk1.ctm |   [525]     25.5 ||   [507]     30.0 |   [536]    19.5 ||   [539])0(26.3 |   [470]   23.5 ||   [536]     29.7 |  [413]   30.8 |     [543]     19.3 |    [489]    19.8 |)91 L
+(| cu-htk2.ctm |   [525]     25.7 ||   [507]     30.9 |   [536]    19.3 ||   [539])0(26.0 |   [470]   22.7 ||   [536]     30.7 |  [413]   31.0 |     [543]     19.3 |    [489]    19.2 |)91 L
+(| cu-htk3.ctm |   [525]     25.5 ||   [507]     31.0 |   [536]    20.6 ||   [539])0(26.4 |   [470]   24.5 ||   [536]     31.0 |  [413]   30.9 |     [543]     19.6 |    [489]    22.1 |)91 L
+(| cu-htk4.ctm |   [525]     26.3 ||   [507]     31.9 |   [536]    20.6 ||   [539])0(27.5 |   [470]   24.5 ||   [536]     31.5 |  [413]   32.0 |     [543]     19.6 |    [489]    20.7 |)91 L
+(`--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')l
+cleartomark
+showpage
+restore
+%%EndPage: 1 1
+%%Trailer
+done
+%%DocumentFonts: Courier
+%%Pages: 1

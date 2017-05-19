@@ -1,0 +1,18 @@
+signal 3994-A-0017
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.737868  121 h#
+    1.027050  121 well
+    1.185281  121 i
+    1.329872  121 could
+    1.622495  121 play
+    1.853674  121 h#
+    1.919149  121 the
+    2.393844  121 woodchuck
+    2.740000  121 song
+    2.865421  121 h#

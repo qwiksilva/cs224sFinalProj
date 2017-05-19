@@ -1,0 +1,148 @@
+%!PS-Adobe-2.0
+%%Version: 3.15
+%%DocumentFonts: (atend)
+%%Pages: (atend)
+%%EndComments
+% @(#)postprint.ps	1.7	10/15/90
+%ident	"@(#)lp:filter/postscript/postscript/postprint.ps	1.1"
+%
+% Version 3.15 prologue for ASCII files.
+%
+
+/#copies 1 store
+/aspectratio 1 def
+/font /Courier def
+/formsperpage 1 def
+/landscape false def
+/magnification 1 def
+/margin 10 def
+/orientation 0 def
+/pointsize 10 def
+/encoding {ISOLatin1Encoding} def
+/xoffset .50 def
+/yoffset -0.25 def
+
+/roundpage true def
+/useclippath true def
+/pagebbox [0 0 612 792] def
+
+/inch {72 mul} bind def
+/min {2 copy gt {exch} if pop} bind def
+
+/setup {
+	counttomark 2 idiv {def} repeat pop
+
+	landscape {/orientation 90 orientation add def} if
+	systemdict /encodefont known
+	{font findfont pointsize scalefont encoding encodefont setfont}
+	{font findfont pointsize scalefont setfont}
+	ifelse
+	/charwidth (M) stringwidth pop def
+	/linespace pointsize pointsize .10 mul add neg def
+
+	pagedimensions
+	xcenter ycenter translate
+	orientation neg rotate
+	width 2 div neg height 2 div translate
+	xoffset inch yoffset inch translate
+	margin 2 div dup neg translate
+	magnification dup aspectratio mul scale
+	height width div 1 min dup scale
+	0 linespace translate
+} def
+
+/pagedimensions {
+	useclippath userdict /gotpagebbox known not and {
+		/pagebbox [clippath pathbbox newpath] def
+		roundpage currentdict /roundpagebbox known and {roundpagebbox} if
+	} if
+	pagebbox aload pop
+	4 -1 roll exch 4 1 roll 4 copy
+	landscape {4 2 roll} if
+	sub /width exch def
+	sub /height exch def
+	add 2 div /xcenter exch def
+	add 2 div /ycenter exch def
+	userdict /gotpagebbox true put
+} def
+
+/pagesetup {/page exch def 0 0 moveto 0} bind def
+
+/L {
+	counttomark 2 idiv {charwidth mul currentpoint exch pop moveto show} repeat
+	linespace add dup 0 exch moveto
+} bind def
+
+/l {show linespace add dup 0 exch moveto} bind def
+
+/done {/lastpage where {pop lastpage} if} def
+%%EndProlog
+%%BeginSetup
+mark
+/landscape true def
+/pointsize 11.4728 def
+setup
+%%EndSetup
+%%Page: 1 1
+save
+mark
+1 pagesetup
+(,------------------------------------------------------------------------------------------------------------------------------.)l
+(|)0(Composite Report of All Significance Tests)43(|)127 L
+(|)0(For the Hub 5 Eval 1999 CallHome + Swb : BBN Contrastive Systems Test)29(|)127 L
+(|)0(|)127 L
+(|)0(Test Name)53(Abbrev.)90(|)127 L
+(|)0(------------------------------------------------------     -------)31(|)127 L
+(|)0(Matched Pair Sentence Segment \(Word Error\))37(MP)92(|)127 L
+(|)0(Signed Paired Comparison \(Speaker Word Error Rate \(%\)\))31(SI)92(|)127 L
+(|)0(Wilcoxon Signed Rank \(Speaker Word Error Rate \(%\)\))33(WI)92(|)127 L
+(|)0(McNemar \(Sentence Error\))46(MN)92(|)127 L
+(|)0(|)127 L
+(|)0(|)127 L
+(|------------------------------------------------------------------------------------------------------------------------------|)l
+(|  Test   ||)0(| bbn1-bug.ctm |)31(bbn1-debugged.ctm)55(|)81(bbn1-pass1.ctm)92(||  Test   |)116 L
+(| Abbrev. ||)0(|)31(|)46(|)81(|| Abbrev. |)116 L
+(|---------++-------------------+--------------+----------------------------------+----------------------------------++---------|)l
+(|   MP    ||   bbn1-bug.ctm    |)0(| bbn1-debugged.ctm   <0.001   *** |    bbn1-pass1.ctm   <0.001   *** ||   MP    |)46 L
+(|   SI    ||)0(|)31(| bbn1-debugged.ctm   <0.001   *** |    bbn1-pass1.ctm   <0.001   *** ||   SI    |)46 L
+(|   WI    ||)0(|)31(| bbn1-debugged.ctm   <0.001   *** |    bbn1-pass1.ctm   <0.001   *** ||   WI    |)46 L
+(|   MN    ||)0(|)31(| bbn1-debugged.ctm   <0.001   *** |    bbn1-pass1.ctm   <0.001   *** ||   MN    |)46 L
+(|---------++-------------------+--------------+----------------------------------+----------------------------------++---------|)l
+(|   MP    || bbn1-debugged.ctm |)0(|)46(| bbn1-debugged.ctm   <0.001   *** ||   MP    |)81 L
+(|   SI    ||)0(|)31(|)46(| bbn1-debugged.ctm   <0.001   *** ||   SI    |)81 L
+(|   WI    ||)0(|)31(|)46(| bbn1-debugged.ctm   <0.001   *** ||   WI    |)81 L
+(|   MN    ||)0(|)31(|)46(| bbn1-debugged.ctm   <0.001   *** ||   MN    |)81 L
+(|---------++-------------------+--------------+----------------------------------+----------------------------------++---------|)l
+(|   MP    ||  bbn1-pass1.ctm   |)0(|)46(|)81(||   MP    |)116 L
+(|   SI    ||)0(|)31(|)46(|)81(||   SI    |)116 L
+(|   WI    ||)0(|)31(|)46(|)81(||   WI    |)116 L
+(|   MN    ||)0(|)31(|)46(|)81(||   MN    |)116 L
+(|------------------------------------------------------------------------------------------------------------------------------|)l
+(|)0(These significance tests are all two-tailed tests with the null hypothesis)27(|)127 L
+(|)0(that there is no performance difference between the two systems.)27(|)127 L
+(|)0(|)127 L
+(|)0(The first column indicates if the test finds a significant difference)27(|)127 L
+(|)0(at the level of p=0.05.  It consists of '~' if no difference is)27(|)127 L
+(|)0(found at this significance level.  If a difference at this level is)27(|)127 L
+(|)0(found, this column indicates the system with the higher value on the)27(|)127 L
+(|)0(performance statistic utilized by the particular test.)27(|)127 L
+(|)0(|)127 L
+(|)0(The second column specifies the minimum value of p for which the test)27(|)127 L
+(|)0(finds a significant difference at the level of p.)27(|)127 L
+(|)0(|)127 L
+(|)0(The third column indicates if the test finds a significant difference)27(|)127 L
+(|)0(at the level of p=0.001 \("***"\), at the level of p=0.01, but not)27(|)127 L
+(|)0(p=0.001 \("**"\), or at the level of p=0.05, but not p=0.01 \("*"\).)27(|)127 L
+(|)0(|)127 L
+(|)0(A test finds significance at level p if, assuming the null hypothesis,)27(|)127 L
+(|)0(the probability of the test statistic having a value at least as)27(|)127 L
+(|)0(extreme as that actually found, is no more than p.)27(|)127 L
+(`------------------------------------------------------------------------------------------------------------------------------')l
+cleartomark
+showpage
+restore
+%%EndPage: 1 1
+%%Trailer
+done
+%%DocumentFonts: Courier
+%%Pages: 1

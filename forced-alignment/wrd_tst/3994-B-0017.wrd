@@ -1,0 +1,17 @@
+signal 3994-B-0017
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.153291  121 i
+    0.196634  121 was
+    0.291988  121 going
+    0.336294  121 to
+    0.631987  121 say
+    0.721562  121 you
+    0.849663  121 h#
+    0.971986  121 you
+    1.013402  121 h#

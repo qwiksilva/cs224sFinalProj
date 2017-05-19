@@ -1,0 +1,17 @@
+signal 2753-A-0027
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.260291  121 h#
+    0.504757  121 but
+    0.827084  121 until
+    0.989498  121 you've
+    1.220000  121 seen
+    1.463294  121 some
+    1.528288  121 of
+    1.920245  121 those
+    2.225112  121 h#

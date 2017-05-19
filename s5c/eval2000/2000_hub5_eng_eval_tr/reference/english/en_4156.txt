@@ -1,0 +1,295 @@
+#Language: eng
+#File id: 4156
+#Starting at 300 Ending at 600
+# 300 310 #BEGIN
+# 590 600 #END
+
+
+
+
+298.74 301.66 B: everybody has a <contraction e_form="[Master=>Master]['s=>is]">Master's out here   
+
+301.85 302.48 A: oh yeah   
+
+302.97 304.72 B: Well it seems like it   
+
+304.71 306.72 A: Well <contraction e_form="[I=>I]['m=>am]">I'm going to have mine in two more classes   
+
+306.83 307.96 B: <contraction e_form="[you=>you]['re=>are]">you're kidding   
+
+307.63 311.16 A: no <contraction e_form="[I=>I]['m=>am]">I'm not well then I have to take my exams my orals but  
+
+308.77 309.30 B: oh    
+
+310.17 314.39 B: &Rachel do you know you can teach at a junior college then and get tenure and all   
+
+313.34 315.37 A: <contraction e_form="[that=>that]['s=>is]">that's kind of what I would like to do   
+
+315.24 316.82 B: heck yeah   
+
+316.83 319.20 A: I might even want to go on and get my P H D   
+
+317.09 318.56 B: Come out here to &California   
+
+319.24 321.15 B: Come out here in c- &California   
+
+321.55 322.16 A: <contraction e_form="[it=>it]['s=>is]">it's just that   
+
+323.05 327.38 A: I <contraction e_form="[do=>do][n't=>not]">don't know <contraction e_form="[it=>it]['s=>is]">it's so comfortable where I am and and if I {laugh}   
+
+325.48 328.20 B: <contraction e_form="[that=>that]['s=>is]">that's the danger zone   
+
+328.57 332.86 B: that is so dangerous that comfort zone will get you all the time   
+
+332.73 335.05 A: **&Leaky** listen I flew in a four seater plane   
+
+335.13 335.85 B: oh   
+
+335.79 338.72 A: I went to the &Lake of the &Ozarks tw- on Fourth of July weekend   
+
+338.85 339.28 B: yeah   
+
+339.05 342.51 A: I met this guy <contraction e_form="[he=>he]['s=>is]">he's a total yahoo but let me tell you   
+
+342.82 345.20 A: I there was something about him <contraction e_form="[he=>he]['s=>is]">he's in his forties   
+
+345.60 346.04 B: %uh oh   
+
+345.62 349.72 A: but there was something about him I was attracted to him {breath} not necessarily for 
+
+348.71 350.80 B: oh it was his plane damn it   
+
+350.93 352.66 A: N- {laugh}   
+
+351.40 353.31 B: <contraction e_form="[Do=>Do][n't=>not]">Don't trick yourself [[says with high-pitched screaming laughter]]   
+
+353.25 357.27 A: {inhale} <contraction e_form="[he=>he]['s=>is]">he's a listen to me <contraction e_form="[he=>he]['s=>is]">he's a {laugh}   
+
+353.38 357.94 B: {inhale} It was his plane <contraction e_form="[that=>that]['s=>is]">that's why you were attracted to him   
+
+357.64 359.64 A: {inhale} <contraction e_form="[he=>he]['s=>is]">he's a police officer   
+
+359.52 360.30 B: oh gross   
+
+360.19 365.45 A: and he <contraction e_form="[he=>he]['s=>has]">he's <contraction e_form="[he=>he]['s=>has]">he's never been married that I know what you mean oh gross I like men in uniform {inhale}   
+
+364.97 365.79 B: oh sick   
+
+365.58 371.13 A: but this guy he I <contraction e_form="[do=>do][n't=>not]">don't know I al- I found myself just being drawn toward him I go sit by him   
+
+369.98 371.17 B: where did you meet him   
+
+371.43 374.07 A: on the at the during this weekend he was there with us   
+
+374.39 375.80 B: what wee- oh in &New &Orleans   
+
+375.64 378.25 A: he was my friend's friend no this is at the &Lake of the &Ozarks   
+
+378.17 378.57 B: oh   
+
+378.56 379.69 A: on Fourth of July weekend   
+
+379.57 380.04 B: uh-huh   
+
+380.83 381.97 A: and I just really   
+
+382.50 386.96 A: I <contraction e_form="[do=>do][n't=>not]">don't know and then I find out my cousin calls and tells me he really likes you   
+
+386.99 388.95 B: oh no   
+
+387.78 390.68 A: (( )) <contraction e_form="[we=>we]['re=>are]">we're going to fly listen <contraction e_form="[we=>we]['re=>are]">we're going to fly over &Saint &Louis   
+
+390.87 393.75 A: he was going to take me for a ride in his plane {laugh}   
+
+392.90 397.30 B: I just <contraction e_form="[do=>do][n't=>not]">don't know why I am attracted to him it could be his &Cessna that we were in   
+
+397.05 401.75 A: {inhale} {laugh} no <contraction e_form="[it=>it]['s=>is]">it's not that kind of a plane <contraction e_form="[it=>it]['s=>is]">it's a small four seater   
+
+398.16 399.47 B: oh my well see   
+
+401.04 402.83 B: {lipsmack} so I have no men   
+
+403.81 405.60 A: what happened to the one you were going out with   
+
+405.53 406.22 B: &Randy   
+
+406.39 406.96 A: yeah   
+
+406.99 408.45 B: he went moved to &Texas   
+
+408.80 411.20 A: oh well that put a stop to that one {laugh}   
+
+409.07 409.66 B: and then he   
+
+410.91 413.81 B: I know and then <contraction e_form="[he=>he]['s=>is]">he's coming back in September but going   
+
+414.16 416.17 B: to &U &C &L &A to start his Masters   
+
+416.83 421.86 B: and then and and check this out okay he appli- <contraction e_form="[he=>he]['s=>is]">he's doing his Masters in Public Health   
+
+422.06 422.58 A: uh-huh   
+
+422.83 428.19 B: twelve black people got accepted to the &School of &Public &Health in September of ninety five at &U &C &L &A   
+
+428.21 428.69 A: uh-huh   
+
+428.93 430.91 B: two of them were black men   
+
+431.42 434.11 B: out of the twelve black people two were black men   
+
+434.45 436.44 B: and those two black men are   
+
+436.82 438.96 B: **duntduduntan** [[singing]]   
+
+439.19 440.96 B: &Geoffrey and &Randy   
+
+440.83 442.94 A: oh my goodness   
+
+442.81 446.04 B: Can you ima- &Rachel is that like a   
+
+446.37 448.01 B: needle in a haystack   
+
+448.30 449.44 A: {laugh}   
+
+449.29 453.13 B: &U &C &L &A I meet two black guys in my jungle fever mode  
+
+453.24 454.56 A: {laugh}   
+
+453.55 456.45 B: and <contraction e_form="[they=>they]['re=>are]">they're both in the same Masters department   
+
+456.88 457.70 A: {inhale}   
+
+456.99 458.24 B: September ninety five   
+
+458.51 460.80 A: but <contraction e_form="[they=>they]['re=>are]">they're friends <contraction e_form="[are=>are][n't=>not]">aren't they <contraction e_form="[is=>is][n't=>not]">isn't that how you met &Randy   
+
+459.93 460.71 B: No   
+
+461.02 462.90 B: No I met &Ran-   
+
+461.06 463.07 A: oh ((you mean)) [distorted] you just met &Randy casually   
+
+463.26 465.10 B: I met &Randy on my own   
+
+465.35 469.74 B: I met him February twenty fourth on my birthday went to &Bombay's and partied and I saw this black guy   
+
+465.52 466.80 A: oh my gosh   
+
+470.11 471.99 B: and we started talking and <contraction e_form="[that=>that]['s=>is]">that's it   
+
+472.37 474.72 A: oh my god that is totally ironic   
+
+474.45 476.83 B: and they work in the same field   
+
+477.24 479.02 B: with mentally disabled people    
+
+479.84 481.02 A: oh my   
+
+480.97 482.76 B: is that weird or what   
+
+483.50 485.13 A: that is totally wild   
+
+485.43 487.27 B: except &Randy is nicer than &Geoffrey   
+
+487.34 493.76 A: <contraction e_form="[I=>I]['m=>am]">I'm sorry but <contraction e_form="[it=>it]['s=>is]">it's just too darn funny that <contraction e_form="[you=>you]['re=>are]">you're telling me to quit that jungle fever and then you go head over heals into it   
+
+493.07 501.03 B: because <contraction e_form="[I=>I]['m=>am]">I'm just getting out of it I just talked to &Geoffrey night before last and <contraction e_form="[we=>we]['re=>are]">we're friends nothing more nothing less   
+
+499.21 499.83 A: oh yeah   
+
+501.34 503.16 B: because remember I gave him the boot   
+
+503.28 504.20 A: yeah I remember   
+
+504.33 507.13 B: Well first he wrote me the letter and then we got back together   
+
+506.01 507.01 A: yeah I remember that   
+
+507.37 511.43 B: and then he started to become real intimate with me and I got scared and I cut him off   
+
+511.51 511.96 A: yeah   
+
+511.85 514.14 B: and I <contraction e_form="[had=>had][n't=>not]">hadn't talked to him for two and half months   
+
+514.43 515.13 A: mhm   
+
+515.07 516.51 B: and so now <contraction e_form="[we=>we]['re=>are]">we're {exhale}   
+
+516.92 519.54 B: God if they record this message   
+
+519.84 521.63 B: <contraction e_form="[all=>all]['s=>is]">all's <contraction e_form="[we=>we]['re=>are]">we're talking about are dudes   
+
+519.94 522.70 A: {laugh}   
+
+522.25 523.69 B: Give me a break   
+
+523.55 525.82 A: {inhale} they <contraction e_form="[do=>do][n't=>not]">don't know who the heck you are   
+
+525.63 528.41 B: Well <contraction e_form="[it=>it]['s=>is]">it's in mashed with education at the same time   
+
+528.89 530.12 B: {lipsmack} anyways %um   
+
+530.13 532.57 A: <contraction e_form="[that=>that]['s=>is]">that's right <contraction e_form="[we=>we]['re=>are]">we're <contraction e_form="[we=>we]['re=>are]">we're furthering higher   
+
+530.73 531.63 B: so can you   
+
+532.75 533.17 B: yeah   
+
+533.15 534.75 A: level ((planes)) whatever   
+
+533.78 536.67 B: {laugh} hey I want to go I want to do my Masters   
+
+537.74 541.00 A: Well you know what I really like taking classes and everything {breath}  
+
+541.00 545.06 A: but sometimes like I just had to do this summary of this one you know these scholarly journals and stuff   
+
+545.52 545.88 A: they   
+
+546.19 548.80 A: they they talk so high and mighty and stuff   
+
+548.93 552.19 A: and you have to decipher what the heck <contraction e_form="[they=>they]['re=>are]">they're saying to understand what the whole concept 
+
+552.19 555.60 A: is for a while and that kind of bugs me I just like reading the books and 
+
+555.82 557.17 A: discussing it and <contraction e_form="[that=>that]['s=>is]">that's that   
+
+557.77 565.26 B: oh I hate writing about shit too th- but <contraction e_form="[that=>that]['s=>is]">that's the wor- {breath} I mean <contraction e_form="[that=>that]['s=>is]">that's the whole gist of a Masters is you write your way through 
+
+560.08 561.02 A: {laugh}   
+
+565.70 567.31 B: through the courses right   
+
+566.83 568.27 A: I know well (( ))   
+
+567.57 570.70 B: I <contraction e_form="[can't=>cannot]">can't believe <contraction e_form="[you=>you]['ve=>have]">you've done this without a personal computer   
+
+570.93 572.41 A: oh I I have one at work    
+
+572.50 573.51 B: oh   
+
+572.90 578.14 A: I mean I use the one at work {breath} now I us- it used to take me hours to write things **&Leaky** now   
+
+578.28 580.60 A: I mean I guess because one <contraction e_form="[I=>I]['ve=>have]">I've been practicing more   
+
+580.75 581.18 B: yeah   
+
+580.80 586.57 A: and using it more I mean constantly <contraction e_form="[I=>I]['m=>am]">I'm writing and two because of the computer also I can whip things up so quickly   
+
+586.67 587.20 B: yeah   
+
+586.97 588.13 A: that you <contraction e_form="[can't=>cannot]">can't even believe it   
+
+588.40 591.01 B: <contraction e_form="[that=>that]['s=>is]">that's cool <contraction e_form="[that=>that]['s=>is]">that's cool to know though   
+
+591.13 591.63 A: yeah   
+
+591.48 593.21 B: you think that I could si- %um   
+
+593.02 593.37 A: {exhale}   
+
+593.25 595.63 B: <Spanish ((superar))> my writing abilities too   
+
+595.72 598.47 A: oh my god if I can **&Leaky** anybody can   
+
+597.85 601.34 B: <contraction e_form="[I=>I]['m=>am]">I'm so insecure about my writing abil- abilities   
+

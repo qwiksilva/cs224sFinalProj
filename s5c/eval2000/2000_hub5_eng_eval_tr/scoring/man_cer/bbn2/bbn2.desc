@@ -1,0 +1,158 @@
+
+BBN Systems and Technologies / BYBLOS System
+March 2000 Evaluation on Switchboard and CallHome Corpora  
+
+
+1. Primary Test System Description
+==================================
+
+The March 2000 LVCSR system uses a single, 45-dimensional feature
+stream. Preliminary features are extracted from overlapping frames of
+audio data at a rate of 100 frames per second.  Based on these
+features, a determination vocal tract length (VTL) is made
+automatically with Gaussian mixture models. Final features are then
+computed in a speaker-dependent manner, generating a stream of
+normalized Mel-warped cepstral coefficients, a normalized frame
+energy, and the first and second derivatives of these quantities
+(pitch is not one of the features).
+
+The acoustic feature stream is modeled in a gender-independent manner with
+two pairs of HMM's, one pair for unadapted decoding and one pair for
+adapted decoding. Preliminary decoding passes use a phonetic tied-mixture
+(PTM)  triphone model, while the final decoding pass uses a
+state-clustered tied-mixture (SCTM) triphone model. A speaker independent
+(SI) pair of models is trained for use in unadapted decoding.
+
+Decoding is done in four steps: (a) a speaker's VTL parameters
+are estimated with Gaussian mixture models; (b) transcriptions are
+generated with the SI models; (c) MLLR adaptation mean and variance
+parameters are computed from these (errorful) transcriptions;  (d) new
+N-best transcriptions are generated with adapted SI models.
+
+Steps (b) and (d) are done in a nearly identical fashion. A first pass
+over the test data does a fast match to produce scores for numerous
+word endings using the PTM model ([1]). A second (forward) and third
+(backward) pass using the PTM model and an approximate trigram grammar
+generate a lattice including trigrams and crossword expansions. Next,
+a fourth pass with the SCTM model produces 1-best and word-dependent
+N-best transcriptions.  Confidences are estimated using the final
+N-best list.
+
+
+2. Acoustic Training
+=====================
+
+The March 2000 LVCSR system uses a single, 45-dimensional feature
+stream. Features are extracted from overlapping frames of audio data, each
+25ms long, at a rate of 100 frames per second. Each frame is windowed with
+a Hamming window, and an LPC smoothed, VTL warped log power spectrum is
+computed for the frequency band 125-3750 Hz. From this, 14 Mel-warped
+cepstral coefficients are computed. These coefficients and their first and
+second derivatives, together with the zeroth, first, and second
+derivatives of frame energy, compose the raw 45-dimensional feature
+vector.
+
+The feature vectors are normalized in several ways before being used for
+training or decoding. The mean cepstrum and peak energy of each
+conversation is removed non-causally from the appropriate sub-vector. In
+addition, the feature vectors are scaled and translated so that, for each
+conversation side, the data has zero mean and unit variance.
+
+To do the processing described above, we require an estimate of a
+vocal tract length (VTL) parameter for each speaker.  In both training
+and test, the VTL parameters must be estimated automatically.  We use
+a 256-term Gaussian mixture model, to compute a maximum-likelihood VTL
+warp parameter [4]. The determinant of the VTL transformation is
+estimated empirically per speaker and applied to ensure unbiased ML
+estimation.  The estimation procedure for VTL uses a 14-dimensional
+cepstral stream similar to the one described above.
+
+The acoustic feature stream is modeled in a gender-independent manner
+two HMMs. Preliminary decoding passes use a phonetic tied-mixture
+(PTM) model, while the final decoding pass uses a state-clustered
+tied-mixture (SCTM) model. In both models, the atomic HMM is a 5-state
+chain with a minimum duration of 2 frames, and an output distribution
+that is a mixture of diagonal Gaussians (256 Gaussians per mixture in
+the PTM system, 32 per mixture in the SCTM system). Clustering is
+employed so that different HMM states may share the same distribution
+or the same codebook.  The PTM system has 89 codebooks and 6,000
+distributions, while the SCTM system has 1000 codebooks and 12,000
+distributions.
+
+The phoneme set contains tone-dependent versions of the Mandarin central
+vowels for all the tones, except when a tone-dependent version has
+insufficient training data.
+
+Estimation of these HMM's occurs in multiple steps, typically involving
+the k-means algorithm to generate the Gaussians and the EM algorithm to
+generate the mixture weights and re-estimate the Gaussians. An initial PTM
+model is trained and then used to obtain frame-state alignments on the Callhome
+Mandarin 100 training set.  Using these alignments, we train an unclustered
+PTM model, from which we derive cluster maps by combining similar
+distributions and codebooks. Finally, using these cluster maps, we train
+the speaker-independent (SI) PTM and SCTM models. Between EM iterations, the
+codebooks are adjusted to prevent undertrained Gaussians (those with fewer
+than 10 samples are merged with neighboring ones).
+
+3. Grammar Training
+===================
+
+The trigram language model is trained on the 100 Callhome Mandarin
+conversations + 42 Callfriend Mandarin conversations.
+
+4. Recognition Lexicon Description
+==================================
+
+The lexicon includes 11559 words found in the CallHome Mandarin 100 and 
+the 42 Callfriend Mandarin training conversations.
+
+
+5. Differences for each Contrastive Test
+========================================
+
+
+6. New Conditions for This Evaluation
+=====================================
+
+    BBN has not run a Mandarin evaluation system since 1995.  Numerous
+aspects of the system have changed since then.  This system differs
+from Paul Caetano's 1997 NSA/BBN system in that the VTL algorithm has
+been improved, we are not using pitch or probability of voicing, the
+grammar and lexicon have changed, and we are adapting from a SI model
+instead of a speaker-adapted SI model.
+
+7. Execution Time
+=================
+
+The following time estimates are for an Intel Pentium III with 1Gb RAM,
+at 550 MHz.
+
+			       Multiple of 
+	Task		        Real Time 
+
+VTL+Analysis			     2
+Unadapted decoding                  19
+Adaptation                           9
+Adapted decoding       		    14
+------------------------------------------
+	Total                       44
+
+The average memory used for decoding a speaker is 120M, while the 
+max memory for one speaker is 177M.
+
+
+8. References
+============= 
+
+[1] L. Nguyen, R. Schwartz, F. Kubala, P. Placeway. "Search Algorithms for
+Software-Only Real-Time Recognitions with Very Large Vocabularies". 
+
+[2] J. G. Fiscus. A Post-Processing System to Yield Reduced Word Error
+Rates: Recognizer Output Voting Error Reduction (ROVER), Draft. 1997 LVCSR
+DARPA HUB-5E Workshop, May 13-15, 1997. 
+
+[3] T. Hastie and R. Tibshirani. "Generalized Additive Models". Chapman
+and Hall, London, 1990. 
+
+[4] S. Wegmann, D. McAllaster, J. Orloff, B. Peskin. "Speaker
+Normalization on Conversational Telephone Speech". ICASSP 1996. 

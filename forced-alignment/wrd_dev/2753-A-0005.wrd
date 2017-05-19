@@ -1,0 +1,20 @@
+signal 2753-A-0005
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.040000  121 i'm
+    0.750000  121 h#
+    0.952502  121 not
+    1.213249  121 sure
+    1.339144  121 we
+    1.505357  121 have
+    1.573336  121 the
+    1.751218  121 right
+    2.304226  121 solution
+    2.513804  121 to
+    2.637448  121 it
+    2.900000  121 h#

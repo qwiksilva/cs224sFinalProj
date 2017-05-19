@@ -1,0 +1,147 @@
+#!/bin/sh
+
+#TRANF_DIR=/home1/fiscus/export/tranfilt-1.7
+TRANF_DIR=/da4/Benchmark/hub5e/mar2000/tranfilt-1.10
+
+usage(){
+	echo "Usage: make_reference [ -clean ]"
+	echo "Description:"
+	echo ""
+	echo "This Script uses the NIST ch_filt program to create the reference"
+	echo "scoring files to the March 2000 Hub-5 Evaluations in"
+	echo "English, Mandarin and Spanish."
+	echo ""
+	echo "The script takes advantage of pre-processed transcript, so if you would "
+	echo "like to reprocess the transcripts, execute the command: "
+	echo "  %make_reference -clean"
+	echo ""
+}
+
+check_exec(){
+    if test ! -d $TRANF_DIR ; then
+	echo "Error: tranfilt package directory does not exist, check variable \$TRANF_DIR"
+	echo "       and modify as appropriate.  The package is available from the URL:"
+	echo "       ftp://jaguar.ncsl.nist.gov/pub/tranfilt-1.10.tar.Z"
+	exit 1
+    fi
+
+    if test ! -x $TRANF_DIR/chfilt.pl ; then
+	echo "Error: CallHome filter '$TRANF_DIR/chfilt.pl' is not readable or executable."
+	echo "       Check the directory $TRANF_DIR"
+	exit 1
+    fi
+
+    ver=`$TRANF_DIR/chfilt.pl 2>&1 | grep Version: | \
+	awk '{if ($2 < 1.10) {print "Version "$2" too low, 1.10 or higher needed"} else {print "ok"}}'`
+    if test ! "$ver" = "ok" ; then
+	echo "Error: $TRANF_DIR/chfilt.pl $ver"
+	echo "       The required package is available from the URL:"
+	echo "       ftp://jaguar.ncsl.nist.gov/pub/tranfilt-1.10.tar.Z"
+	exit 1
+    fi
+}
+
+###################   MAIN  ####################
+
+usage;
+
+while test $# -gt 0 ; do
+	if test $1 = "-clean" ; then
+		echo ""
+		echo "Cleaning directories"
+		rm -f *.stm */*.stm */*.exp
+		exit 0
+	else
+		echo ""
+		echo "Error: Unrecognized argument $1"
+		exit 1
+	fi
+	shift
+done
+
+## TRANF_DIR=../tranfilt-1.7
+
+echo "Checking for script availablity . . . "
+check_exec;
+echo "   OK"
+
+echo "Generating reference files:"
+
+for langtime in english ; do
+    lang=`echo $langtime | awk -F_ '{print $1}'`
+    time=`echo $langtime | awk -F_ '{print $2}'`
+
+    echo "   Language: $lang"
+    opts="-l $lang -d "
+    ref="hub5e00.$langtime.`date +%y%m%d`"
+
+    echo ";; Reference file for $lang $time, generated `date`" > $ref.stm
+    echo ';; CATEGORY "0" "" ""' >> $ref.stm
+    echo ';; LABEL "O" "Overall" "The Complete Test Set"' >> $ref.stm
+
+    rm -f $ref.pem
+    if [ -f $lang.spkrinfo ] ; then
+		 cat $lang.spkrinfo | \
+	    perl -e 'print "#\!/usr/local/bin/perl\nwhile(<>){\n"; while(<>){@a=split; ($x=@a[1])=~s/,//; print "s/($a[0]\\s[^>]*)>/\$1,$a[1],$x>/;\n"}; print "print;\n}\n";' > filter.sh
+    else 
+	echo "cat" > filter.sh
+    fi
+    chmod +x filter.sh
+
+    for trn in $lang/*.txt ; do
+	root=`echo $trn|sed 's/.txt$//'`
+	if  test "$lang" = spanish ; then
+	    perl -pe 's/##<CUT_FOR_5_MIN>\s+//' < $trn > $root.10min
+	    cat $trn | \
+	        perl -e '$min=99999.0, $max=0.0;
+			 while (<>){if ($_ !~ /^##<CUT/) {print} else 
+			            {($j, $bt, $du) = split; 
+                                     $min = $bt if ($bt < $min);
+                                     $max = $bt if ($bt+$dur > $max);
+				    }}
+			 print "$min $max A: IGNORE_TIME_SEGMENT_IN_SCORING\n";
+			 print "$min $max B: IGNORE_TIME_SEGMENT_IN_SCORING\n";
+			' > $root.5min
+
+	    if test "$time" = 10min ; then
+	  	trn=$root.10min
+	    elif test "$time" = 5min ; then
+	  	trn=$root.5min
+	    fi
+	    root=$trn
+	fi
+
+	if  test "$lang" = arabic -a "$time" = script ; then
+	    otrn=${trn}
+	    trn=`echo ${trn} | sed 's/.txt/.scr/'`
+	    if test ! -f $trn ; then
+		echo "       Making Arabic script file"
+		/da1/LDC_transcript_data/Callhome/callhome_arabic_trans_970711/tools/scr_conv/convert-trans $otrn 2> $otrn.log
+	    else 
+		echo "       Using pre-computed Arabic script file"
+	    fi
+	    root="$trn"
+	fi
+
+	if [ $lang = english -a ! -f $trn.exp ] ; then
+	    echo "      Expanding contractions"
+	    perl -pe 's/<contraction e_form="[^>]+>([^]]+)]">[a-zA-Z'"'"']+/$1/g;
+                      s/<contraction e_form="[^>]+>([^]]+)][^>]+>([^]]+)]">[a-zA-Z'"'"']+/$1 $2/g;' < $trn > $trn.exp
+	    trn=$trn.exp
+	fi
+
+	if test -f $root.pem -a -r $root.stm ; then
+	    echo "      $trn Already computed"
+	else
+	    echo "      $trn"
+	    $TRANF_DIR/chfilt.pl $opts -o pem ${trn} ${root}.pem
+	    $TRANF_DIR/chfilt.pl $opts -o stm ${trn} ${root}.stm
+	fi
+	cat ${root}.pem | perl -pe 's/\.txt//g' >> $ref.pem
+	### add channel leg and sex info
+	cat ${root}.stm | perl -pe 's/\.txt//g' | perl -ne 'print if ($_ !~ /^;;/)' | filter.sh >> $ref.stm
+    done
+done
+
+
+

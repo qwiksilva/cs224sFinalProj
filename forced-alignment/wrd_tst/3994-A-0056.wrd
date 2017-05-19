@@ -1,0 +1,19 @@
+signal 3994-A-0056
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.167574  121 h#
+    0.317892  121 so
+    0.415585  121 you
+    0.691618  121 listen
+    0.921030  121 to
+    1.136087  121 kind
+    1.310051  121 of
+    1.696126  121 church
+    1.973642  121 music
+    2.489163  121 gospel
+    2.601648  121 h#

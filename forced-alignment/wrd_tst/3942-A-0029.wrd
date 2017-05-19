@@ -1,0 +1,18 @@
+signal 3942-A-0029
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.142651  121 when
+    0.274150  121 that
+    0.579961  121 last
+    0.799960  121 part
+    0.873586  121 the
+    1.371605  121 question
+    1.915958  121 came
+    2.352123  121 h#
+    2.858199  121 about
+    3.045631  121 h#

@@ -1,0 +1,208 @@
+----------------------------------------------------------------------
+
+		Editorial Note by Jonathan Fiscus
+
+Dragon graciously ran last year's system on this year's data.  The
+system description below is a reprint of Dragon's 1998 system description.
+
+----------------------------------------------------------------------
+
+
+DRAGON/ Dragon Systems' Hub 5 Recognition System
+1998 HUB-5E EVALUATION
+
+
+
+(1)  PRIMARY TEST SYSTEM DESCRIPTION
+
+Front End
+
+A total of 44 parameters are computed every 10 milliseconds: 
+    1  overall energy parameter
+    7  log spectral magnitudes
+    12 (PLP-based) cepstral parameters
+    12 cepstral differences
+    12 cepstral second differences
+
+During the computation of these parameters, channel normalization is
+performed by subtracting a long-term speech average from each frame of
+log-spectral data.  This set of 44 parameters is mapped to 24 under a
+diagonalizing transformation.  This year we introduced a new
+diagonalizing transformation based on "semi-tied covariance" ([1], [2])
+which replaces our usual IMELDA transform.
+
+Speaker normalization is used to reduce variability among speakers due to
+vocal tract length.  During the signal processing stage, the frequency
+scale is "warped" using a piecewise linear transformation.  The
+appropriate warp scale to apply is selected for each message side using a
+simple "generic voiced speech" model.  Further details are provided in
+[3].
+
+Acoustic Modelling
+
+The model for a sentence hypothesis is obtained by concatenating models
+we call PICs (for "phonemes-in-context").  A 42-element phoneme set was
+used, including 1 stress level for each vowel plus schwa, and silence. 
+PICs are modelled using from 2 to 4 nodes, with each node having an
+output distribution (PEL) and a duration distribution.  The HMM models
+are linear but allow skipping of one node at a time.  Which PEL model to
+employ for any given position of any PIC is determined based on decision
+trees whose nodes ask linguistic questions about neighboring phonemes. 
+This year we added word-boundary tags as part of the phonetic context. 
+The PEL models themselves are general mixture models with basis
+components given by multivariate gaussian distributions with diagonal
+covariance.  This year we somewhat changed our strategy for building PEL
+models, creating many fewer PELs (only 8500 full-context triphone models
+for the evaluation system, versus 15k last year) but with many more
+components per PEL (a maximum of 96 this year, versus 20 last year).
+
+Two sets of models were used in this evaluation: a speaker-normalized
+gender-independent set of triphone models and a parallel set of
+"speaker-adaptable" models for the adaptation passes.  The evaluation
+system uses rapid adaptation to the test speaker at test time via
+families of regression-based transformations, coupled with
+speaker-adaptive training (SAT) based on "inverse"-style transformations
+[4].
+
+Recognition
+
+The basic recognizer makes use of a single-pass time-synchronous dynamic
+programming algorithm.  Follow-on word hypotheses are initiated based on
+a rapid match algorithm, which returns a list of word candidates whenever
+the recognizer hypothesizes that a word may be ending.  The recognizer
+can also be run in a "multipass" mode, which we used in generating N-best
+lists on a reverse pass through the data. 
+
+This evaluation was performed using three recognition stages.  An initial
+recognition was run using the basic speaker-normalized acoustic models. 
+The output from this pass was used to perform rapid (unsupervised)
+adaptation to the test speaker starting from the SAT version of the
+models. The adaptation step used a family of 8 transformations per
+message side, with transformation classes determined automatically based
+on clustering PELs via a distance metric.  This adaptation pass also made
+use of a jackknifing procedure to discourage "locking-in" recognition
+errors:  for each utterance (or group of utterances if they were short)
+we adapt on all data except the data to be recognized and then recognize
+the held-back utterance(s) with the adapted model.
+
+Results from the second recognition stage were fed to a third pass, where
+we performed another round of speaker adaptation (now without
+jackknifing, but using 7 expert-determined transformations per message
+side).  A third recognition pass was then run to produce the final
+recognition hypothesis.  During the third pass, we also extract
+confidence predictors and generate N-best lists required for the
+confidence calculation.
+
+The first pass used somewhat tighter thresholding than later passes, and
+all passes used the same interpolated trigram language model.
+
+The confidence model used this year was a generalized additive model
+built from an expanded family of predictors, including such new features
+as deviation from expected duration, number of phonemes per word, and a
+word-by-word "correctness" estimate.
+
+
+(2)  ACOUSTIC TRAINING
+
+The acoustic models were trained from the same collection of Switchboard
+message halves used in 1996 and 1997: the full 3000+ sides deemed
+allowable training for the 1996 evaluation, totalling about 170 hours of
+speech.  These were supplemented by the original 100 CallHome/English
+development conversations.
+
+The messages were chunked into speech segments, by an amplitude-based
+acoustic chopper for Switchboard and by turn-marks for CallHome, and each
+conversation side was warped using a single warp scale determined by that
+side (even in the case of multiple-caller CallHome messages).
+
+This material was used directly to produce a set of acoustic models and
+was also subjected to the "inverse" transformation noted above to produce
+a parallel set of SAT models.  The two sets of triphone models shared the
+same decision trees and were initialized from the same (pre-adaptation)
+forced alignment of the training data.  Only the training of the mixture
+models' basis distributions and mixture weights was recomputed.
+
+
+(3)  GRAMMAR TRAINING
+
+Several trigram language models were trained for use in this year's
+evaluation system and then combined via linear interpolation at the
+probability level.  A Switchboard model was trained from the full set of
+SWB-I messages except for fewer than 100 messages held back for testing;
+this amounted to nearly 3 million words of text, chunked into utterances
+based on turn-taking and at significant within-turn pauses.  A CallHome
+model was trained from the transcripts of the 100 training conversations,
+yielding about 200,000 words of text, chopped into utterances by
+turn-marks.  A Broadcast News model was trained from manually transcribed
+broadcasts from ABC, CNN, NPR, PBS, and some court TV from the period
+January 1992 - June 1996, totalling about 145 million words. For the
+Broadcast News model, only trigrams occurring at least 4 times and
+bigrams occurring at least 2 times were retained; all bigrams and
+trigrams were used from Switchboard and CallHome.  All models employed
+standard smoothing techniques and explicitly modelled start and end of
+utterance/sentence.
+
+These models were combined with interpolation weights 0.40 for
+Switchboard, 0.29 for CallHome, 0.31 for Broadcast News, determined by
+minimizing perplexity on the eval97 test set.
+
+We also trained a model from Hub4 acoustic training transcripts (about
+1.7 million words) which we later chose not to include in the system, but
+which did contribute to the vocabulary selection, below.
+
+
+(4)  RECOGNITION LEXICON DESCRIPTION
+
+The recognition lexicon used all words occurring in the Switchboard and
+CallHome sets described in the preceding section (minus some word
+fragments and other anomalous entries), supplemented with words from the
+Broadcast News data and Hub4 acoustic training data (all words in Hub4
+that occurred more than once or in Broadcast News that occurred at least
+29 times).  This resulted in a lexicon of just under 50k words,
+represented by about 55k pronunciations.
+
+This year we introduced probabilities on the pronunciation variants of
+words.  The relative weights to give for alternate pronunciations of a
+word were determined from forced alignments of the acoustic training data
+where the recognizer was free to choose from among the alternates (and
+all counts were then adjusted by adding one for the large "unseen"
+population).
+
+
+(5)  DIFFERENCES FOR EACH CONTRASTIVE TEST
+
+No contrastive tests were submitted.
+
+
+(6)  NEW CONDITIONS FOR THIS EVALUATION
+
+New diagonalizing transformation using semi-tied covariance,
+word-boundary tags in acoustic models, fewer PELs with more components
+per PEL, probabilities on pronunciations, multi-stage adaptation
+strategy, enriched confidence model.
+
+
+(7)  EXECUTION TIME
+
+The evaluation ran in about 175 times real-time on a fleet on PII-400's
+running PC/Solaris.  The various recognition stages ran at different
+rates: the first pass in 31 times real-time, the second pass with its
+time-consuming jackknife adaptation in 100, and the third pass including
+adaptation, recognition, and confidence information in 45.  The
+high-water mark on memory usage was nearly 400 megs.
+
+
+(8)  REFERENCES
+
+[1]  N. Kumar, "Investigation of Silicon-Auditory Models and
+Generalizations of LDA for Improved Speech Recognition," Ph.D. thesis,
+Johns Hopkins Univ., 1997.
+
+[2]  M. Gales, "Semi-Tied Covariance Matrices," Proc. ICASSP-98, Seattle,
+May 1998.
+
+[3]  S. Wegmann et al., "Speaker Normalization on Conversational
+Telephone Speech," Proc. ICASSP-96, Atlanta, May 1996.
+
+[4]  B. Peskin et al., "Progress in Recognizing Conversational Telephone
+Speech," Proc. ICASSP-97, Munich, April 1997.

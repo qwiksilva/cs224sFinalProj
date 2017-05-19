@@ -1,0 +1,27 @@
+
+
+                  CU-HTK MARCH 2000 HUB 5E CONTRAST SYSTEMS
+
+For detailed system description see the primary system description for cu-htk1.
+
+Systems with contrasts are:
+
+cu-htk1 : Primary system. Uses gender-independent MMIE (maximum mutual information 
+          estimation) trained triphones and quinphones and gender-dependent soft-tied
+          MLE (maximum likelihood estimation) trained triphones and quinphones.
+          All model sets use side-based MLLR (maximum likelihood linear regression) 
+          and full-variance transform adaptation, pronunciation probabilities and 
+          an interpolated word 4-gram/category trigram language model to produce 
+          confusion networks and corresponding minimum expected word error rate 
+          hypotheses. The primary system combines the confusion networks for each of
+          the 4 model sets via a dynamic programming technique to produce the final 
+          combined output.
+
+cu-htk2 : MMIE triphone/quinphone contrast. Uses 2-way system combination (rather 
+          than 4-way) using the adapted MMIE triphone and quinphone outputs only.
+
+cu-htk3 : MLE triphone/quinphone contrast. Uses 2-way system combination (rather 
+          than 4-way) using the adapted MLE triphone and quinphone outputs only.
+
+cu-htk4 : MMIE quinphone only contrast. Uses the minimum expected word error rate 
+          output from the adapted quinphone models alone.

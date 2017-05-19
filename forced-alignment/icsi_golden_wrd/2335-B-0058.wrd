@@ -1,0 +1,19 @@
+signal 2335-B-0058
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.066747  121 h#
+    0.233611  121 little
+    0.473838  121 rock
+    0.723752  121 stars
+    0.790000  121 h#
+    0.926796  121 put
+    1.151663  121 all
+    1.287343  121 them
+    1.403097  121 in
+    1.545128  121 there
+    1.595632  121 h#

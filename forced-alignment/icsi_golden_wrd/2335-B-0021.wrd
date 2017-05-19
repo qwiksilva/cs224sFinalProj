@@ -1,0 +1,16 @@
+signal 2335-B-0021
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.3  121 h#
+    0.35825  121 you
+    0.575066  121 can't
+    0.867364  121 make
+    1.21193  121 parents
+    1.38035  121 be
+    1.86623  121 parents
+    2.0211  121 h#

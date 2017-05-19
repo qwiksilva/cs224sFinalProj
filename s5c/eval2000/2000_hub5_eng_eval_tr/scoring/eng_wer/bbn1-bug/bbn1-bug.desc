@@ -1,0 +1,260 @@
+
+BBN Systems and Technologies / BYBLOS System
+March 2000 Evaluation on Switchboard and CallHome Corpora  
+
+
+------------------------------------------------------------------------
+
+                    Editorial Note by Jonathan Fiscus 
+
+The 'bbn1-bug' results linked to this system description
+inapropriately higher due to an error in the experiment setup during
+the evaluation run.  The results 'bbn1-pass1' and 'bbn1-debugged'
+should be considered to accurately reflect the performance of the
+system described below.
+
+------------------------------------------------------------------------
+
+
+1. Primary Test System Description
+==================================
+
+The March 2000 LVCSR system uses a single, 45-dimensional feature
+stream. Preliminary features are extracted from overlapping frames of
+audio data at a rate of 100 frames per second. Based on these features, a
+determination of gender and vocal tract length (VTL) is made automatically
+with Gaussian mixture models. Final features are then computed in a
+speaker-dependent manner, generating a stream of normalized Mel-warped
+cepstral coefficients, a normalized frame energy, and the first and second
+derivatives of these quantities.
+
+The acoustic feature stream is modeled in a gender-dependent manner with
+two pairs of HMM's, one pair for unadapted decoding and one pair for
+adapted decoding. Preliminary decoding passes use a phonetic tied-mixture
+(PTM)  triphone model, while the final decoding pass uses a
+state-clustered tied-mixture (SCTM) quinphone model. A speaker independent
+(SI) pair of models is trained for use in unadapted decoding. Starting
+from the SI models, adaptation is performed on the training speakers to
+produce speaker adapted (SA) models for adapted decoding.
+
+Decoding is done in four passes: an unadapted pass followed by three
+adaptation passes.  First, a speaker's gender and VTL parameter are
+estimated with Gaussian mixture models.  Then transcriptions are
+generated in the first unadapted pass.  This pass consists of running
+the conventional SI hmm, generating an N-best list, which is then scored
+using a speaker-independent parallel-path model [1].  The N-best list is
+then re-ranked using the combined scores from the parallel-path model
+and the conventional SI model and these transcripts are the input to the
+first adaptation pass.
+
+The 3 following passes of adaptation each compute MLLR adaptation mean
+and variance parameters from the previous pass's (errorful)
+transcriptions and then generate new N-best transcriptions with the
+resulting adapted models.  In each of the decoding passes a more
+powerful language model is applied to rescore the N-best list and yield
+that pass's 1-best transcription.
+
+In the first adaptation pass, the means and variances of the model's
+gaussians are separately clustered into 4 groups each and MLLR
+transformation parameters are computed for each group.  These parameters
+are used to adapt the SA model and the resulting transcripts are used in
+the second pass of adaptation.  In the second adaptation pass, MLLR
+transformations for 8 classes are computed and these are used to adapt
+the SI model.  In the final adaptation pass, 8 classes are again
+computed, which are used to adapt the SA model.
+
+The decoding process is nearly identical in each of the four passes.  A
+first pass over the test data does a fast match to produce scores for
+numerous word endings using the PTM model ([2]). A second (forward)
+and third (backward) pass using the PTM model and an approximate
+trigram grammar generate a lattice including trigrams and crossword
+expansions. Next, a fourth pass with the SCTM model produces 1-best
+and word-dependent N-best transcriptions.
+
+In the third and final adapted decode pass, the lattice produced by the
+system is redecoded twice by the adapted models but using different
+frame rates at the signal processing level (80 and 125 frames per
+second), and the top answers of the three systems (baseline 100 frames
+per second, and the 80 and 100 frames per second results) are combined
+using a modified ROVER method (the modification over the original NIST
+procedure [3] is that each system is now weighted).  Confidences for the
+system combination are generated from a number of features such as
+n-best frequency, LM score, acoustic score, word frequency etc. via a
+GAM model [4].
+
+
+2. Acoustic Training
+=====================
+
+The March 2000 LVCSR system uses a single, 45-dimensional feature
+stream. Features are extracted from overlapping frames of audio data, each
+25ms long, at a rate of 100 frames per second. Each frame is windowed with
+a Hamming window, and an LPC smoothed, VTL warped log power spectrum is
+computed for the frequency band 125-3750 Hz. From this, 14 Mel-warped
+cepstral coefficients are computed. These coefficients and their first and
+second derivatives, together with the zeroth, first, and second
+derivatives of frame energy, compose the raw 45-dimensional feature
+vector.
+
+The feature vectors are normalized in several ways before being used for
+training or decoding. The mean cepstrum and peak energy of each
+conversation is removed non-causally from the appropriate sub-vector. In
+addition, the feature vectors are scaled and translated so that, for each
+conversation side, the data has zero mean and unit variance.
+
+To do the processing described above, we require knowledge of the gender
+of each speaker and an estimate of a vocal tract length (VTL) parameter
+for that speaker. In training, we know the genders but not the VTL
+parameters, while in test both must be estimated automatically. We use a
+gender-dependent, 128 term Gaussian mixture model, to compute a
+maximum-likelihood VTL warp parameter [5]. The determinant of the VTL
+transformation is estimated empirically per speaker and applied to ensure
+unbiased ML estimation. To determine gender, we use a second Gaussian
+mixture to estimate a gender-independent VTL warp, and decide gender by
+thresholding this estimated stretch. Each of these estimation procedures
+uses a 14-dimensional cepstral stream similar to the one described above. 
+
+The acoustic feature stream is modeled in a gender-dependent manner with
+two pairs of HMM's, one pair for unadapted decoding and one pair for
+adapted decoding. Preliminary decoding passes use a phonetic tied-mixture
+(PTM) model, while the final decoding pass uses a state-clustered
+tied-mixture (SCTM)  model. In both models, the atomic HMM is a 5-state
+chain with a minimum duration of 2 frames, and an output distribution that
+is a mixture of diagonal Gaussians (512 Gaussians per mixture in the PTM
+system, 80 per mixture in the SCTM system). Clustering is employed so that
+different HMM states may share the same distribution or the same codebook.
+The PTM system has 53 codebooks and 12,000 distributions, while the SCTM
+system has 3000 codebooks and 25,000 distributions.
+
+Estimation of these HMM's occurs in multiple steps, typically involving
+the k-means algorithm to generate the Gaussians and the EM algorithm to
+generate the mixture weights and re-estimate the Gaussians. An initial PTM
+model is trained and then used to obtain frame-state alignments for 60
+hours of acoustic data. Using these alignments, we train an unclustered
+PTM model, from which we derive cluster maps by combining similar
+distributions and codebooks. Finally, using these cluster maps, we train
+the speaker-independent (SI) PTM and SCTM models from 136 hours of
+Switchboard data and 15 hours of CallHome data. Between EM iterations, the
+codebooks are adjusted to prevent undertrained Gaussians (those with fewer
+than 10 samples are merged with neighboring ones). As a result of this
+merging the SCTM models use an average of 114,000 Gaussians (negligible
+merging occurs in the PTM models).
+
+The speaker-adapted model (SA), used in the first and third passes of
+adapted decoding, is created by estimating for each training speaker a
+set of 256 diagonal transformation matrices; the components of each
+matrix are chosen so as to maximize an auxiliary function calculated
+during a prior forward-backward pass, as dictated by the EM
+algorithm. Once the transformation matrices are estimated for all
+speakers, the means and variances of the SA model are re-estimated to
+further improve the auxiliary function. This entire procedure is
+repeated three times to generate the final SA model [6, 7].  The same
+151 hours of raw audio data is used for both the SI and the SA training.
+
+
+3. Grammar Training
+===================
+
+Two grammars are used at various phases of recognition. To create the
+lattice and N-best list, we use a trigram grammar on 35K words.
+
+This grammar is trained from (i) all conversations of the CallHome
+English data (0.3 million words) (ii) with all of the Switchboard data
+(3.1 million words), with the exception of the 1995, 1996 and 1997
+evaluation sets, and (iii) 141M words of CNN with each article weighted
+by its similarity to the Switchboard and CallHome
+training. Segmentations of the Switchboard conversations are those
+provided by Mississippi State University.  The lexicon comprises all
+words seen in the aforementioned Switchboard data and all non-name words
+seen in the CallHome data.
+
+One other grammar is used for rescoring the N-best list (the scores from
+the grammar is interpolated to generate the final ordering of the list). 
+The grammar uses a part of speech (POS) smoothing mechanism to interpolate
+the CNN data to the Switchboard and CallHome training data [8].  The
+Switchboard and Callhome training that went into this grammar used a
+different segmentation of the transcripts (with breaks in the raw
+transcriptions at major punctuation marks (. ; ?  and !) ).
+
+
+4. Recognition Lexicon Description
+==================================
+
+The lexicon comprises all non-name words seen in the CallHome data,
+together with all words seen in the Switchboard data, with the exception
+of the 1995, 1996 and 1997 evaluation sets, plus 10K additional words
+selected from the CNN data most similar to Switchboard.
+
+
+5. Differences for each Contrastive Test
+========================================
+
+
+6. New Conditions for This Evaluation
+=====================================
+
+The primary differences between this year's system and last year's
+system are:
+
+  1. Multiple passes of adaptation with different numbers of
+  transformations used to adapt SI and SA models on alternate passes.
+  2. Use of parallel-path models in the unadapted decoding pass.
+  3. Use of the MSU segmentation of Switchboard in language model
+  training. 
+
+
+7. Execution Time
+=================
+
+The following time estimates are for an Intel Pentium III with 1Gb RAM,
+at 550 MHz.
+
+			       Multiple of 
+	Task		        Real Time 
+
+Gender detection+VTL+Analysis     	   2
+Unadapted decoding                	  33
+Adaptation                        	  18
+Adapted decoding       		  	+ 30
+--------------------------------------------
+per decoding pass			  83
+					 x 4   (times 4 passes)
+--------------------------------------------
+subtotal before sys. comb		 332  
+
+N-best rescoring with 80frm/sec	          22  (for final sys comb)
+N-best rescoring with 125frm/sec        + 24
+--------------------------------------------
+	Total                            378
+
+The average memory used for decoding a speaker is 359M, while the 
+max memory for one speaker is 728M.
+
+
+8. References
+============= 
+[1] R. Iyer, O. Kimball. H. Gish, "Modeling Trajectories in the HMM
+Framework," Eurospeech 99. 
+
+[2] L. Nguyen, R. Schwartz, F. Kubala, P. Placeway. "Search Algorithms for
+Software-Only Real-Time Recognitions with Very Large Vocabularies". 
+
+[3] J. G. Fiscus. A Post-Processing System to Yield Reduced Word Error
+Rates: Recognizer Output Voting Error Reduction (ROVER), Draft. 1997 LVCSR
+DARPA HUB-5E Workshop, May 13-15, 1997. 
+
+[4] T. Hastie and R. Tibshirani. "Generalized Additive Models". Chapman
+and Hall, London, 1990. 
+
+[5] S. Wegmann, D. McAllaster, J. Orloff, B. Peskin. "Speaker
+Normalization on Conversational Telephone Speech". ICASSP 1996. 
+
+[6] J. McDonough, T. Anastasakos, G. Zavaliagkos, H. Gish. 
+"Speaker-Adapted Training on the Switchboard Corpus". ICASSP 1997
+
+[7] T. Anastasakos, J. McDonough, J. Makhoul. "Speaker Adaptive Training:
+A Maximum Likelihood Approach to Speaker Normalization". ICASSP 1997
+    
+[8] R. Iyer and M. Ostendorf, Transforming Out-of-Domain Estimates to
+Improve In-Domain Language Models, Proc. European Conference on Speech
+Comm. and Tech., September 1997.

@@ -1,0 +1,13 @@
+signal 3994-B-0053
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.085273  121 i
+    0.351847  121 wasn't
+    0.572271  121 really
+    0.806974  121 that
+    1.136399  121 good

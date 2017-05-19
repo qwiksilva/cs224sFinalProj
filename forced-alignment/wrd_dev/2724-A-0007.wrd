@@ -1,0 +1,13 @@
+signal 2724-A-0007
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.28  121 h#
+    0.368616  121 i
+    0.589912  121 play
+    1.4884  121 basketball
+    1.76  121 h#

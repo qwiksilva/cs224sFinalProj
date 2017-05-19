@@ -1,0 +1,16 @@
+signal 2151-B-0019
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.020091  121 h#
+    0.257429  121 love
+    0.331178  121 the
+    0.870217  121 scouting
+    1.076715  121 and
+    1.166555  121 you
+    1.387802  121 know
+    1.414620  121 h#
