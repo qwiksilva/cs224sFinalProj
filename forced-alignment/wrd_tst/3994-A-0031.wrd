@@ -1,0 +1,18 @@
+signal 3994-A-0031
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.157152  121 h#
+    0.203876  121 do
+    0.246399  121 you
+    0.454578  121 sing
+    0.617128  121 at
+    0.905955  121 choir
+    0.922266  121 at
+    1.020652  121 your
+    1.400260  121 church
+    1.506038  121 h#

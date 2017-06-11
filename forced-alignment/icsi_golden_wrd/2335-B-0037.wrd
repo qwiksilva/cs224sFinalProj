@@ -1,0 +1,17 @@
+signal 2335-B-0037
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.102055  121 h#
+    0.197882  121 well
+    0.356108  121 this
+    0.621303  121 boy
+    0.833014  121 had
+    1.02  121 been
+    1.4258  121 stealing
+    1.95396  121 cars
+    2.35064  121 h#

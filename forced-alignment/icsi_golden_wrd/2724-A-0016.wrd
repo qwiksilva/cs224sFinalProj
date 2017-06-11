@@ -1,0 +1,18 @@
+signal 2724-A-0016
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.774061  121 h#
+    1.053832  121 like
+    1.208308  121 a
+    1.422852  121 bunch
+    1.479947  121 of
+    2.068612  121 hills
+    2.330000  121 or
+    2.765911  121 pretty
+    3.238914  121 flat
+    3.319086  121 h#

@@ -1,0 +1,16 @@
+signal 2151-A-0011
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.312367  121 ah
+    0.664117  121 senior
+    1.02335  121 okay
+    1.10731  121 h#
+    1.51  121 so
+    1.80852  121 there's
+    2.06  121 not
+    2.3  121 h#

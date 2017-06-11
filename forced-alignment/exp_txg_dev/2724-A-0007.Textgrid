@@ -1,0 +1,116 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.000000
+xmax = 1.830000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "Speaker - phone"
+		xmin = 0.000000
+		xmax = 1.830000
+		intervals: size = 17
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.323000
+				text = "sp"
+			intervals [3]:
+				xmin = 0.323000
+				xmax = 0.362000
+				text = "AY1"
+			intervals [4]:
+				xmin = 0.362000
+				xmax = 0.482000
+				text = "P"
+			intervals [5]:
+				xmin = 0.482000
+				xmax = 0.522000
+				text = "L"
+			intervals [6]:
+				xmin = 0.522000
+				xmax = 0.592000
+				text = "EY1"
+			intervals [7]:
+				xmin = 0.592000
+				xmax = 0.672000
+				text = "B"
+			intervals [8]:
+				xmin = 0.672000
+				xmax = 0.823000
+				text = "AE1"
+			intervals [9]:
+				xmin = 0.823000
+				xmax = 0.882000
+				text = "S"
+			intervals [10]:
+				xmin = 0.882000
+				xmax = 0.962000
+				text = "K"
+			intervals [11]:
+				xmin = 0.962000
+				xmax = 1.012000
+				text = "AH0"
+			intervals [12]:
+				xmin = 1.012000
+				xmax = 1.042000
+				text = "T"
+			intervals [13]:
+				xmin = 1.042000
+				xmax = 1.073000
+				text = "B"
+			intervals [14]:
+				xmin = 1.073000
+				xmax = 1.113000
+				text = "AO2"
+			intervals [15]:
+				xmin = 1.113000
+				xmax = 1.512000
+				text = "L"
+			intervals [16]:
+				xmin = 1.512000
+				xmax = 1.752000
+				text = "sp"
+			intervals [17]:
+				xmin = 1.752000
+				xmax = 1.830000
+				text = "sp"
+	item [2]:
+		class = "IntervalTier"
+		name = "Speaker - word"
+		xmin = 0.000000
+		xmax = 1.830000
+		intervals: size = 7
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.323000
+				text = "sp"
+			intervals [3]:
+				xmin = 0.323000
+				xmax = 0.362000
+				text = "I"
+			intervals [4]:
+				xmin = 0.362000
+				xmax = 0.592000
+				text = "PLAY"
+			intervals [5]:
+				xmin = 0.592000
+				xmax = 1.512000
+				text = "BASKETBALL"
+			intervals [6]:
+				xmin = 1.512000
+				xmax = 1.752000
+				text = "sp"
+			intervals [7]:
+				xmin = 1.752000
+				xmax = 1.830000
+				text = "sp"

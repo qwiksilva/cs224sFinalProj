@@ -1,0 +1,16 @@
+signal 3942-A-0068
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.250990  121 h#
+    0.533073  121 i'm
+    0.836911  121 not
+    1.006905  121 h#
+    1.607842  121 terribly
+    2.179475  121 involved
+    2.327289  121 in
+    2.425904  121 it

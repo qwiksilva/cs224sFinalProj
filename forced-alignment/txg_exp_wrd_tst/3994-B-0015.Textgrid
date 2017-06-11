@@ -1,0 +1,120 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.000000
+xmax = 1.050000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "Speaker - phone"
+		xmin = 0.000000
+		xmax = 1.050000
+		intervals: size = 17
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.042000
+				text = "TH"
+			intervals [3]:
+				xmin = 0.042000
+				xmax = 0.193000
+				text = "OW1"
+			intervals [4]:
+				xmin = 0.193000
+				xmax = 0.283000
+				text = "HH"
+			intervals [5]:
+				xmin = 0.283000
+				xmax = 0.383000
+				text = "AW1"
+			intervals [6]:
+				xmin = 0.383000
+				xmax = 0.432000
+				text = "L"
+			intervals [7]:
+				xmin = 0.432000
+				xmax = 0.512000
+				text = "AA1"
+			intervals [8]:
+				xmin = 0.512000
+				xmax = 0.542000
+				text = "NG"
+			intervals [9]:
+				xmin = 0.542000
+				xmax = 0.573000
+				text = "D"
+			intervals [10]:
+				xmin = 0.573000
+				xmax = 0.612000
+				text = "AH0"
+			intervals [11]:
+				xmin = 0.612000
+				xmax = 0.662000
+				text = "D"
+			intervals [12]:
+				xmin = 0.662000
+				xmax = 0.732000
+				text = "Y"
+			intervals [13]:
+				xmin = 0.732000
+				xmax = 0.762000
+				text = "UW1"
+			intervals [14]:
+				xmin = 0.762000
+				xmax = 0.832000
+				text = "P"
+			intervals [15]:
+				xmin = 0.832000
+				xmax = 0.943000
+				text = "L"
+			intervals [16]:
+				xmin = 0.943000
+				xmax = 1.042000
+				text = "EY1"
+			intervals [17]:
+				xmin = 1.042000
+				xmax = 1.050000
+				text = "sp"
+	item [2]:
+		class = "IntervalTier"
+		name = "Speaker - word"
+		xmin = 0.000000
+		xmax = 1.050000
+		intervals: size = 8
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.193000
+				text = "SO"
+			intervals [3]:
+				xmin = 0.193000
+				xmax = 0.383000
+				text = "HOW"
+			intervals [4]:
+				xmin = 0.383000
+				xmax = 0.542000
+				text = "LONG"
+			intervals [5]:
+				xmin = 0.542000
+				xmax = 0.662000
+				text = "DID"
+			intervals [6]:
+				xmin = 0.662000
+				xmax = 0.762000
+				text = "YOU"
+			intervals [7]:
+				xmin = 0.762000
+				xmax = 1.042000
+				text = "PLAY"
+			intervals [8]:
+				xmin = 1.042000
+				xmax = 1.050000
+				text = "sp"

@@ -1,0 +1,13 @@
+signal 2724-A-0029
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.112309  121 h#
+    0.799534  121 advantages
+    1.082695  121 to
+    1.207104  121 it
+    1.480000  121 h#

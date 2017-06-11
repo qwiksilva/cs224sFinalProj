@@ -1,0 +1,116 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.000000
+xmax = 1.150000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "Speaker - phone"
+		xmin = 0.000000
+		xmax = 1.150000
+		intervals: size = 17
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.122000
+				text = "DH"
+			intervals [3]:
+				xmin = 0.122000
+				xmax = 0.183000
+				text = "AH0"
+			intervals [4]:
+				xmin = 0.183000
+				xmax = 0.213000
+				text = "T"
+			intervals [5]:
+				xmin = 0.213000
+				xmax = 0.263000
+				text = "DH"
+			intervals [6]:
+				xmin = 0.263000
+				xmax = 0.353000
+				text = "EY1"
+			intervals [7]:
+				xmin = 0.353000
+				xmax = 0.473000
+				text = "SH"
+			intervals [8]:
+				xmin = 0.473000
+				xmax = 0.512000
+				text = "UH1"
+			intervals [9]:
+				xmin = 0.512000
+				xmax = 0.632000
+				text = "D"
+			intervals [10]:
+				xmin = 0.632000
+				xmax = 0.722000
+				text = "UW1"
+			intervals [11]:
+				xmin = 0.722000
+				xmax = 0.802000
+				text = "S"
+			intervals [12]:
+				xmin = 0.802000
+				xmax = 0.862000
+				text = "AH1"
+			intervals [13]:
+				xmin = 0.862000
+				xmax = 0.972000
+				text = "M"
+			intervals [14]:
+				xmin = 0.972000
+				xmax = 1.012000
+				text = "T"
+			intervals [15]:
+				xmin = 1.012000
+				xmax = 1.073000
+				text = "AY2"
+			intervals [16]:
+				xmin = 1.073000
+				xmax = 1.103000
+				text = "M"
+			intervals [17]:
+				xmin = 1.103000
+				xmax = 1.150000
+				text = "sp"
+	item [2]:
+		class = "IntervalTier"
+		name = "Speaker - word"
+		xmin = 0.000000
+		xmax = 1.150000
+		intervals: size = 7
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.213000
+				text = "THAT"
+			intervals [3]:
+				xmin = 0.213000
+				xmax = 0.353000
+				text = "THEY"
+			intervals [4]:
+				xmin = 0.353000
+				xmax = 0.512000
+				text = "SHOULD"
+			intervals [5]:
+				xmin = 0.512000
+				xmax = 0.722000
+				text = "DO"
+			intervals [6]:
+				xmin = 0.722000
+				xmax = 1.103000
+				text = "SOMETIME"
+			intervals [7]:
+				xmin = 1.103000
+				xmax = 1.150000
+				text = "sp"

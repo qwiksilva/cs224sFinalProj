@@ -1,0 +1,22 @@
+signal 2753-A-0053
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.135631  121 h#
+    0.285329  121 year
+    0.383406  121 the
+    0.750662  121 senator
+    0.926315  121 went
+    1.296312  121 to
+    1.420000  121 h#
+    1.635330  121 latin
+    2.088295  121 america
+    2.195407  121 to
+    2.531328  121 visit
+    2.619976  121 the
+    3.300068  121 ambassador
+    3.460000  121 h#

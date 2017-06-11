@@ -1,0 +1,100 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.000000
+xmax = 1.010000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "Speaker - phone"
+		xmin = 0.000000
+		xmax = 1.010000
+		intervals: size = 14
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.163000
+				text = "AE1"
+			intervals [3]:
+				xmin = 0.163000
+				xmax = 0.273000
+				text = "D"
+			intervals [4]:
+				xmin = 0.273000
+				xmax = 0.313000
+				text = "AH0"
+			intervals [5]:
+				xmin = 0.313000
+				xmax = 0.432000
+				text = "L"
+			intervals [6]:
+				xmin = 0.432000
+				xmax = 0.522000
+				text = "K"
+			intervals [7]:
+				xmin = 0.522000
+				xmax = 0.592000
+				text = "R"
+			intervals [8]:
+				xmin = 0.592000
+				xmax = 0.652000
+				text = "AY1"
+			intervals [9]:
+				xmin = 0.652000
+				xmax = 0.682000
+				text = "M"
+			intervals [10]:
+				xmin = 0.682000
+				xmax = 0.712000
+				text = "AH0"
+			intervals [11]:
+				xmin = 0.712000
+				xmax = 0.872000
+				text = "N"
+			intervals [12]:
+				xmin = 0.872000
+				xmax = 0.952000
+				text = "D"
+			intervals [13]:
+				xmin = 0.952000
+				xmax = 0.992000
+				text = "sp"
+			intervals [14]:
+				xmin = 0.992000
+				xmax = 1.010000
+				text = "sp"
+	item [2]:
+		class = "IntervalTier"
+		name = "Speaker - word"
+		xmin = 0.000000
+		xmax = 1.010000
+		intervals: size = 6
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.432000
+				text = "ADULT"
+			intervals [3]:
+				xmin = 0.432000
+				xmax = 0.682000
+				text = "CRIME"
+			intervals [4]:
+				xmin = 0.682000
+				xmax = 0.952000
+				text = "AND"
+			intervals [5]:
+				xmin = 0.952000
+				xmax = 0.992000
+				text = "sp"
+			intervals [6]:
+				xmin = 0.992000
+				xmax = 1.010000
+				text = "sp"

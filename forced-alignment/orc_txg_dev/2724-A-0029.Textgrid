@@ -1,0 +1,100 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.000000
+xmax = 1.550000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "Speaker - phone"
+		xmin = 0.000000
+		xmax = 1.550000
+		intervals: size = 16
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.102000
+				text = "sp"
+			intervals [3]:
+				xmin = 0.102000
+				xmax = 0.183000
+				text = "EH1"
+			intervals [4]:
+				xmin = 0.183000
+				xmax = 0.233000
+				text = "D"
+			intervals [5]:
+				xmin = 0.233000
+				xmax = 0.293000
+				text = "V"
+			intervals [6]:
+				xmin = 0.293000
+				xmax = 0.482000
+				text = "AE1"
+			intervals [7]:
+				xmin = 0.482000
+				xmax = 0.512000
+				text = "AH0"
+			intervals [8]:
+				xmin = 0.512000
+				xmax = 0.573000
+				text = "JH"
+			intervals [9]:
+				xmin = 0.573000
+				xmax = 0.682000
+				text = "IH1"
+			intervals [10]:
+				xmin = 0.682000
+				xmax = 0.772000
+				text = "S"
+			intervals [11]:
+				xmin = 0.772000
+				xmax = 0.912000
+				text = "T"
+			intervals [12]:
+				xmin = 0.912000
+				xmax = 1.083000
+				text = "UW1"
+			intervals [13]:
+				xmin = 1.083000
+				xmax = 1.172000
+				text = "AH0"
+			intervals [14]:
+				xmin = 1.172000
+				xmax = 1.292000
+				text = "T"
+			intervals [15]:
+				xmin = 1.292000
+				xmax = 1.472000
+				text = "sp"
+			intervals [16]:
+				xmin = 1.472000
+				xmax = 1.550000
+				text = "sp"
+	item [2]:
+		class = "IntervalTier"
+		name = "Speaker - word"
+		xmin = 0.000000
+		xmax = 1.550000
+		intervals: size = 4
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 1.292000
+				text = "CHCEAAACJ"
+			intervals [3]:
+				xmin = 1.292000
+				xmax = 1.472000
+				text = "sp"
+			intervals [4]:
+				xmin = 1.472000
+				xmax = 1.550000
+				text = "sp"

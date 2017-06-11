@@ -1,0 +1,17 @@
+signal 3994-B-0063
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.023943  121 h#
+    0.110364  121 i
+    0.357991  121 like
+    0.660462  121 people
+    0.858232  121 like
+    1.067635  121 neil
+    1.564552  121 diamond
+    1.739055  121 and
+    1.755674  121 h#

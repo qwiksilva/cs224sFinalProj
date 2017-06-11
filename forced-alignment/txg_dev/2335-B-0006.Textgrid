@@ -1,0 +1,208 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.000000
+xmax = 2.430000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "Speaker - phone"
+		xmin = 0.000000
+		xmax = 2.430000
+		intervals: size = 33
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.273000
+				text = "sp"
+			intervals [3]:
+				xmin = 0.273000
+				xmax = 0.393000
+				text = "B"
+			intervals [4]:
+				xmin = 0.393000
+				xmax = 0.422000
+				text = "AH1"
+			intervals [5]:
+				xmin = 0.422000
+				xmax = 0.453000
+				text = "T"
+			intervals [6]:
+				xmin = 0.453000
+				xmax = 0.532000
+				text = "AY1"
+			intervals [7]:
+				xmin = 0.532000
+				xmax = 0.563000
+				text = "AO1"
+			intervals [8]:
+				xmin = 0.563000
+				xmax = 0.693000
+				text = "L"
+			intervals [9]:
+				xmin = 0.693000
+				xmax = 0.732000
+				text = "S"
+			intervals [10]:
+				xmin = 0.732000
+				xmax = 0.823000
+				text = "OW0"
+			intervals [11]:
+				xmin = 0.823000
+				xmax = 0.902000
+				text = "B"
+			intervals [12]:
+				xmin = 0.902000
+				xmax = 0.982000
+				text = "L"
+			intervals [13]:
+				xmin = 0.982000
+				xmax = 1.042000
+				text = "EY1"
+			intervals [14]:
+				xmin = 1.042000
+				xmax = 1.103000
+				text = "M"
+			intervals [15]:
+				xmin = 1.103000
+				xmax = 1.123000
+				text = "sp"
+			intervals [16]:
+				xmin = 1.123000
+				xmax = 1.152000
+				text = "S"
+			intervals [17]:
+				xmin = 1.152000
+				xmax = 1.242000
+				text = "AH1"
+			intervals [18]:
+				xmin = 1.242000
+				xmax = 1.333000
+				text = "M"
+			intervals [19]:
+				xmin = 1.333000
+				xmax = 1.422000
+				text = "AH0"
+			intervals [20]:
+				xmin = 1.422000
+				xmax = 1.452000
+				text = "V"
+			intervals [21]:
+				xmin = 1.452000
+				xmax = 1.482000
+				text = "AH0"
+			intervals [22]:
+				xmin = 1.482000
+				xmax = 1.512000
+				text = "T"
+			intervals [23]:
+				xmin = 1.512000
+				xmax = 1.642000
+				text = "AA1"
+			intervals [24]:
+				xmin = 1.642000
+				xmax = 1.712000
+				text = "N"
+			intervals [25]:
+				xmin = 1.712000
+				xmax = 1.843000
+				text = "P"
+			intervals [26]:
+				xmin = 1.843000
+				xmax = 1.992000
+				text = "EH1"
+			intervals [27]:
+				xmin = 1.992000
+				xmax = 2.053000
+				text = "R"
+			intervals [28]:
+				xmin = 2.053000
+				xmax = 2.093000
+				text = "AH0"
+			intervals [29]:
+				xmin = 2.093000
+				xmax = 2.123000
+				text = "N"
+			intervals [30]:
+				xmin = 2.123000
+				xmax = 2.193000
+				text = "T"
+			intervals [31]:
+				xmin = 2.193000
+				xmax = 2.243000
+				text = "S"
+			intervals [32]:
+				xmin = 2.243000
+				xmax = 2.413000
+				text = "sp"
+			intervals [33]:
+				xmin = 2.413000
+				xmax = 2.430000
+				text = "sp"
+	item [2]:
+		class = "IntervalTier"
+		name = "Speaker - word"
+		xmin = 0.000000
+		xmax = 2.430000
+		intervals: size = 14
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.273000
+				text = "sp"
+			intervals [3]:
+				xmin = 0.273000
+				xmax = 0.453000
+				text = "BUT"
+			intervals [4]:
+				xmin = 0.453000
+				xmax = 0.532000
+				text = "I"
+			intervals [5]:
+				xmin = 0.532000
+				xmax = 0.823000
+				text = "ALSO"
+			intervals [6]:
+				xmin = 0.823000
+				xmax = 1.103000
+				text = "BLAME"
+			intervals [7]:
+				xmin = 1.103000
+				xmax = 1.123000
+				text = "sp"
+			intervals [8]:
+				xmin = 1.123000
+				xmax = 1.333000
+				text = "SOME"
+			intervals [9]:
+				xmin = 1.333000
+				xmax = 1.452000
+				text = "OF"
+			intervals [10]:
+				xmin = 1.452000
+				xmax = 1.512000
+				text = "IT"
+			intervals [11]:
+				xmin = 1.512000
+				xmax = 1.712000
+				text = "ON"
+			intervals [12]:
+				xmin = 1.712000
+				xmax = 2.243000
+				text = "PARENTS"
+			intervals [13]:
+				xmin = 2.243000
+				xmax = 2.413000
+				text = "sp"
+			intervals [14]:
+				xmin = 2.413000
+				xmax = 2.430000
+				text = "sp"

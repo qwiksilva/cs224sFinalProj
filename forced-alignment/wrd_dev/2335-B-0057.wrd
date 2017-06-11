@@ -1,0 +1,21 @@
+signal 2335-B-0057
+type 0
+comment $Locker:  $
+color 121
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.014765  121 h#
+    0.094723  121 but/well
+    0.240053  121 i
+    0.445655  121 call_#
+    0.518856  121 i
+    0.758039  121 call
+    0.814910  121 them
+    0.982756  121 all
+    1.407331  121 fools
+    1.434243  121 h#
+    1.818886  121 idiots
+    2.176859  121 whatever
+    2.258620  121 h#

@@ -1,0 +1,19 @@
+signal 2151-B-0002
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.150000  121 h#
+    0.386418  121 WHAT
+    0.484541  121 DO
+    0.681421  121 YOU
+    1.060056  121 THINK
+    1.201520  121 h#
+    1.560000  121 ABOUT
+    1.780000  121 THE
+    2.241686  121 IDEA
+    2.393551  121 OF
+    2.630000  121 h#

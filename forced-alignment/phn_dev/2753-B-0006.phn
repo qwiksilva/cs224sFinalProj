@@ -1,0 +1,15 @@
+signal 2753-B-0006
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.130000  121 h#
+    0.336457  121 ay
+    0.384834  121 gcl_vl
+    0.436298  121 g
+    0.510406  121 r
+    0.780077  121 iy
+    1.082685  121 h#

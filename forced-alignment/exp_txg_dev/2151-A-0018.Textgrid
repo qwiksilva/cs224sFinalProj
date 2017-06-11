@@ -1,0 +1,128 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.000000
+xmax = 1.850000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "Speaker - phone"
+		xmin = 0.000000
+		xmax = 1.850000
+		intervals: size = 20
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.163000
+				text = "Y"
+			intervals [3]:
+				xmin = 0.163000
+				xmax = 0.353000
+				text = "AE1"
+			intervals [4]:
+				xmin = 0.353000
+				xmax = 0.413000
+				text = "sp"
+			intervals [5]:
+				xmin = 0.413000
+				xmax = 0.802000
+				text = "Y"
+			intervals [6]:
+				xmin = 0.802000
+				xmax = 0.852000
+				text = "UH1"
+			intervals [7]:
+				xmin = 0.852000
+				xmax = 0.882000
+				text = "R"
+			intervals [8]:
+				xmin = 0.882000
+				xmax = 0.962000
+				text = "AE2"
+			intervals [9]:
+				xmin = 0.962000
+				xmax = 0.982000
+				text = "B"
+			intervals [10]:
+				xmin = 0.982000
+				xmax = 1.083000
+				text = "S"
+			intervals [11]:
+				xmin = 1.083000
+				xmax = 1.113000
+				text = "AH0"
+			intervals [12]:
+				xmin = 1.113000
+				xmax = 1.142000
+				text = "L"
+			intervals [13]:
+				xmin = 1.142000
+				xmax = 1.252000
+				text = "UW1"
+			intervals [14]:
+				xmin = 1.252000
+				xmax = 1.282000
+				text = "T"
+			intervals [15]:
+				xmin = 1.282000
+				xmax = 1.323000
+				text = "L"
+			intervals [16]:
+				xmin = 1.323000
+				xmax = 1.383000
+				text = "IY0"
+			intervals [17]:
+				xmin = 1.383000
+				xmax = 1.542000
+				text = "R"
+			intervals [18]:
+				xmin = 1.542000
+				xmax = 1.652000
+				text = "AY1"
+			intervals [19]:
+				xmin = 1.652000
+				xmax = 1.772000
+				text = "T"
+			intervals [20]:
+				xmin = 1.772000
+				xmax = 1.850000
+				text = "sp"
+	item [2]:
+		class = "IntervalTier"
+		name = "Speaker - word"
+		xmin = 0.000000
+		xmax = 1.850000
+		intervals: size = 7
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.353000
+				text = "YEAH"
+			intervals [3]:
+				xmin = 0.353000
+				xmax = 0.413000
+				text = "sp"
+			intervals [4]:
+				xmin = 0.413000
+				xmax = 0.882000
+				text = "YOU'RE"
+			intervals [5]:
+				xmin = 0.882000
+				xmax = 1.383000
+				text = "ABSOLUTELY"
+			intervals [6]:
+				xmin = 1.383000
+				xmax = 1.772000
+				text = "RIGHT"
+			intervals [7]:
+				xmin = 1.772000
+				xmax = 1.850000
+				text = "sp"

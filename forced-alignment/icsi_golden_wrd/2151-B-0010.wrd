@@ -1,0 +1,21 @@
+signal 2151-B-0010
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.05  121 h#
+    0.367814  121 WELL
+    0.778369  121 h#
+    0.94  121 WHEN
+    1.08  121 I
+    1.23  121 WAS
+    1.29  121 A
+    1.52158  121 KID
+    1.67677  121 AND
+    2.08123  121 MUCH
+    2.56069  121 EARLIER
+    2.75698  121 THAN
+    2.91  121 THAT

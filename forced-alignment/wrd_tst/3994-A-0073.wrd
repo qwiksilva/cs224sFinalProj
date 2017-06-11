@@ -1,0 +1,15 @@
+signal 3994-A-0073
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.136359  121 h#
+    0.266244  121 it's
+    0.440662  121 not
+    0.690536  121 too
+    1.060400  121 hard
+    1.175441  121 it's
+    1.305326  121 h#

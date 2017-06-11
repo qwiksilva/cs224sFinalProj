@@ -1,0 +1,19 @@
+signal 3942-B-0009
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.130000  121 h#
+    0.192808  121 i
+    0.390398  121 mean
+    0.601161  121 that's
+    0.706543  121 what
+    0.797288  121 i
+    0.934869  121 would
+    1.095868  121 like
+    1.211495  121 to
+    1.489585  121 think
+    1.543739  121 h#

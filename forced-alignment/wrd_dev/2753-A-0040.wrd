@@ -1,0 +1,22 @@
+signal 2753-A-0040
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.328783  121 h#
+    1.070424  121 ambassador
+    1.519689  121 from
+    1.779654  121 latin
+    2.138633  121 america
+    2.293193  121 that
+    2.702028  121 came
+    2.714492  121 h#
+    2.854972  121 to
+    3.180000  121 visit
+    3.370000  121 h#
+    3.630064  121 a
+    4.230000  121 senator
+    4.550524  121 h#

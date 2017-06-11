@@ -1,0 +1,21 @@
+signal 2335-B-0004
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.340891  121 h#
+    0.468509  121 i
+    0.719676  121 agree
+    0.863676  121 with
+    0.972076  121 the
+    1.292432  121 upper
+    1.392141  121 and
+    1.610894  121 lower
+    1.940000  121 level
+    2.361726  121 h#
+    2.476486  121 you
+    2.694198  121 know
+    2.856380  121 h#

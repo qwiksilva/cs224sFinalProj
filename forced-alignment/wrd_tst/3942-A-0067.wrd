@@ -1,0 +1,14 @@
+signal 3942-A-0067
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.339062  121 h#
+    0.928477  121 politics
+    1.00185  121 or
+    1.74575  121 politicians
+    1.97207  121 it
+    2.22464  121 h#

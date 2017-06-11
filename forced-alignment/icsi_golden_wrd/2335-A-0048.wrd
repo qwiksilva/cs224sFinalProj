@@ -1,0 +1,19 @@
+signal 2335-A-0048
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.100402  121 h#
+    0.392693  121 yeah
+    0.536392  121 and
+    0.704678  121 they're
+    0.768162  121 and
+    1.167877  121 h#
+    1.313656  121 they're
+    1.700000  121 still
+    1.855594  121 they
+    2.140000  121 can
+    2.473725  121 h#

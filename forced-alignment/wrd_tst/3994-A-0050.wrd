@@ -1,0 +1,14 @@
+signal 3994-A-0050
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.130000  121 h#
+    0.251252  121 of
+    0.617412  121 course
+    0.936440  121 parents
+    1.241777  121 always
+    1.447599  121 do

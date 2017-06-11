@@ -1,0 +1,21 @@
+signal 2724-B-0046
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.118627  121 h#
+    0.268958  121 put
+    0.379827  121 some
+    0.698628  121 equipment
+    0.79  121 on
+    0.882632  121 their
+    1.14839  121 bike
+    1.30526  121 and
+    1.41899  121 go
+    1.55992  121 for
+    1.6069  121 a
+    1.89441  121 tour
+    1.96582  121 h#

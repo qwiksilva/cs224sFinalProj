@@ -1,0 +1,33 @@
+signal 2753-A-0050
+type 0
+comment $Locker:  $
+color 121
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.334585  121 h#
+    0.409579  121 he
+    0.606413  121 said
+    0.705629  121 you
+    0.879847  121 see
+    0.999437  121 that
+    1.3852  121 school
+    1.59467  121 over
+    1.84449  121 there
+    1.98851  121 and
+    2.24865  121 the
+    2.81996  121 ambassador
+    3.07491  121 said
+    3.41805  121 yes
+    3.51715  121 and
+    3.57  121 he
+    3.82707  121 pot
+    4.21  121 patted
+    4.34833  121 his
+    4.68493  121 pocket
+    4.80445  121 and
+    5.0028  121 said
+    5.46562  121 fifteen
+    5.86716  121 percent
+    6.11  121 h#

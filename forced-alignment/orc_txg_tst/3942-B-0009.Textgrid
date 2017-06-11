@@ -1,0 +1,148 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.000000
+xmax = 1.550000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "Speaker - phone"
+		xmin = 0.000000
+		xmax = 1.550000
+		intervals: size = 28
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.143000
+				text = "sp"
+			intervals [3]:
+				xmin = 0.143000
+				xmax = 0.183000
+				text = "IH1"
+			intervals [4]:
+				xmin = 0.183000
+				xmax = 0.263000
+				text = "M"
+			intervals [5]:
+				xmin = 0.263000
+				xmax = 0.353000
+				text = "IY1"
+			intervals [6]:
+				xmin = 0.353000
+				xmax = 0.383000
+				text = "N"
+			intervals [7]:
+				xmin = 0.383000
+				xmax = 0.413000
+				text = "DH"
+			intervals [8]:
+				xmin = 0.413000
+				xmax = 0.482000
+				text = "EH1"
+			intervals [9]:
+				xmin = 0.482000
+				xmax = 0.522000
+				text = "T"
+			intervals [10]:
+				xmin = 0.522000
+				xmax = 0.582000
+				text = "S"
+			intervals [11]:
+				xmin = 0.582000
+				xmax = 0.662000
+				text = "W"
+			intervals [12]:
+				xmin = 0.662000
+				xmax = 0.693000
+				text = "AH1"
+			intervals [13]:
+				xmin = 0.693000
+				xmax = 0.722000
+				text = "T"
+			intervals [14]:
+				xmin = 0.722000
+				xmax = 0.802000
+				text = "AE1"
+			intervals [15]:
+				xmin = 0.802000
+				xmax = 0.862000
+				text = "W"
+			intervals [16]:
+				xmin = 0.862000
+				xmax = 0.892000
+				text = "IH1"
+			intervals [17]:
+				xmin = 0.892000
+				xmax = 0.932000
+				text = "D"
+			intervals [18]:
+				xmin = 0.932000
+				xmax = 0.962000
+				text = "L"
+			intervals [19]:
+				xmin = 0.962000
+				xmax = 1.052000
+				text = "AY1"
+			intervals [20]:
+				xmin = 1.052000
+				xmax = 1.113000
+				text = "K"
+			intervals [21]:
+				xmin = 1.113000
+				xmax = 1.152000
+				text = "T"
+			intervals [22]:
+				xmin = 1.152000
+				xmax = 1.182000
+				text = "IH1"
+			intervals [23]:
+				xmin = 1.182000
+				xmax = 1.282000
+				text = "TH"
+			intervals [24]:
+				xmin = 1.282000
+				xmax = 1.323000
+				text = "IH1"
+			intervals [25]:
+				xmin = 1.323000
+				xmax = 1.422000
+				text = "NG"
+			intervals [26]:
+				xmin = 1.422000
+				xmax = 1.462000
+				text = "K"
+			intervals [27]:
+				xmin = 1.462000
+				xmax = 1.532000
+				text = "sp"
+			intervals [28]:
+				xmin = 1.532000
+				xmax = 1.550000
+				text = "sp"
+	item [2]:
+		class = "IntervalTier"
+		name = "Speaker - word"
+		xmin = 0.000000
+		xmax = 1.550000
+		intervals: size = 4
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 1.462000
+				text = "DJECBAAAJ"
+			intervals [3]:
+				xmin = 1.462000
+				xmax = 1.532000
+				text = "sp"
+			intervals [4]:
+				xmin = 1.532000
+				xmax = 1.550000
+				text = "sp"

@@ -1,0 +1,19 @@
+signal 3942-A-0024
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.323573  121 h#
+    0.422753  121 it
+    1.057669  121 becomes
+    1.254774  121 h#
+    1.534970  121 more
+    1.564081  121 h#
+    1.901385  121 evident
+    2.322605  121 perhaps
+    2.682535  121 things
+    3.000000  121 that
+    3.247097  121 h#

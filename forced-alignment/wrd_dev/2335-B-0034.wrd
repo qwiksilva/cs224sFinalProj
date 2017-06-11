@@ -1,0 +1,18 @@
+signal 2335-B-0034
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.270000  121 h#
+    0.449353  121 because
+    0.560000  121 i
+    0.768362  121 just
+    1.148352  121 watched
+    1.201305  121 it
+    1.427126  121 on
+    1.718272  121 t
+    2.009479  121 v
+    2.365228  121 h#

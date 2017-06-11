@@ -1,0 +1,16 @@
+signal 2151-B-0014
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.060000  121 h#
+    0.850000  121 ACTIVITIES
+    1.051629  121 BUT
+    1.304061  121 THESE
+    1.781734  121 DAYS
+    1.990000  121 THEY'RE
+    2.330000  121 NOT
+    3.025035  121 h#

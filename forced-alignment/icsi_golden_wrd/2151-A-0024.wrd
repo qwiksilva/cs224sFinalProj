@@ -1,0 +1,20 @@
+signal 2151-A-0024
+type 0
+comment $Locker:  $
+color 121
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.020000  121  h#
+    0.170000  121  WE
+    0.310000  121  OUGHT
+    0.370000  121  TO
+    0.650000  121  START
+    0.820000  121  RIGHT
+    0.970000  121  HERE
+    1.040000  121  AT
+    1.350000  121  HOME
+    1.470000  121  I'M
+    1.530000  121  YOU
+    1.590000  121  KNOW

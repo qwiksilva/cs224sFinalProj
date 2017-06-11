@@ -1,0 +1,18 @@
+signal 2724-A-0017
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.268196  121 how
+    0.417470  121 long
+    0.507869  121 does
+    0.672917  121 that
+    0.927050  121 take
+    1.012686  121 you
+    1.107080  121 to
+    1.245450  121 get
+    1.334528  121 to
+    1.615155  121 work

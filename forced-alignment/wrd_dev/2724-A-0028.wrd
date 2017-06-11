@@ -1,0 +1,21 @@
+signal 2724-A-0028
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.365715  121 once
+    0.485768  121 i
+    0.720334  121 got
+    1.130000  121 into
+    1.586563  121 this
+    1.999465  121 uh
+    2.654385  121 internship
+    2.768284  121 i
+    3.009370  121 learned
+    3.176422  121 all
+    3.345372  121 the
+    3.833626  121 h#
+    4.820000  121 physiological

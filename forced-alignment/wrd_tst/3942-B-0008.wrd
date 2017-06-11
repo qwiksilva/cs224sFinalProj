@@ -1,0 +1,16 @@
+signal 3942-B-0008
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.081144  121 h#
+    0.233613  121 and
+    0.323928  121 that
+    0.600000  121 people
+    0.740000  121 aren't
+    0.970568  121 self
+    1.328608  121 serving
+    2.106133  121 h#

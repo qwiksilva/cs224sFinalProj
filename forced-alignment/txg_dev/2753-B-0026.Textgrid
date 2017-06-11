@@ -1,0 +1,120 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.000000
+xmax = 1.770000
+tiers? <exists>
+size = 2
+item []:
+	item [1]:
+		class = "IntervalTier"
+		name = "Speaker - phone"
+		xmin = 0.000000
+		xmax = 1.770000
+		intervals: size = 18
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.213000
+				text = "sp"
+			intervals [3]:
+				xmin = 0.213000
+				xmax = 0.432000
+				text = "AH0"
+			intervals [4]:
+				xmin = 0.432000
+				xmax = 0.512000
+				text = "Z"
+			intervals [5]:
+				xmin = 0.512000
+				xmax = 0.542000
+				text = "F"
+			intervals [6]:
+				xmin = 0.542000
+				xmax = 0.582000
+				text = "R"
+			intervals [7]:
+				xmin = 0.582000
+				xmax = 0.672000
+				text = "AH1"
+			intervals [8]:
+				xmin = 0.672000
+				xmax = 0.722000
+				text = "M"
+			intervals [9]:
+				xmin = 0.722000
+				xmax = 0.762000
+				text = "N"
+			intervals [10]:
+				xmin = 0.762000
+				xmax = 0.823000
+				text = "IH2"
+			intervals [11]:
+				xmin = 0.823000
+				xmax = 0.932000
+				text = "K"
+			intervals [12]:
+				xmin = 0.932000
+				xmax = 1.012000
+				text = "ER0"
+			intervals [13]:
+				xmin = 1.012000
+				xmax = 1.272000
+				text = "AA1"
+			intervals [14]:
+				xmin = 1.272000
+				xmax = 1.292000
+				text = "G"
+			intervals [15]:
+				xmin = 1.292000
+				xmax = 1.363000
+				text = "W"
+			intervals [16]:
+				xmin = 1.363000
+				xmax = 1.482000
+				text = "AH0"
+			intervals [17]:
+				xmin = 1.482000
+				xmax = 1.752000
+				text = "sp"
+			intervals [18]:
+				xmin = 1.752000
+				xmax = 1.770000
+				text = "sp"
+	item [2]:
+		class = "IntervalTier"
+		name = "Speaker - word"
+		xmin = 0.000000
+		xmax = 1.770000
+		intervals: size = 7
+			intervals [1]:
+				xmin = 0.000000
+				xmax = 0.013000
+				text = "sp"
+			intervals [2]:
+				xmin = 0.013000
+				xmax = 0.213000
+				text = "sp"
+			intervals [3]:
+				xmin = 0.213000
+				xmax = 0.512000
+				text = "IS"
+			intervals [4]:
+				xmin = 0.512000
+				xmax = 0.722000
+				text = "FROM"
+			intervals [5]:
+				xmin = 0.722000
+				xmax = 1.482000
+				text = "NICARAGUA"
+			intervals [6]:
+				xmin = 1.482000
+				xmax = 1.752000
+				text = "sp"
+			intervals [7]:
+				xmin = 1.752000
+				xmax = 1.770000
+				text = "sp"

@@ -1,0 +1,11 @@
+signal 3942-A-0010
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.337767  121 h#
+    0.603318  121 h#
+    1.276942  121 because

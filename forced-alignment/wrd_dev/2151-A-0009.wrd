@@ -1,0 +1,22 @@
+signal 2151-A-0009
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.243159  121 don't
+    0.677422  121 follow
+    0.760000  121 it
+    0.943014  121 at
+    1.323234  121 all
+    1.366031  121 do
+    1.426450  121 you
+    1.569945  121 know
+    1.731063  121 there
+    2.000000  121 very
+    2.209058  121 few
+    2.677306  121 scouts
+    2.831257  121 go
+    2.983564  121 on

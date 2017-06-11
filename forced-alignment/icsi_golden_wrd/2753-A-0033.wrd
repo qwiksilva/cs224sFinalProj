@@ -1,0 +1,16 @@
+signal 2753-A-0033
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.318210  121 h#
+    0.553517  121 along
+    0.570000  121 the
+    0.947510  121 streets
+    1.042737  121 in
+    1.325951  121 lima
+    1.756233  121 peru
+    1.825649  121 h#

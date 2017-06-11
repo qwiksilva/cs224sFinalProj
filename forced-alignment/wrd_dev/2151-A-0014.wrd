@@ -1,0 +1,17 @@
+signal 2151-A-0014
+type 0
+color 121
+comment $Locker:  $
+font -misc-*-bold-*-*-*-15-*-*-*-*-*-*-*
+separator ;
+nfields 1
+#
+    0.033887  121 uh
+    0.195275  121 so
+    0.454294  121 then
+    0.611697  121 when
+    0.802972  121 they
+    1.231349  121 young
+    1.540179  121 young
+    2.022352  121 adults
+    2.092087  121 h#
