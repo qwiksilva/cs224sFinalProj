@@ -11,7 +11,7 @@
 
 set -e # exit on error
 has_fisher=true
-local/swbd1_data_download.sh /export/corpora3/LDC/LDC97S62
+#local/swbd1_data_download.sh /export/corpora3/LDC/LDC97S62
 # local/swbd1_data_download.sh /mnt/matylda2/data/SWITCHBOARD_1R2 # BUT,
 
 # prepare SWBD dictionary first since we want to find acronyms according to pronunciations
@@ -27,7 +27,7 @@ local/swbd1_prepare_dict.sh
 # Note: if you are using this link, make sure you rename conv_tab.csv to conv.tab
 # after downloading.
 # Usage: local/swbd1_data_prep.sh /path/to/SWBD [/path/to/SWBD_docs]
-local/swbd1_data_prep.sh /export/corpora3/LDC/LDC97S62
+# local/swbd1_data_prep.sh /export/corpora3/LDC/LDC97S62
 # local/swbd1_data_prep.sh /home/dpovey/data/LDC97S62
 # local/swbd1_data_prep.sh /data/corpora0/LDC97S62
 # local/swbd1_data_prep.sh /mnt/matylda2/data/SWITCHBOARD_1R2 # BUT,
@@ -41,7 +41,8 @@ utils/prepare_lang.sh data/local/dict_nosp \
 # only part 1 transcripts ~700hr are used)
 
 # If you have the Fisher data, you can set this "fisher_dir" variable.
-fisher_dirs="/export/corpora3/LDC/LDC2004T19/fe_03_p1_tran/ /export/corpora3/LDC/LDC2005T19/fe_03_p2_tran/"
+fisher_dirs=""
+#/export/corpora3/LDC/LDC2004T19/fe_03_p1_tran/ /export/corpora3/LDC/LDC2005T19/fe_03_p2_tran/"
 # fisher_dirs="/home/dpovey/data/LDC2004T19/fe_03_p1_tran/"
 # fisher_dirs="/data/corpora0/LDC2004T19/fe_03_p1_tran/"
 # fisher_dirs="/exports/work/inf_hcrc_cstr_general/corpora/fisher/transcripts" # Edinburgh,
@@ -70,23 +71,23 @@ fi
 # local/eval2000_data_prep.sh /mnt/matylda2/data/HUB5_2000/ /mnt/matylda2/data/HUB5_2000/2000_hub5_eng_eval_tr
 # local/eval2000_data_prep.sh /exports/work/inf_hcrc_cstr_general/corpora/switchboard/hub5/2000 /exports/work/inf_hcrc_cstr_general/corpora/switchboard/hub5/2000/transcr
 # local/eval2000_data_prep.sh /home/dpovey/data/LDC2002S09/hub5e_00 /home/dpovey/data/LDC2002T43
-local/eval2000_data_prep.sh /export/corpora2/LDC/LDC2002S09/hub5e_00 /export/corpora2/LDC/LDC2002T43
+#local/eval2000_data_prep.sh /export/corpora2/LDC/LDC2002S09/hub5e_00 /export/corpora2/LDC/LDC2002T43
 
 # prepare the rt03 data.  Note: this isn't 100% necessary for this
 # recipe, not all parts actually test using rt03.
-local/rt03_data_prep.sh /export/corpora/LDC/LDC2007S10
+#local/rt03_data_prep.sh /export/corpora/LDC/LDC2007S10
 
 # Now make MFCC features.
 # mfccdir should be some place with a largish disk where you
 # want to store MFCC features.
-if [ -e data/rt03 ]; then maybe_rt03=rt03; else maybe_rt03= ; fi
-mfccdir=mfcc
-for x in train eval2000 $maybe_rt03; do
-  steps/make_mfcc.sh --nj 50 --cmd "$train_cmd" \
-    data/$x exp/make_mfcc/$x $mfccdir
-  steps/compute_cmvn_stats.sh data/$x exp/make_mfcc/$x $mfccdir
-  utils/fix_data_dir.sh data/$x
-done
+#if [ -e data/rt03 ]; then maybe_rt03=rt03; else maybe_rt03= ; fi
+#mfccdir=mfcc
+#for x in train eval2000 $maybe_rt03; do
+#  steps/make_mfcc.sh --nj 50 --cmd "$train_cmd" \
+#    data/$x exp/make_mfcc/$x $mfccdir
+# steps/compute_cmvn_stats.sh data/$x exp/make_mfcc/$x $mfccdir
+#  utils/fix_data_dir.sh data/$x
+#done
 
 # Use the first 4k sentences as dev set.  Note: when we trained the LM, we used
 # the 1st 10k sentences as dev set, so the 1st 4k won't have been used in the

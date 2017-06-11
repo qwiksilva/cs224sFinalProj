@@ -5,15 +5,15 @@
 # units, on top of fMLLR features, on GPU.
 
 temp_dir=
-dir=nnet2_5
-has_fisher=true
+dir=nnet2_5_1
+has_fisher=false
 
 . ./cmd.sh
 . ./path.sh
 
 . utils/parse_options.sh
 
-parallel_opts="--gpu 2"  # This is suitable for the CLSP network, you'll
+parallel_opts="--gpu 3" # This is suitable for the CLSP network, you'll
                           # likely have to change it.
 
 ( 
@@ -29,9 +29,9 @@ parallel_opts="--gpu 2"  # This is suitable for the CLSP network, you'll
       --num-threads 1 --minibatch-size 512 \
       --mix-up 20000 --samples-per-iter 300000 \
       --num-epochs 4 \
-      --stage 76\
+      --stage 207 \
       --initial-effective-lrate 0.005 --final-effective-lrate 0.0002 \
-      --num-jobs-initial 3 --num-jobs-final 10 --num-hidden-layers 5 \
+      --num-jobs-initial 3 --num-jobs-final 10 --num-hidden-layers 1 \
       --pnorm-input-dim 5000  --pnorm-output-dim 500 data/train_nodup \
       data/lang exp/tri2_ali_nodup exp/$dir || exit 1;
   fi

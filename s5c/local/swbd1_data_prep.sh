@@ -55,7 +55,7 @@ fi
 for entry in "$SWBD_DIR"/*
 do
     echo $entry
-    find $entry/ -iname '*.sph' | sort >> $dir/sph.flist
+    find $entry/ -type f \( -iname '*.sph' ! -iname "sw02151.sph" ! -iname "sw02335.sph" ! -iname "sw02724.sph" ! -iname "sw02753.sph" \) | sort >> $dir/sph.flist
 done
 
 # find $SWBD_DIR -iname '*.sph' | sort > $dir/sph.flist
